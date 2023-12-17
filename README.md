@@ -72,16 +72,23 @@ python eval.py --model_path q-future/q-align-koniq-spaq-v0 --device cuda:0
 ### Training
 
 #### L1: *Single* Image Quality Assessment
-Training Q-Align with KonIQ-10k:
+
+- Training Q-Align with KonIQ-10k:
 
 ```shell
 sh scripts/l1_koniq.sh
 ```
 
-Training Q-Align with mixture of KonIQ-10k and SPAQ:
+- Training Q-Align with mixture of KonIQ-10k and SPAQ:
 
 ```shell
 sh scripts/l1_koniq_spaq_mix.sh
+```
+
+- Training Q-Align Aesthetic Predictor with AVA dataset:
+
+```shell
+sh scripts/l1_ava.sh
 ```
 
 At least 8*A6000 GPU will be enough for the training.
