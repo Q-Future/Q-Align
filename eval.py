@@ -71,7 +71,7 @@ def main(args):
     inp = "How would you rate the quality of this image?"
         
     conv = conv_templates[conv_mode].copy()
-    inp = DEFAULT_IMAGE_TOKEN + inp
+    inp =  inp + "\n" + DEFAULT_IMAGE_TOKEN
     conv.append_message(conv.roles[0], inp)
     image = None
         

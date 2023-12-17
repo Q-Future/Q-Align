@@ -1,5 +1,5 @@
 #!/bin/bash
-LOAD='mplug-owl2-llama2-7b'
+LOAD='MAGAer13/mplug-owl2-llama2-7b'
 
 DATA_FILE=playground/data/generate_label_code/mos_single_simple/train_spaq.json 
 deepspeed --master_port 25801 mplug_owl2/train/train_mem.py \

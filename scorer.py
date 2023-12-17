@@ -15,7 +15,7 @@ class QAlignScorer(nn.Module):
     def __init__(self, pretrained="q-future/q-align-koniq-spaq-v0", device="cuda:0"):
         super().__init__()
         tokenizer, model, image_processor, _ = load_pretrained_model(pretrained, None, "mplug_owl2", device=device)
-        prompt = "USER: <|image|>How would you rate the quality of this image?\nASSISTANT: The quality of the image is"
+        prompt = "USER: How would you rate the quality of this image?\n<|image|>\nASSISTANT: The quality of the image is"
         
         self.preferential_ids_ = [id_[1] for id_ in tokenizer(["excellent","good","fair","poor","bad"])["input_ids"]]
         self.weight_tensor = torch.Tensor([1,0.75,0.5,0.25,0.]).half().to(model.device)
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model-path", type=str, default="q-future/q-align-koniq-spaq-v0")
     parser.add_argument("--device", type=str, default="cuda:0")
-    parser.add_argument("--img_path", type=str, default="fig/singapore_flyer.jpgh")
+    parser.add_argument("--img_path", type=str, default="fig/singapore_flyer.jpg")
     args = parser.parse_args()
 
     scorer = QAlignScorer(pretrained=args.model_path, device=args.device)
