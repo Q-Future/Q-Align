@@ -86,8 +86,16 @@ for gz_file in gz_files:
 
 After preparing the datasets, you can evaluate pre-trained Q-Align as follows:
 
+- Image Quality Assessment (IQA)
+
 ```shell
-python eval.py --model_path q-future/q-align-koniq-spaq-v0 --device cuda:0
+python iqa_eval.py --model_path q-future/q-align-koniq-spaq-v0 --device cuda:0
+```
+
+- Image Aesthetic Assessment (IAA)
+
+```shell
+python ias_eval.py --model_path q-future/q-align-aesthetic --device cuda:0
 ```
 
 
