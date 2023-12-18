@@ -22,6 +22,8 @@ pip install flash_attn --no-build-isolation
 
 ## Quick Start: Scoring *Single* Image
 
+### Quality Scorer
+
 - CLI Interface
 
 ```shell
@@ -36,6 +38,26 @@ from scorer import QAlignScorer
 from PIL import Image
 
 scorer = QAlignScorer()
+img_list = [Image.open("fig/singapore_flyer.jpg")] # can be multiple images
+print(scorer(img_list).tolist())
+```
+
+### Aesthetic Scorer
+
+- CLI Interface
+
+```shell
+export DEFAULT_IMG_PATH=fig/singapore_flyer.jpg
+python scorer.py --img_path $DEFAULT_IMG_PATH --aesthetic
+```
+
+- Python API
+
+```python
+from scorer import QAlignAestheticScorer
+from PIL import Image
+
+scorer = QAlignAestheticScorer()
 img_list = [Image.open("fig/singapore_flyer.jpg")] # can be multiple images
 print(scorer(img_list).tolist())
 ```
@@ -91,14 +113,11 @@ sh scripts/l1_koniq_spaq_mix.sh
 sh scripts/l1_ava.sh
 ```
 
-At least 8*A6000 GPU will be enough for the training.
+At least 4\*A6000 GPUs or 2\*A100 GPUs will be enough for the training.
 
 
 #### L2: ????
 
 Coming soon.
 
-#### L3: ????
-
-Coming soon.
 
