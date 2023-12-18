@@ -13,7 +13,7 @@ from PIL import Image
 from io import BytesIO
 from transformers import TextStreamer
 
-
+from decord import VideoReader
 
 
 import json
@@ -34,6 +34,16 @@ def disable_torch_init():
     setattr(torch.nn.LayerNorm, "reset_parameters", lambda self: None)
 
 
+def load_video(video_file):
+    vr = VideoReader(video_file)
+
+    # Get video frame rate
+    fps = vr.get_avg_fps()
+
+    # Calculate frame indices for 1fps
+    frame_indices = [int(fps * i) for i in range(int(len(vr) / fps))]
+    frames = vr.get_batch(frame_indices).asnumpy()
+    return [Image.fromarray(frames[i]) for i in range(int(len(vr) / fps))]
 
 
 def main(args):
@@ -65,7 +75,7 @@ def main(args):
 
     conv_mode = "mplug_owl2"
     
-    inp = "How would you rate the quality of this video?"
+    inp = "How would you rate the quality of this image?"
         
     conv = conv_templates[conv_mode].copy()
     inp =  inp + "\n" + DEFAULT_IMAGE_TOKEN
@@ -73,7 +83,7 @@ def main(args):
     image = None
         
     conv.append_message(conv.roles[1], None)
-    prompt = conv.get_prompt() + " The quality of the video is"
+    prompt = conv.get_prompt() + " The quality of the image is"
     
     toks = ["good", "poor", "high", "fair", "low", "excellent", "bad", "fine", "moderate",  "decent", "average", "medium", "acceptable"]
     print(toks)
@@ -106,14 +116,13 @@ def main(args):
                 image = [expand2square(img, tuple(int(x*255) for x in image_processor.image_mean)) for img in image]
                 image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].half().to(args.device)
 
-                print(input_ids.shape)
+
                 if True:
                     with torch.inference_mode():
-                        output_logits = model(input_ids,
-                            images=[image_tensor])["logits"][:,-1]
-                        print(output_logits.shape)
+                        output_logits = model(input_ids.repeat(image_tensor.shape[0], 1),
+                            images=image_tensor)["logits"][:,-1]
+                        
                         for tok, id_ in zip(toks, ids_):
-                            
                             llddata["logits"][tok] += output_logits.mean(0)[id_].item()
                         # print(llddata)
                         json_ = json_.replace("combined/", "combined-")
@@ -123,7 +132,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="q-future/q-align-lsvq-0")
+    parser.add_argument("--model-path", type=str, default="q-future/q-align-spaq")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--conv-mode", type=str, default=None)
