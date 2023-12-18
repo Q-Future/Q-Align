@@ -290,7 +290,7 @@ def preprocess_multimodal(
                
             replace_token = DEFAULT_IMAGE_TOKEN
             sentence["value"] = sentence["value"].replace(DEFAULT_IMAGE_TOKEN, replace_token)
-
+        
     return sources
 
 
@@ -441,6 +441,31 @@ def preprocess(
     return dict(input_ids=input_ids, labels=targets)
 
 
+def load_video(video_file):
+    from decord import VideoReader
+    vr = VideoReader(video_file)
+
+    # Get video frame rate
+    fps = vr.get_avg_fps()
+
+    # Calculate frame indices for 1fps
+    frame_indices = [int(fps * i) for i in range(int(len(vr) / fps))]
+    frames = vr.get_batch(frame_indices).asnumpy()
+    return [Image.fromarray(frames[i]) for i in range(int(len(vr) / fps))]
+
+def expand2square(pil_img, background_color):
+    width, height = pil_img.size
+    if width == height:
+        return pil_img
+    elif width > height:
+        result = Image.new(pil_img.mode, (width, width), background_color)
+        result.paste(pil_img, (0, (width - height) // 2))
+        return result
+    else:
+        result = Image.new(pil_img.mode, (height, height), background_color)
+        result.paste(pil_img, ((height - width) // 2, 0))
+        return result
+
 class LazySupervisedDataset(Dataset):
     """Dataset for supervised fine-tuning."""
 
@@ -536,32 +561,37 @@ class LazySupervisedDataset(Dataset):
                 sources = [sources]
             assert len(sources) == 1, "Don't know why it is wrapped to a list"  # FIXME
             if 'image' in sources[0]:
-           
                 image_file = self.list_data_dict[i]['image']
+                    
                 image_folder = self.data_args.image_folder
                 processor = self.data_args.image_processor
                 from pathlib import Path
-                if not Path(os.path.join(image_folder, image_file)).exists():
-                    i = self.next_rand()
-                    continue
-                image = Image.open(os.path.join(image_folder, image_file)).convert('RGB')
-                if self.data_args.image_aspect_ratio == 'pad':
-                    def expand2square(pil_img, background_color):
-                        width, height = pil_img.size
-                        if width == height:
-                            return pil_img
-                        elif width > height:
-                            result = Image.new(pil_img.mode, (width, width), background_color)
-                            result.paste(pil_img, (0, (width - height) // 2))
-                            return result
-                        else:
-                            result = Image.new(pil_img.mode, (height, height), background_color)
-                            result.paste(pil_img, ((height - width) // 2, 0))
-                            return result
-                    image = expand2square(image, tuple(int(x*255) for x in processor.image_mean))
-                    image = processor.preprocess(image, return_tensors='pt')['pixel_values'][0]
+                #if not Path(os.path.join(image_folder, image_file)).exists():
+                #    i = self.next_rand()
+                #    continue
+                if isinstance(image_file, list):
+                    # Multiple Images as Input
+                    image = [Image.open(os.path.join(image_folder, imfile)).convert('RGB') for imfile in image_file]
+                    if self.data_args.image_aspect_ratio == 'pad':
+                        image = [expand2square(img, tuple(int(x*255) for x in processor.image_mean)) for img in image]
+                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
+                    else:
+                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
+                elif os.path.join(image_folder, image_file).endswith("mp4"):
+                    # Video as Input
+                    image = load_video(os.path.join(image_folder, image_file))
+                    if self.data_args.image_aspect_ratio == 'pad':
+                        image = [expand2square(img, tuple(int(x*255) for x in processor.image_mean)) for img in image]
+                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
+                    else:
+                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
                 else:
-                    image = processor.preprocess(image, return_tensors='pt')['pixel_values'][0]
+                    image = Image.open(os.path.join(image_folder, image_file)).convert('RGB')
+                    if self.data_args.image_aspect_ratio == 'pad':
+                        image = expand2square(image, tuple(int(x*255) for x in processor.image_mean))
+                        image = processor.preprocess(image, return_tensors='pt')['pixel_values'][0]
+                    else:
+                        image = processor.preprocess(image, return_tensors='pt')['pixel_values'][0]
                 sources = preprocess_multimodal(
                     copy.deepcopy([e["conversations"] for e in sources]),
                     self.data_args)

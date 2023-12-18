@@ -14,7 +14,7 @@ from io import BytesIO
 from transformers import TextStreamer
 
 
-
+from scipy.stats import spearmanr, pearsonr
 
 import json
 from tqdm import tqdm
@@ -22,6 +22,11 @@ from collections import defaultdict
 
 import os
 
+def wa5(logits):
+    import numpy as np
+    logprobs = np.array([logits["excellent"], logits["good"], logits["fair"], logits["poor"], logits["bad"]])
+    probs = np.exp(logprobs) / np.sum(np.exp(logprobs))
+    return np.inner(probs, np.array([1,0.75,0.5,0.25,0.]))
 
 
 
@@ -34,6 +39,17 @@ def disable_torch_init():
     setattr(torch.nn.LayerNorm, "reset_parameters", lambda self: None)
 
 
+def load_video(video_file):
+    from decord import VideoReader
+    vr = VideoReader(video_file)
+
+    # Get video frame rate
+    fps = vr.get_avg_fps()
+
+    # Calculate frame indices for 1fps
+    frame_indices = [int(fps * i) for i in range(int(len(vr) / fps))]
+    frames = vr.get_batch(frame_indices).asnumpy()
+    return [Image.fromarray(frames[i]) for i in range(int(len(vr) / fps))]
 
 
 def main(args):
@@ -48,16 +64,14 @@ def main(args):
 
     
     image_paths = [
-        "../datasets/KoNViD_1k_videos/",
-        "../datasets/LIVE_VQC/Video/",
-        "../datasets/MaxWell/videos/",
+        "playground/data/",
+        "playground/data/",
     ]
 
-    json_prefix = "../datasets/json/"
+    json_prefix = "playground/data/generate_label_code/mos_single_simple/"
     jsons = [
-        json_prefix + "konvid.json",
-        json_prefix + "livevqc.json",
-        json_prefix + "maxwell_test.json",
+        json_prefix + "test_lsvq.json",
+        json_prefix + "test_lsvq_1080p.json",
     ]
 
     os.makedirs(f"results/{args.model_path}/", exist_ok=True)
@@ -85,9 +99,12 @@ def main(args):
     for image_path, json_ in zip(image_paths, jsons):
         with open(json_) as f:
             iqadata = json.load(f) 
-            
+            prs, gts = [], []
             for i, llddata in enumerate(tqdm(iqadata, desc="Evaluating [{}]".format(json_.split("/")[-1]))):
-                filename = llddata["img_path"]
+                try:
+                    filename = llddata["img_path"]
+                except:
+                    filename = llddata["image"]
                 llddata["logits"] = defaultdict(float)
                 
                 image = load_video(image_path + filename)
@@ -106,19 +123,24 @@ def main(args):
                 image = [expand2square(img, tuple(int(x*255) for x in image_processor.image_mean)) for img in image]
                 image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].half().to(args.device)
 
-                print(input_ids.shape)
                 if True:
                     with torch.inference_mode():
                         output_logits = model(input_ids,
                             images=[image_tensor])["logits"][:,-1]
-                        print(output_logits.shape)
                         for tok, id_ in zip(toks, ids_):
-                            
                             llddata["logits"][tok] += output_logits.mean(0)[id_].item()
+                        llddata["score"] = wa5(llddata["logits"])
+                        # print(llddata)
+                        prs.append(llddata["score"])
+                        gts.append(llddata["gt_score"])
                         # print(llddata)
                         json_ = json_.replace("combined/", "combined-")
                         with open(f"results/{args.model_path}/{json_.split('/')[-1]}", "a") as wf:
                             json.dump(llddata, wf)
+                            
+                if i > 0 and i % 200 == 0:
+                    print(spearmanr(prs,gts)[0], pearsonr(prs,gts)[0])
+            print("Spearmanr", spearmanr(prs,gts)[0], "Pearson", pearsonr(prs,gts)[0])
 
 
 if __name__ == "__main__":
