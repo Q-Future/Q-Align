@@ -95,7 +95,13 @@ python iqa_eval.py --model_path q-future/q-align-koniq-spaq-v0 --device cuda:0
 - Image Aesthetic Assessment (IAA)
 
 ```shell
-python ias_eval.py --model_path q-future/q-align-aesthetic --device cuda:0
+python iaa_eval.py --model_path q-future/q-align-aesthetic --device cuda:0
+```
+
+- Video Quality Assessment (VQA)
+
+```shell
+python vqa_eval.py --model_path q-future/q-align-koniq-spaq-v0 --device cuda:0
 ```
 
 
