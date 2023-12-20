@@ -1,6 +1,10 @@
-# Q-Align
+<div align="center">
+  <h1>Q-Align: Aligning LMMs to Predict Visual Quality Scores without Regression</h1> 
+</div>     
+<div style="width: 75%; text-align: center; margin:auto;">
+      <img style="width: 75%" src="fig/radar.png">
+</div>
 
-![](fig/radar.png)
 
 
 ## Installation
@@ -94,6 +98,21 @@ gz_files = glob.glob("playground/data/*.tar")
 for gz_file in gz_files:
     print(gz_file)
     os.system("tar -xf {} -C ./playground/data/".format(gz_file))
+```
+
+For LSVQ, (video quality dataset, optional), you can download as follows:
+
+```python
+import os, glob
+from huggingface_hub import snapshot_download
+
+snapshot_download("teowu/LSVQ-videos", repo_type="dataset", local_dir="./playground/data/lsvq/", local_dir_use_symlinks=False)
+
+gz_files = glob.glob("playground/data/lsvq/*.tar.gz")
+
+for gz_file in gz_files:
+    print(gz_file)
+    os.system("tar -xzf {} -C ./playground/data/lsvq/".format(gz_file))
 ```
 
 ### Evaluation

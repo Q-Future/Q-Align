@@ -54,10 +54,10 @@ def main(args):
     image_path = "playground/data/"
                   
 
-    json_prefix = "playground/data/labels/mos_simple/"
+    json_prefix = "playground/data/generate_label_code/mos_single_simple/"
     jsons = [
-        #json_prefix + "combined/livec.json",
-        #json_prefix + "test_koniq.json",
+        json_prefix + "combined/livec.json",
+        json_prefix + "test_koniq.json",
         json_prefix + "test_spaq.json",
         json_prefix + "combined/kadid_ref.json",
         json_prefix + "combined/kadid.json",
