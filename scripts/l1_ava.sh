@@ -11,14 +11,14 @@ deepspeed --master_port 25801 mplug_owl2/train/train_mem.py \
     --image_aspect_ratio pad \
     --group_by_modality_length True \
     --bf16 True \
-    --output_dir ./mplug-owl2-finetune-ava-s \
-    --num_train_epochs 1 \
+    --output_dir ./q-align-ava-s \
+    --num_train_epochs 2 \
     --per_device_train_batch_size 16 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 1 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
-    --save_steps 300 \
+    --save_steps 1800 \
     --save_total_limit 3 \
     --learning_rate 2e-5 \
     --weight_decay 0. \

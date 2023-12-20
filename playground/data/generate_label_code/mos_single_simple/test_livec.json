@@ -5,7 +5,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -19,7 +19,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -33,7 +33,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -47,7 +47,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -61,7 +61,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -75,7 +75,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -89,7 +89,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -103,7 +103,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -131,7 +131,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -145,7 +145,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -159,7 +159,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -187,7 +187,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -201,7 +201,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -215,11 +215,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is excellent."
+                "value": "The quality of the image is good."
             }
         ]
     },
@@ -229,7 +229,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -243,7 +243,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -257,7 +257,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -271,11 +271,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is excellent."
+                "value": "The quality of the image is good."
             }
         ]
     },
@@ -285,7 +285,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -299,7 +299,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -313,7 +313,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -327,7 +327,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -341,7 +341,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -355,7 +355,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -369,7 +369,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -383,7 +383,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -397,7 +397,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -411,7 +411,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -425,7 +425,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -439,7 +439,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -453,7 +453,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -467,7 +467,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -481,7 +481,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -495,7 +495,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -509,7 +509,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -523,7 +523,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -537,7 +537,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -551,7 +551,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -565,7 +565,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -579,7 +579,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -593,7 +593,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -607,7 +607,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -621,11 +621,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is good."
+                "value": "The quality of the image is fair."
             }
         ]
     },
@@ -635,11 +635,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is excellent."
+                "value": "The quality of the image is good."
             }
         ]
     },
@@ -663,7 +663,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -677,7 +677,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -691,7 +691,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -705,11 +705,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is good."
+                "value": "The quality of the image is fair."
             }
         ]
     },
@@ -747,7 +747,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -761,7 +761,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -775,7 +775,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -789,7 +789,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -803,7 +803,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -817,7 +817,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -831,7 +831,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -845,11 +845,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is fair."
+                "value": "The quality of the image is poor."
             }
         ]
     },
@@ -859,7 +859,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -873,7 +873,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -887,7 +887,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -901,7 +901,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -915,7 +915,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -929,7 +929,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -943,7 +943,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -957,7 +957,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -971,11 +971,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is good."
+                "value": "The quality of the image is fair."
             }
         ]
     },
@@ -985,7 +985,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -999,7 +999,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1013,7 +1013,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1027,7 +1027,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1041,7 +1041,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1055,7 +1055,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1083,7 +1083,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1097,11 +1097,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is good."
+                "value": "The quality of the image is fair."
             }
         ]
     },
@@ -1111,7 +1111,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1125,7 +1125,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1139,7 +1139,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1157,7 +1157,7 @@
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is fair."
+                "value": "The quality of the image is poor."
             }
         ]
     },
@@ -1167,7 +1167,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1195,7 +1195,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1223,7 +1223,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1237,7 +1237,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1251,7 +1251,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1265,7 +1265,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1279,7 +1279,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1293,7 +1293,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1307,7 +1307,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1321,7 +1321,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1335,7 +1335,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1349,7 +1349,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1363,7 +1363,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1391,7 +1391,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1405,7 +1405,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1419,7 +1419,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1433,7 +1433,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1447,7 +1447,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1461,7 +1461,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1475,7 +1475,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1489,7 +1489,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1503,7 +1503,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1517,7 +1517,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1531,11 +1531,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is good."
+                "value": "The quality of the image is fair."
             }
         ]
     },
@@ -1545,7 +1545,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1573,7 +1573,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1587,7 +1587,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1601,7 +1601,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1615,7 +1615,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1629,11 +1629,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is fair."
+                "value": "The quality of the image is poor."
             }
         ]
     },
@@ -1643,7 +1643,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1657,7 +1657,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1671,7 +1671,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1685,7 +1685,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1699,7 +1699,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1713,7 +1713,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1727,7 +1727,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1755,7 +1755,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1783,7 +1783,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1797,7 +1797,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1811,7 +1811,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1825,7 +1825,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1839,7 +1839,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1853,7 +1853,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1867,7 +1867,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1881,7 +1881,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1909,7 +1909,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1923,11 +1923,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is good."
+                "value": "The quality of the image is fair."
             }
         ]
     },
@@ -1937,7 +1937,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1951,7 +1951,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1965,7 +1965,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1979,7 +1979,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -1993,7 +1993,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2007,7 +2007,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2021,7 +2021,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2035,7 +2035,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2063,7 +2063,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2091,7 +2091,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2105,7 +2105,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2119,7 +2119,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2147,7 +2147,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2161,7 +2161,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2189,7 +2189,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2203,7 +2203,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2217,7 +2217,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2231,7 +2231,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2245,7 +2245,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2259,7 +2259,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2287,7 +2287,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2301,7 +2301,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2315,7 +2315,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2329,7 +2329,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2343,7 +2343,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2357,11 +2357,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is excellent."
+                "value": "The quality of the image is good."
             }
         ]
     },
@@ -2371,7 +2371,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2385,7 +2385,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2399,7 +2399,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2413,7 +2413,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2427,7 +2427,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2441,7 +2441,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2469,7 +2469,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2483,7 +2483,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2497,7 +2497,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2511,7 +2511,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2525,7 +2525,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2539,7 +2539,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2553,7 +2553,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2567,7 +2567,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2581,7 +2581,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2595,7 +2595,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2609,7 +2609,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2623,7 +2623,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2637,7 +2637,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2651,7 +2651,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2665,7 +2665,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2679,7 +2679,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2693,7 +2693,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2721,7 +2721,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2735,7 +2735,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2749,7 +2749,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2763,7 +2763,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2777,11 +2777,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is good."
+                "value": "The quality of the image is fair."
             }
         ]
     },
@@ -2791,7 +2791,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2805,7 +2805,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2819,7 +2819,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2833,7 +2833,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2861,7 +2861,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2875,7 +2875,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2889,7 +2889,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2903,7 +2903,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2917,7 +2917,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2945,7 +2945,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2959,7 +2959,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2973,7 +2973,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -2987,7 +2987,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3001,7 +3001,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3015,7 +3015,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What do you think about the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3029,7 +3029,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3043,7 +3043,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3057,7 +3057,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "What is your quality rating for this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3071,7 +3071,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3085,7 +3085,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3099,7 +3099,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+                "value": "How would you judge the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3113,7 +3113,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Can you rate the quality of this picture?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3127,7 +3127,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3141,11 +3141,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "Rate the quality of this image.\n<|image|>"
             },
             {
                 "from": "gpt",
-                "value": "The quality of the image is excellent."
+                "value": "The quality of the image is good."
             }
         ]
     },
@@ -3155,7 +3155,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What is your quality rating for this image?\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3169,7 +3169,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Rate the quality of this image.\n<|image|>"
+                "value": "What do you think about the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3183,7 +3183,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "How would you rate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3197,7 +3197,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "Could you evaluate the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3211,7 +3211,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+                "value": "How do you assess the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3225,7 +3225,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3239,7 +3239,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
             },
             {
                 "from": "gpt",
@@ -3253,7 +3253,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "How would you judge the quality of this image?\n<|image|>"
+                "value": "Can you rate the quality of this picture?\n<|image|>"
             },
             {
                 "from": "gpt",
