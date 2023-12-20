@@ -20,9 +20,9 @@ pip install -e ".[train]"
 pip install flash_attn --no-build-isolation
 ```
 
-## Quick Start: Scoring *Single* Image
+## Quick Start
 
-### Quality Scorer
+### Image Quality Scorer
 
 - CLI Interface
 
@@ -42,7 +42,7 @@ img_list = [Image.open("fig/singapore_flyer.jpg")] # can be multiple images
 print(scorer(img_list).tolist())
 ```
 
-### Aesthetic Scorer
+### Image Aesthetic Scorer
 
 - CLI Interface
 
@@ -58,9 +58,23 @@ from scorer import QAlignAestheticScorer
 from PIL import Image
 
 scorer = QAlignAestheticScorer()
-img_list = [Image.open("fig/singapore_flyer.jpg")] # can be multiple images
+img_list = [Image.open("fig/singapore_flyer.jpg"), Image.open("fig/boy_colorful.png")] # can be multiple images
 print(scorer(img_list).tolist())
 ```
+
+### Video Quality Scorer
+
+
+- Python API
+
+```python
+from scorer import QAlignVideoScorer, load_video
+
+scorer = QAlignVideoScorer()
+video_list = [load_video("fig/baby.mp4")]
+print(scorer(video_list).tolist())
+```
+
 
 ## Training & Evaluation
 
@@ -101,13 +115,13 @@ python iaa_eval.py --model_path q-future/q-align-aesthetic --device cuda:0
 - Video Quality Assessment (VQA)
 
 ```shell
-python vqa_eval.py --model_path q-future/q-align-koniq-spaq-v0 --device cuda:0
+python vqa_eval.py --model_path q-future/q-align-lsvq-only --device cuda:0
 ```
 
 
 ### Training
 
-#### L1: *Single* Image Quality Assessment
+####  Image Quality Assessment
 
 - Training Q-Align with KonIQ-10k:
 
@@ -121,17 +135,24 @@ sh scripts/l1_koniq.sh
 sh scripts/l1_koniq_spaq_mix.sh
 ```
 
+#### Image Aesthetic Assessment
+
 - Training Q-Align Aesthetic Predictor with AVA dataset:
 
 ```shell
 sh scripts/l1_ava.sh
 ```
 
-At least 4\*A6000 GPUs or 2\*A100 GPUs will be enough for the training.
+#### Video Quality Assessment
+
+- Training Q-Align Aesthetic Predictor with AVA dataset:
+
+```shell
+sh scripts/l1_lsvq.sh
+```
+
+*At least 4\*A6000 GPUs or 2\*A100 GPUs will be enough for the training.*
 
 
-#### L2: ????
-
-Coming soon.
 
 
