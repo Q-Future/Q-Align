@@ -5,10 +5,10 @@ import torch
 
 from typing import List
 
-from mplug_owl2.model.builder import load_pretrained_model
+from q_align.model.builder import load_pretrained_model
 
-from mplug_owl2.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN
-from mplug_owl2.mm_utils import process_images, tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
+from q_align.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN
+from q_align.mm_utils import process_images, tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
 
 def load_video(video_file):
     from decord import VideoReader
@@ -139,8 +139,14 @@ if __name__ == "__main__":
     parser.add_argument("--model-path", type=str, default="q-future/q-align-koniq-spaq-v0")
     parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--img_path", type=str, default="fig/singapore_flyer.jpg")
+    parser.add_argument("--aesthetic", action="store_true")
+    parser.add_argument("--video", action="store_true")
     args = parser.parse_args()
 
-    scorer = QAlignScorer(pretrained=args.model_path, device=args.device)
-    print(scorer([Image.open(args.img_path)]).tolist())
+    if args.video:
+        scorer = QAlignVideoScorer(pretrained=args.model_path, device=args.device)
+        print(scorer([load_video(args.img_path)]).tolist())
+    else:
+        scorer = QAlignScorer(pretrained=args.model_path, device=args.device) if not args.aesthetic else QAlignAestheticScorer(pretrained=args.model_path, device=args.device) 
+        print(scorer([Image.open(args.img_path)]).tolist())
 

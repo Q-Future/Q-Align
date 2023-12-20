@@ -1,19 +1,21 @@
 import argparse
 import torch
 
-from mplug_owl2.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN
-from mplug_owl2.conversation import conv_templates, SeparatorStyle
-from mplug_owl2.model.builder import load_pretrained_model
-from mplug_owl2.mm_utils import process_images, tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
+from q_align.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN
+from q_align.conversation import conv_templates, SeparatorStyle
+from q_align.model.builder import load_pretrained_model
+from q_align.mm_utils import process_images, tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
 
 from PIL import Image
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 import requests
 from PIL import Image
 from io import BytesIO
 from transformers import TextStreamer
 
-from decord import VideoReader
+from scipy.stats import spearmanr, pearsonr
 
 
 import json
@@ -21,6 +23,12 @@ from tqdm import tqdm
 from collections import defaultdict
 
 import os
+
+def wa5(logits):
+    import numpy as np
+    logprobs = np.array([logits["excellent"], logits["good"], logits["fair"], logits["poor"], logits["bad"]])
+    probs = np.exp(logprobs) / np.sum(np.exp(logprobs))
+    return np.inner(probs, np.array([1,0.75,0.5,0.25,0.]))
 
 
 
@@ -34,16 +42,13 @@ def disable_torch_init():
     setattr(torch.nn.LayerNorm, "reset_parameters", lambda self: None)
 
 
-def load_video(video_file):
-    vr = VideoReader(video_file)
-
-    # Get video frame rate
-    fps = vr.get_avg_fps()
-
-    # Calculate frame indices for 1fps
-    frame_indices = [int(fps * i) for i in range(int(len(vr) / fps))]
-    frames = vr.get_batch(frame_indices).asnumpy()
-    return [Image.fromarray(frames[i]) for i in range(int(len(vr) / fps))]
+def load_image(image_file):
+    if image_file.startswith('http://') or image_file.startswith('https://'):
+        response = requests.get(image_file)
+        image = Image.open(BytesIO(response.content)).convert('RGB')
+    else:
+        image = Image.open(image_file).convert('RGB')
+    return image
 
 
 def main(args):
@@ -57,17 +62,12 @@ def main(args):
     import json
 
     
-    image_paths = [
-        "../datasets/KoNViD_1k_videos/",
-        "../datasets/LIVE_VQC/Video/",
-        "../datasets/MaxWell/videos/",
-    ]
+    image_path = "playground/data/"
+                  
 
-    json_prefix = "../datasets/json/"
+    json_prefix = "playground/data/"
     jsons = [
-        json_prefix + "konvid.json",
-        json_prefix + "livevqc.json",
-        json_prefix + "maxwell_test.json",
+        json_prefix + "test_ava.json",
     ]
 
     os.makedirs(f"results/{args.model_path}/", exist_ok=True)
@@ -75,15 +75,15 @@ def main(args):
 
     conv_mode = "mplug_owl2"
     
-    inp = "How would you rate the quality of this image?"
+    inp = "How would you rate the aesthetics of this image?"
         
     conv = conv_templates[conv_mode].copy()
-    inp =  inp + "\n" + DEFAULT_IMAGE_TOKEN
+    inp = DEFAULT_IMAGE_TOKEN + inp
     conv.append_message(conv.roles[0], inp)
     image = None
         
     conv.append_message(conv.roles[1], None)
-    prompt = conv.get_prompt() + " The quality of the image is"
+    prompt = conv.get_prompt() + " The aesthetics of the image is"
     
     toks = ["good", "poor", "high", "fair", "low", "excellent", "bad", "fine", "moderate",  "decent", "average", "medium", "acceptable"]
     print(toks)
@@ -92,15 +92,20 @@ def main(args):
 
     input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(args.device)
     
-    for image_path, json_ in zip(image_paths, jsons):
+    for json_ in jsons:
         with open(json_) as f:
-            iqadata = json.load(f) 
-            
+            iqadata = json.load(f)  
+
+            image_tensors = []
+            batch_data = []
+            prs, gts = [], []
             for i, llddata in enumerate(tqdm(iqadata, desc="Evaluating [{}]".format(json_.split("/")[-1]))):
-                filename = llddata["img_path"]
+                filename = llddata["image"]
                 llddata["logits"] = defaultdict(float)
                 
-                image = load_video(image_path + filename)
+                
+                
+                image = load_image(image_path + filename)
                 def expand2square(pil_img, background_color):
                         width, height = pil_img.size
                         if width == height:
@@ -113,26 +118,39 @@ def main(args):
                             result = Image.new(pil_img.mode, (height, height), background_color)
                             result.paste(pil_img, ((height - width) // 2, 0))
                             return result
-                image = [expand2square(img, tuple(int(x*255) for x in image_processor.image_mean)) for img in image]
+                image = expand2square(image, tuple(int(x*255) for x in image_processor.image_mean))
                 image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].half().to(args.device)
 
+                image_tensors.append(image_tensor)
+                batch_data.append(llddata)
 
-                if True:
+                if i % 8 == 7 or i == len(iqadata) - 1:                     
                     with torch.inference_mode():
-                        output_logits = model(input_ids.repeat(image_tensor.shape[0], 1),
-                            images=image_tensor)["logits"][:,-1]
-                        
+                        output_logits = model(input_ids.repeat(len(image_tensors), 1),
+                            images=torch.cat(image_tensors, 0))["logits"][:,-1]
+    
+                    for j, xllddata in enumerate(batch_data):
                         for tok, id_ in zip(toks, ids_):
-                            llddata["logits"][tok] += output_logits.mean(0)[id_].item()
+                            xllddata["logits"][tok] += output_logits[j,id_].item()
+                        xllddata["score"] = wa5(xllddata["logits"])
                         # print(llddata)
+                        prs.append(xllddata["score"])
+                        gts.append(xllddata["gt_score"])
                         json_ = json_.replace("combined/", "combined-")
                         with open(f"results/{args.model_path}/{json_.split('/')[-1]}", "a") as wf:
-                            json.dump(llddata, wf)
+                            json.dump(xllddata, wf)
+
+                    image_tensors = []
+                    batch_data = []
+                
+                #if i > 0 and i % 200 == 0:
+                #    print(spearmanr(prs,gts)[0], pearsonr(prs,gts)[0])
+            print("Spearmanr", spearmanr(prs,gts)[0], "Pearson", pearsonr(prs,gts)[0])
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="q-future/q-align-spaq")
+    parser.add_argument("--model-path", type=str, default="q-future/q-align-aesthetic")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--conv-mode", type=str, default=None)

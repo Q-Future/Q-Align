@@ -1,10 +1,10 @@
 <div align="center">
   <h1>Q-Align: Aligning LMMs to Predict Visual Quality Scores without Regression</h1> 
-</div>     
+    
 <div style="width: 75%; text-align: center; margin:auto;">
       <img style="width: 75%" src="fig/radar.png">
 </div>
-
+</div> 
 
 
 ## Installation
@@ -17,7 +17,7 @@ cd Q-Align
 pip install -e .
 ```
 
-For training, you need to install additional dependencies as follows:
+For training, you need to further install additional dependencies as follows:
 
 ```shell
 pip install -e ".[train]"
@@ -32,13 +32,13 @@ pip install flash_attn --no-build-isolation
 
 ```shell
 export DEFAULT_IMG_PATH=fig/singapore_flyer.jpg
-python scorer.py --img_path $DEFAULT_IMG_PATH
+python q_align/evaluate/scorer.py --img_path $DEFAULT_IMG_PATH
 ```
 
 - Python API
 
 ```python
-from scorer import QAlignScorer
+from q_align.evaluate.scorer import QAlignScorer
 from PIL import Image
 
 scorer = QAlignScorer()
@@ -52,13 +52,13 @@ print(scorer(img_list).tolist())
 
 ```shell
 export DEFAULT_IMG_PATH=fig/singapore_flyer.jpg
-python scorer.py --img_path $DEFAULT_IMG_PATH --aesthetic
+python q_align/evaluate/scorer.py --img_path $DEFAULT_IMG_PATH --aesthetic --model-path q-future/q-align-aesthetic
 ```
 
 - Python API
 
 ```python
-from scorer import QAlignAestheticScorer
+from q_align.evaluate.scorer import QAlignAestheticScorer
 from PIL import Image
 
 scorer = QAlignAestheticScorer()
@@ -66,13 +66,20 @@ img_list = [Image.open("fig/singapore_flyer.jpg"), Image.open("fig/boy_colorful.
 print(scorer(img_list).tolist())
 ```
 
+
 ### Video Quality Scorer
 
+- CLI Interface
+
+```shell
+export DEFAULT_IMG_PATH=fig/baby.mp4
+python q_align/evaluate/scorer.py --img_path $DEFAULT_IMG_PATH --video --model-path q-future/q-align-lsvq-only
+```
 
 - Python API
 
 ```python
-from scorer import QAlignVideoScorer, load_video
+from q_align.evaluate.scorer import QAlignVideoScorer, load_video
 
 scorer = QAlignVideoScorer()
 video_list = [load_video("fig/baby.mp4")]
@@ -122,19 +129,19 @@ After preparing the datasets, you can evaluate pre-trained Q-Align as follows:
 - Image Quality Assessment (IQA)
 
 ```shell
-python iqa_eval.py --model_path q-future/q-align-koniq-spaq-v0 --device cuda:0
+python q_align/evaluate/iqa_eval.py --model_path q-future/q-align-koniq-spaq-v0 --device cuda:0
 ```
 
 - Image Aesthetic Assessment (IAA)
 
 ```shell
-python iaa_eval.py --model_path q-future/q-align-aesthetic --device cuda:0
+python q_align/evaluate/iaa_eval.py --model_path q-future/q-align-aesthetic --device cuda:0
 ```
 
 - Video Quality Assessment (VQA)
 
 ```shell
-python vqa_eval.py --model_path q-future/q-align-lsvq-only --device cuda:0
+python q_align/evaluate/vqa_eval.py --model_path q-future/q-align-lsvq-only --device cuda:0
 ```
 
 

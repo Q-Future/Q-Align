@@ -2,7 +2,7 @@
 LOAD='MAGAer13/mplug-owl2-llama2-7b'
 
 DATA_FILE=playground/data/generate_label_code/mos_single_simple/train_lsvq.json
-deepspeed --master_port 25801 mplug_owl2/train/train_mem.py \
+deepspeed --master_port 25801 q_align/train/train_mem.py \
     --deepspeed ./scripts/zero3.json \
     --model_name_or_path $LOAD \
     --version v1 \

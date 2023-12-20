@@ -1,10 +1,10 @@
 import argparse
 import torch
 
-from mplug_owl2.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN
-from mplug_owl2.conversation import conv_templates, SeparatorStyle
-from mplug_owl2.model.builder import load_pretrained_model
-from mplug_owl2.mm_utils import process_images, tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
+from q_align.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN
+from q_align.conversation import conv_templates, SeparatorStyle
+from q_align.model.builder import load_pretrained_model
+from q_align.mm_utils import process_images, tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
 
 from PIL import Image
 
