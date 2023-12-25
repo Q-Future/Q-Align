@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>Q-Align: Aligning LMMs to Predict Visual Quality Scores without Regression</h1> 
+  <h1>Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels</h1> 
     
-*A Unified Approach for Image Quality Assessment (IQA), Image Aesthetic Assessment (IAA), and Video Quality Assessment (VQA).*
+*One Unified Model for Image Quality Assessment (IQA), Image Aesthetic Assessment (IAA), and Video Quality Assessment (VQA).*
     
 <div style="width: 75%; text-align: center; margin:auto;">
       <img style="width: 75%" src="fig/radar.png">
@@ -59,7 +59,7 @@ print(scorer(img_list).tolist())
 
 ```shell
 export DEFAULT_IMG_PATH=fig/singapore_flyer.jpg
-python q_align/evaluate/scorer.py --img_path $DEFAULT_IMG_PATH --aesthetic --model-path q-future/q-align-aesthetic
+python q_align/evaluate/scorer.py --img_path $DEFAULT_IMG_PATH --aesthetic --model-path q-future/one-align
 ```
 
 - Python API
@@ -80,7 +80,7 @@ print(scorer(img_list).tolist())
 
 ```shell
 export DEFAULT_IMG_PATH=fig/baby.mp4
-python q_align/evaluate/scorer.py --img_path $DEFAULT_IMG_PATH --video --model-path q-future/q-align-lsvq-only
+python q_align/evaluate/scorer.py --img_path $DEFAULT_IMG_PATH --video --model-path q-future/one-align
 ```
 
 - Python API
@@ -131,30 +131,32 @@ for gz_file in gz_files:
 
 ### Evaluation
 
-After preparing the datasets, you can evaluate pre-trained Q-Align as follows:
+After preparing the datasets, you can evaluate pre-trained **OneAlign** as follows:
 
 - Image Quality Assessment (IQA)
 
 ```shell
-python q_align/evaluate/iqa_eval.py --model_path q-future/q-align-koniq-spaq-v0 --device cuda:0
+python q_align/evaluate/iqa_eval.py --model_path q-future/one-align --device cuda:0
 ```
 
 - Image Aesthetic Assessment (IAA)
 
 ```shell
-python q_align/evaluate/iaa_eval.py --model_path q-future/q-align-aesthetic --device cuda:0
+python q_align/evaluate/iaa_eval.py --model_path q-future/one-align --device cuda:0
 ```
 
 - Video Quality Assessment (VQA)
 
 ```shell
-python q_align/evaluate/vqa_eval.py --model_path q-future/q-align-lsvq-only --device cuda:0
+python q_align/evaluate/vqa_eval.py --model_path q-future/one-align --device cuda:0
 ```
+
+We will release other pre-trained checkpoints soon.
 
 
 ### Training
 
-####  Image Quality Assessment
+#### Image Quality Assessment
 
 - Training Q-Align with KonIQ-10k:
 
@@ -162,10 +164,10 @@ python q_align/evaluate/vqa_eval.py --model_path q-future/q-align-lsvq-only --de
 sh scripts/l1_koniq.sh
 ```
 
-- Training Q-Align with mixture of KonIQ-10k and SPAQ:
+- Training Q-Align with mixture of KonIQ-10k, SPAQ, and KADID-10k:
 
 ```shell
-sh scripts/l1_koniq_spaq_mix.sh
+sh scripts/iqa_mix.sh
 ```
 
 #### Image Aesthetic Assessment
@@ -186,6 +188,24 @@ sh scripts/l1_lsvq.sh
 
 *At least 4\*A6000 GPUs or 2\*A100 GPUs will be enough for the training.*
 
+#### *OneAlign*
 
+- Training OneAlign with IQA datasets, AVA dataset (IAA) and LSVQ dataset (VQA):
 
+```shell
+sh scripts/all_.sh
+```
+
+*At least 8\*A6000 GPUs or 4\*A100 GPUs will be enough for the training.*
+
+#### Contact
+
+Please contact any of the first authors of this paper for queries.
+
+- Haoning Wu, haoning001@e.ntu.edu.sg, @teowu
+- Zicheng Zhang, zzc1998@sjtu.edu.cn, @zzc-1998
+
+#### Acknowledgements
+
+We sincerely thank Dr Weixia Zhang (@onionbao) and Dr Chaofeng Chen (@chaofenghust) for assistance on experiments and advice on this project. 
 
