@@ -3,7 +3,6 @@
     
 *One Unified Model for Image Quality Assessment (IQA), Image Aesthetic Assessment (IAA), and Video Quality Assessment (VQA).*
 
-
   <div>
       <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>1</sup><sup>*</sup><sup>+</sup>,
       <a href="https://github.com/zzc-1998" target="_blank">Zicheng Zhang</a><sup>2</sup><sup>*</sup>,
@@ -13,6 +12,7 @@
       <a href="https://github.com/lcysyzxdxc" target="_blank">Chunyi Li</a><sup>2</sup>,
 
   </div>
+    
 
 <div>
         <a href="https://github.com/YixuanGao98" target="_blank">Yixuan Gao</a><sup>2</sup>,
@@ -30,6 +30,11 @@
 <div>
 <sup>*</sup>Equal contribution. <sup>+</sup>Project Lead. <sup>#</sup>Corresponding author(s). 
    </div>
+    
+<div>
+   <a href="https://HuggingFace.co/q-future/one-align"><strong>One Align</strong></a> | <a href="https://github.com/Q-Future/Q-Align/tree/main/model_zoo"><strong>Model Zoo</strong></a> |  <a href="xx"><strong>Technical Report (Coming Soon)</strong></a> 
+   </div>   
+
     
 <div style="width: 75%; text-align: center; margin:auto;">
       <img style="width: 75%" src="fig/radar.png">
@@ -226,14 +231,17 @@ sh scripts/all_.sh
 
 *At least 8\*A6000 GPUs or 4\*A100 GPUs will be enough for the training.*
 
-#### Contact
+## Contact
 
 Please contact any of the first authors of this paper for queries.
 
 - Haoning Wu, haoning001@e.ntu.edu.sg, @teowu
 - Zicheng Zhang, zzc1998@sjtu.edu.cn, @zzc-1998
 
-#### Acknowledgements
+## Acknowledgements
 
 We sincerely thank Dr Weixia Zhang (@onionbao) and Dr Chaofeng Chen (@chaofenghust) for assistance on experiments and advice on this project. 
 
+## Citation
+
+To be added.
