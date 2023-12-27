@@ -248,7 +248,7 @@ Please contact any of the first authors of this paper for queries.
 
 ## Acknowledgements
 
-We sincerely thank Dr Weixia Zhang (@onionbao) and Dr Chaofeng Chen (@chaofenghust) for assistance on experiments and advice on this project. 
+We sincerely thank Dr Weixia Zhang (@onionbao) and Dr Chaofeng Chen (@chaofenghust) for their assistance with experiments and advice on this project. 
 
 ## Citation
 
