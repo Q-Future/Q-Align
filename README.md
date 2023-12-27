@@ -252,4 +252,13 @@ We sincerely thank Dr Weixia Zhang (@onionbao) and Dr Chaofeng Chen (@chaofenghu
 
 ## Citation
 
-To be added.
+```bibtex
+@article{wu2023qalign,
+  title={Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels},
+  author={Wu, Haoning and Zhang, Zicheng and Zhang, Weixia and Chen, Chaofeng and Li, Chunyi and Liao, Liang and Wang, Annan and Zhang, Erli and Sun, Wenxiu and Yan, Qiong and Min, Xiongkuo and Zhai, Guangtai and Lin, Weisi},
+  journal={arXiv preprint arXiv:2312.xxxxx},
+  year={2023},
+  institution={Nanyang Technological University and Shanghai Jiao Tong University and Sensetime Research},
+  note={Equal Contribution by Wu, Haoning and Zhang, Zicheng. Project Lead by Wu, Haoning. Corresponding Authors: Zhai, Guangtai and Lin, Weisi.}
+}
+```
