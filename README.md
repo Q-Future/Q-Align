@@ -39,7 +39,6 @@
 <h2>Results</h2> 
 <div style="width: 75%; text-align: center; margin:auto;">
       <img style="width: 75%" src="fig/radar.png">
-</div>
 </div> 
 
   <h2>Syllabus</h2> 
@@ -47,7 +46,6 @@
 <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width: 100%" src="fig/q-align-syllabus.png">
 </div>
-</div> 
 
 <h2>Structure</h2> 
 
