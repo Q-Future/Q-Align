@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels</h1> 
     
-*One Unified Model for Image Quality Assessment (IQA), Image Aesthetic Assessment (IAA), and Video Quality Assessment (VQA).*
+*One Unified Model for Visual scoring.*
 
   <div>
       <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>1</sup><sup>*</sup><sup>+</sup>,
@@ -32,7 +32,7 @@
    </div>
     
 <div>
-   <a href="https://HuggingFace.co/q-future/one-align"><strong>One Align</strong></a> | <a href="https://github.com/Q-Future/Q-Align/tree/main/model_zoo"><strong>Model Zoo</strong></a> |  <a href="xx"><strong>Technical Report (Coming Soon)</strong></a> 
+   <a href="https://HuggingFace.co/q-future/one-align"><strong>One Align</strong></a> | <a href="https://github.com/Q-Future/Q-Align/tree/main/model_zoo"><strong>Model Zoo</strong></a> |  <a href="https://q-future.github.io/Q-Align/fig/Q_Align_v0_1_preview.pdf"><strong>Technical Report</strong></a> | <a href="https://q-align.github.io/"><strong>Homepage</strong></a>
    </div>   
 
     
