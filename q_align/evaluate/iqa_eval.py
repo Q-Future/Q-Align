@@ -54,14 +54,10 @@ def main(args):
     image_path = "playground/data/"
                   
 
-    json_prefix = "playground/data/generate_label_code/mos_single_simple/"
+    json_prefix = "playground/data/test_jsons/"
     jsons = [
-        json_prefix + "combined/livec.json",
-        json_prefix + "test_koniq.json",
-        json_prefix + "test_spaq.json",
-        json_prefix + "combined/kadid_ref.json",
-        json_prefix + "combined/kadid.json",
-        json_prefix + "combined/agi.json",
+        json_prefix + "livec.json",
+        json_prefix + "agi.json",
     ]
 
     os.makedirs(f"results/{args.model_path}/", exist_ok=True)
@@ -135,7 +131,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="q-future/q-align-koniq-spaq-v0")
+    parser.add_argument("--model-path", type=str, default="q-future/one-align")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--conv-mode", type=str, default=None)

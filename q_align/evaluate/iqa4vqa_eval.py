@@ -59,14 +59,12 @@ def main(args):
     
     image_paths = [
         "../datasets/KoNViD_1k_videos/",
-        "../datasets/LIVE_VQC/Video/",
         "../datasets/MaxWell/videos/",
     ]
 
-    json_prefix = "../datasets/json/"
+    json_prefix = "plyaground/data/test_jsons/"
     jsons = [
         json_prefix + "konvid.json",
-        json_prefix + "livevqc.json",
         json_prefix + "maxwell_test.json",
     ]
 
@@ -132,7 +130,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="q-future/q-align-spaq")
+    parser.add_argument("--model-path", type=str, default="q-future/q-align-image")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--conv-mode", type=str, default=None)

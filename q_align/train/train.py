@@ -22,6 +22,9 @@ import logging
 import pathlib
 from typing import Dict, Optional, Sequence, List
 
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True 
+
 import torch
 
 import transformers

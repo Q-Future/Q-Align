@@ -1,0 +1,4678 @@
+[
+    {
+        "img_path": "t1.bmp",
+        "gt_score": 63.963406174124174
+    },
+    {
+        "img_path": "t2.bmp",
+        "gt_score": 25.335306406685238
+    },
+    {
+        "img_path": "t3.bmp",
+        "gt_score": 48.93656326246079
+    },
+    {
+        "img_path": "t4.bmp",
+        "gt_score": 35.88633193863319
+    },
+    {
+        "img_path": "t5.bmp",
+        "gt_score": 66.50923666782852
+    },
+    {
+        "img_path": "t6.bmp",
+        "gt_score": 54.579700034879664
+    },
+    {
+        "img_path": "t7.bmp",
+        "gt_score": 77.88214783821478
+    },
+    {
+        "img_path": "100.bmp",
+        "gt_score": 32.56107532210109
+    },
+    {
+        "img_path": "101.bmp",
+        "gt_score": 66.35954917017587
+    },
+    {
+        "img_path": "102.bmp",
+        "gt_score": 44.69498452012384
+    },
+    {
+        "img_path": "103.bmp",
+        "gt_score": 39.2345587325164
+    },
+    {
+        "img_path": "104.bmp",
+        "gt_score": 9.22907379891035
+    },
+    {
+        "img_path": "105.bmp",
+        "gt_score": 41.33135141830794
+    },
+    {
+        "img_path": "106.bmp",
+        "gt_score": 68.92207631318136
+    },
+    {
+        "img_path": "107.bmp",
+        "gt_score": 27.957533737773925
+    },
+    {
+        "img_path": "108.bmp",
+        "gt_score": 75.35151515151514
+    },
+    {
+        "img_path": "109.bmp",
+        "gt_score": 50.63793103448276
+    },
+    {
+        "img_path": "10.bmp",
+        "gt_score": 82.91071428571429
+    },
+    {
+        "img_path": "110.bmp",
+        "gt_score": 32.13690476190476
+    },
+    {
+        "img_path": "111.bmp",
+        "gt_score": 51.84153005464481
+    },
+    {
+        "img_path": "112.bmp",
+        "gt_score": 30.31875
+    },
+    {
+        "img_path": "113.bmp",
+        "gt_score": 68.21714285714286
+    },
+    {
+        "img_path": "114.bmp",
+        "gt_score": 24.871134020618555
+    },
+    {
+        "img_path": "115.bmp",
+        "gt_score": 31.293785310734464
+    },
+    {
+        "img_path": "116.bmp",
+        "gt_score": 26.097701149425287
+    },
+    {
+        "img_path": "117.bmp",
+        "gt_score": 70.4327485380117
+    },
+    {
+        "img_path": "118.bmp",
+        "gt_score": 26.530864197530864
+    },
+    {
+        "img_path": "119.bmp",
+        "gt_score": 51.31707317073171
+    },
+    {
+        "img_path": "11.bmp",
+        "gt_score": 60.9472891566265
+    },
+    {
+        "img_path": "120.bmp",
+        "gt_score": 18.78488372093023
+    },
+    {
+        "img_path": "121.bmp",
+        "gt_score": 19.75
+    },
+    {
+        "img_path": "122.bmp",
+        "gt_score": 79.36708860759494
+    },
+    {
+        "img_path": "123.bmp",
+        "gt_score": 67.29775280898876
+    },
+    {
+        "img_path": "124.bmp",
+        "gt_score": 70.99459459459459
+    },
+    {
+        "img_path": "125.bmp",
+        "gt_score": 81.90502793296089
+    },
+    {
+        "img_path": "126.bmp",
+        "gt_score": 52.843023255813954
+    },
+    {
+        "img_path": "127.bmp",
+        "gt_score": 41.42690058479532
+    },
+    {
+        "img_path": "128.bmp",
+        "gt_score": 48.81366459627329
+    },
+    {
+        "img_path": "129.bmp",
+        "gt_score": 72.88268156424581
+    },
+    {
+        "img_path": "12.bmp",
+        "gt_score": 15.895238095238096
+    },
+    {
+        "img_path": "130.bmp",
+        "gt_score": 86.6086956521739
+    },
+    {
+        "img_path": "131.bmp",
+        "gt_score": 48.52903225806452
+    },
+    {
+        "img_path": "132.bmp",
+        "gt_score": 73.02590673575129
+    },
+    {
+        "img_path": "133.bmp",
+        "gt_score": 27.005714285714287
+    },
+    {
+        "img_path": "134.bmp",
+        "gt_score": 32.30898876404494
+    },
+    {
+        "img_path": "135.bmp",
+        "gt_score": 65.94300518134715
+    },
+    {
+        "img_path": "136.bmp",
+        "gt_score": 67.16315789473684
+    },
+    {
+        "img_path": "137.bmp",
+        "gt_score": 59.8421052631579
+    },
+    {
+        "img_path": "138.bmp",
+        "gt_score": 67.58695652173913
+    },
+    {
+        "img_path": "139.bmp",
+        "gt_score": 61.92857142857143
+    },
+    {
+        "img_path": "13.bmp",
+        "gt_score": 77.40229885057471
+    },
+    {
+        "img_path": "140.bmp",
+        "gt_score": 77.45833333333333
+    },
+    {
+        "img_path": "141.bmp",
+        "gt_score": 20.581818181818182
+    },
+    {
+        "img_path": "142.bmp",
+        "gt_score": 26.405714285714286
+    },
+    {
+        "img_path": "143.bmp",
+        "gt_score": 61.149484536082475
+    },
+    {
+        "img_path": "144.bmp",
+        "gt_score": 76.92391304347827
+    },
+    {
+        "img_path": "145.bmp",
+        "gt_score": 55.59239130434783
+    },
+    {
+        "img_path": "146.bmp",
+        "gt_score": 34.2111801242236
+    },
+    {
+        "img_path": "147.bmp",
+        "gt_score": 71.32335329341318
+    },
+    {
+        "img_path": "148.bmp",
+        "gt_score": 41.97076023391813
+    },
+    {
+        "img_path": "149.bmp",
+        "gt_score": 72.45744680851064
+    },
+    {
+        "img_path": "14.bmp",
+        "gt_score": 66.39411764705882
+    },
+    {
+        "img_path": "150.bmp",
+        "gt_score": 65.79617834394904
+    },
+    {
+        "img_path": "151.bmp",
+        "gt_score": 55.77922077922078
+    },
+    {
+        "img_path": "152.bmp",
+        "gt_score": 79.43786982248521
+    },
+    {
+        "img_path": "153.bmp",
+        "gt_score": 73.0880829015544
+    },
+    {
+        "img_path": "154.bmp",
+        "gt_score": 11.977142857142857
+    },
+    {
+        "img_path": "155.bmp",
+        "gt_score": 73.63905325443787
+    },
+    {
+        "img_path": "156.bmp",
+        "gt_score": 28.512820512820515
+    },
+    {
+        "img_path": "157.bmp",
+        "gt_score": 17.51923076923077
+    },
+    {
+        "img_path": "158.bmp",
+        "gt_score": 79.41666666666667
+    },
+    {
+        "img_path": "159.bmp",
+        "gt_score": 73.83443708609272
+    },
+    {
+        "img_path": "15.bmp",
+        "gt_score": 56.398963730569946
+    },
+    {
+        "img_path": "160.bmp",
+        "gt_score": 41.34705882352941
+    },
+    {
+        "img_path": "161.bmp",
+        "gt_score": 8.246835443037975
+    },
+    {
+        "img_path": "162.bmp",
+        "gt_score": 70.6375
+    },
+    {
+        "img_path": "163.bmp",
+        "gt_score": 46.36942675159236
+    },
+    {
+        "img_path": "164.bmp",
+        "gt_score": 80.5
+    },
+    {
+        "img_path": "165.bmp",
+        "gt_score": 71.86338797814207
+    },
+    {
+        "img_path": "166.bmp",
+        "gt_score": 49.795811518324605
+    },
+    {
+        "img_path": "167.bmp",
+        "gt_score": 75.17777777777778
+    },
+    {
+        "img_path": "168.bmp",
+        "gt_score": 65.4180790960452
+    },
+    {
+        "img_path": "169.bmp",
+        "gt_score": 30.10919540229885
+    },
+    {
+        "img_path": "16.bmp",
+        "gt_score": 77.60215053763442
+    },
+    {
+        "img_path": "170.bmp",
+        "gt_score": 60.287958115183244
+    },
+    {
+        "img_path": "171.bmp",
+        "gt_score": 25.136363636363637
+    },
+    {
+        "img_path": "172.bmp",
+        "gt_score": 63.04522613065327
+    },
+    {
+        "img_path": "173.bmp",
+        "gt_score": 74.54066985645933
+    },
+    {
+        "img_path": "174.bmp",
+        "gt_score": 72.91
+    },
+    {
+        "img_path": "175.bmp",
+        "gt_score": 74.36477987421384
+    },
+    {
+        "img_path": "176.bmp",
+        "gt_score": 61.345360824742265
+    },
+    {
+        "img_path": "177.bmp",
+        "gt_score": 58.43010752688172
+    },
+    {
+        "img_path": "178.bmp",
+        "gt_score": 53.70238095238095
+    },
+    {
+        "img_path": "179.bmp",
+        "gt_score": 66.10843373493977
+    },
+    {
+        "img_path": "17.bmp",
+        "gt_score": 61.461988304093566
+    },
+    {
+        "img_path": "180.bmp",
+        "gt_score": 39.41340782122905
+    },
+    {
+        "img_path": "181.bmp",
+        "gt_score": 29.128205128205128
+    },
+    {
+        "img_path": "182.bmp",
+        "gt_score": 52.63131313131313
+    },
+    {
+        "img_path": "183.bmp",
+        "gt_score": 23.01212121212121
+    },
+    {
+        "img_path": "184.bmp",
+        "gt_score": 67.0
+    },
+    {
+        "img_path": "185.bmp",
+        "gt_score": 56.46994535519126
+    },
+    {
+        "img_path": "186.bmp",
+        "gt_score": 49.80769230769231
+    },
+    {
+        "img_path": "187.bmp",
+        "gt_score": 28.71195652173913
+    },
+    {
+        "img_path": "188.bmp",
+        "gt_score": 28.959537572254334
+    },
+    {
+        "img_path": "189.bmp",
+        "gt_score": 46.053763440860216
+    },
+    {
+        "img_path": "18.bmp",
+        "gt_score": 64.55191256830601
+    },
+    {
+        "img_path": "190.bmp",
+        "gt_score": 31.729468599033815
+    },
+    {
+        "img_path": "191.bmp",
+        "gt_score": 46.474747474747474
+    },
+    {
+        "img_path": "192.bmp",
+        "gt_score": 35.48351648351648
+    },
+    {
+        "img_path": "193.bmp",
+        "gt_score": 74.6608187134503
+    },
+    {
+        "img_path": "194.bmp",
+        "gt_score": 26.666666666666668
+    },
+    {
+        "img_path": "195.bmp",
+        "gt_score": 69.18407960199005
+    },
+    {
+        "img_path": "196.bmp",
+        "gt_score": 61.78888888888889
+    },
+    {
+        "img_path": "197.bmp",
+        "gt_score": 55.48235294117647
+    },
+    {
+        "img_path": "198.bmp",
+        "gt_score": 78.51724137931035
+    },
+    {
+        "img_path": "199.bmp",
+        "gt_score": 66.2122905027933
+    },
+    {
+        "img_path": "19.bmp",
+        "gt_score": 30.936046511627907
+    },
+    {
+        "img_path": "200.bmp",
+        "gt_score": 9.139072847682119
+    },
+    {
+        "img_path": "201.bmp",
+        "gt_score": 49.5
+    },
+    {
+        "img_path": "202.bmp",
+        "gt_score": 24.515151515151516
+    },
+    {
+        "img_path": "203.bmp",
+        "gt_score": 50.99441340782123
+    },
+    {
+        "img_path": "204.bmp",
+        "gt_score": 75.48170731707317
+    },
+    {
+        "img_path": "205.bmp",
+        "gt_score": 77.95977011494253
+    },
+    {
+        "img_path": "206.bmp",
+        "gt_score": 72.5909090909091
+    },
+    {
+        "img_path": "207.bmp",
+        "gt_score": 43.66863905325444
+    },
+    {
+        "img_path": "208.bmp",
+        "gt_score": 53.84146341463415
+    },
+    {
+        "img_path": "209.bmp",
+        "gt_score": 52.2906976744186
+    },
+    {
+        "img_path": "20.bmp",
+        "gt_score": 76.38541666666667
+    },
+    {
+        "img_path": "210.bmp",
+        "gt_score": 70.5421052631579
+    },
+    {
+        "img_path": "211.bmp",
+        "gt_score": 42.68604651162791
+    },
+    {
+        "img_path": "212.bmp",
+        "gt_score": 61.71264367816092
+    },
+    {
+        "img_path": "213.bmp",
+        "gt_score": 13.113924050632912
+    },
+    {
+        "img_path": "214.bmp",
+        "gt_score": 73.11111111111111
+    },
+    {
+        "img_path": "215.bmp",
+        "gt_score": 57.19135802469136
+    },
+    {
+        "img_path": "216.bmp",
+        "gt_score": 75.17901234567901
+    },
+    {
+        "img_path": "217.bmp",
+        "gt_score": 68.14723926380368
+    },
+    {
+        "img_path": "218.bmp",
+        "gt_score": 67.98850574712644
+    },
+    {
+        "img_path": "219.bmp",
+        "gt_score": 48.80346820809248
+    },
+    {
+        "img_path": "21.bmp",
+        "gt_score": 53.02061855670103
+    },
+    {
+        "img_path": "220.bmp",
+        "gt_score": 67.28220858895706
+    },
+    {
+        "img_path": "221.bmp",
+        "gt_score": 84.16022099447514
+    },
+    {
+        "img_path": "222.bmp",
+        "gt_score": 59.2565445026178
+    },
+    {
+        "img_path": "223.bmp",
+        "gt_score": 68.3112582781457
+    },
+    {
+        "img_path": "224.bmp",
+        "gt_score": 14.638297872340425
+    },
+    {
+        "img_path": "225.bmp",
+        "gt_score": 64.05294117647058
+    },
+    {
+        "img_path": "226.bmp",
+        "gt_score": 49.475675675675674
+    },
+    {
+        "img_path": "227.bmp",
+        "gt_score": 72.70760233918129
+    },
+    {
+        "img_path": "228.bmp",
+        "gt_score": 41.1
+    },
+    {
+        "img_path": "229.bmp",
+        "gt_score": 57.666666666666664
+    },
+    {
+        "img_path": "22.bmp",
+        "gt_score": 52.0
+    },
+    {
+        "img_path": "230.bmp",
+        "gt_score": 43.247126436781606
+    },
+    {
+        "img_path": "231.bmp",
+        "gt_score": 45.37106918238994
+    },
+    {
+        "img_path": "232.bmp",
+        "gt_score": 81.76878612716763
+    },
+    {
+        "img_path": "233.bmp",
+        "gt_score": 81.25555555555556
+    },
+    {
+        "img_path": "234.bmp",
+        "gt_score": 64.68062827225131
+    },
+    {
+        "img_path": "235.bmp",
+        "gt_score": 53.15243902439025
+    },
+    {
+        "img_path": "236.bmp",
+        "gt_score": 30.983050847457626
+    },
+    {
+        "img_path": "237.bmp",
+        "gt_score": 68.82432432432432
+    },
+    {
+        "img_path": "238.bmp",
+        "gt_score": 59.031847133757964
+    },
+    {
+        "img_path": "239.bmp",
+        "gt_score": 3.497584541062802
+    },
+    {
+        "img_path": "23.bmp",
+        "gt_score": 77.11392405063292
+    },
+    {
+        "img_path": "240.bmp",
+        "gt_score": 53.08
+    },
+    {
+        "img_path": "241.bmp",
+        "gt_score": 59.45
+    },
+    {
+        "img_path": "242.bmp",
+        "gt_score": 43.88205128205128
+    },
+    {
+        "img_path": "243.bmp",
+        "gt_score": 34.123456790123456
+    },
+    {
+        "img_path": "244.bmp",
+        "gt_score": 56.445086705202314
+    },
+    {
+        "img_path": "245.bmp",
+        "gt_score": 10.727272727272727
+    },
+    {
+        "img_path": "246.bmp",
+        "gt_score": 52.03048780487805
+    },
+    {
+        "img_path": "247.bmp",
+        "gt_score": 74.27218934911242
+    },
+    {
+        "img_path": "248.bmp",
+        "gt_score": 74.9493670886076
+    },
+    {
+        "img_path": "249.bmp",
+        "gt_score": 73.18478260869566
+    },
+    {
+        "img_path": "24.bmp",
+        "gt_score": 35.835978835978835
+    },
+    {
+        "img_path": "250.bmp",
+        "gt_score": 50.574585635359114
+    },
+    {
+        "img_path": "251.bmp",
+        "gt_score": 61.77717391304348
+    },
+    {
+        "img_path": "252.bmp",
+        "gt_score": 39.15432098765432
+    },
+    {
+        "img_path": "253.bmp",
+        "gt_score": 46.70792079207921
+    },
+    {
+        "img_path": "254.bmp",
+        "gt_score": 48.78
+    },
+    {
+        "img_path": "255.bmp",
+        "gt_score": 57.24277456647399
+    },
+    {
+        "img_path": "256.bmp",
+        "gt_score": 70.32417582417582
+    },
+    {
+        "img_path": "257.bmp",
+        "gt_score": 71.79640718562874
+    },
+    {
+        "img_path": "258.bmp",
+        "gt_score": 68.36021505376344
+    },
+    {
+        "img_path": "259.bmp",
+        "gt_score": 61.61309523809524
+    },
+    {
+        "img_path": "25.bmp",
+        "gt_score": 71.90058479532163
+    },
+    {
+        "img_path": "260.bmp",
+        "gt_score": 49.090425531914896
+    },
+    {
+        "img_path": "261.bmp",
+        "gt_score": 85.21637426900585
+    },
+    {
+        "img_path": "262.bmp",
+        "gt_score": 62.285714285714285
+    },
+    {
+        "img_path": "263.bmp",
+        "gt_score": 27.153846153846153
+    },
+    {
+        "img_path": "264.bmp",
+        "gt_score": 39.01863354037267
+    },
+    {
+        "img_path": "265.bmp",
+        "gt_score": 60.15217391304348
+    },
+    {
+        "img_path": "266.bmp",
+        "gt_score": 61.791044776119406
+    },
+    {
+        "img_path": "267.bmp",
+        "gt_score": 70.74172185430463
+    },
+    {
+        "img_path": "268.bmp",
+        "gt_score": 75.64161849710983
+    },
+    {
+        "img_path": "269.bmp",
+        "gt_score": 62.07936507936508
+    },
+    {
+        "img_path": "26.bmp",
+        "gt_score": 78.61176470588235
+    },
+    {
+        "img_path": "270.bmp",
+        "gt_score": 21.574074074074073
+    },
+    {
+        "img_path": "271.bmp",
+        "gt_score": 83.06172839506173
+    },
+    {
+        "img_path": "272.bmp",
+        "gt_score": 44.39890710382514
+    },
+    {
+        "img_path": "273.bmp",
+        "gt_score": 65.32544378698225
+    },
+    {
+        "img_path": "274.bmp",
+        "gt_score": 50.188235294117646
+    },
+    {
+        "img_path": "275.bmp",
+        "gt_score": 47.02732240437158
+    },
+    {
+        "img_path": "276.bmp",
+        "gt_score": 71.6358024691358
+    },
+    {
+        "img_path": "277.bmp",
+        "gt_score": 68.41071428571429
+    },
+    {
+        "img_path": "278.bmp",
+        "gt_score": 28.104166666666668
+    },
+    {
+        "img_path": "279.bmp",
+        "gt_score": 70.64497041420118
+    },
+    {
+        "img_path": "27.bmp",
+        "gt_score": 63.289308176100626
+    },
+    {
+        "img_path": "280.bmp",
+        "gt_score": 34.09497206703911
+    },
+    {
+        "img_path": "281.bmp",
+        "gt_score": 43.57058823529412
+    },
+    {
+        "img_path": "282.bmp",
+        "gt_score": 45.7103825136612
+    },
+    {
+        "img_path": "283.bmp",
+        "gt_score": 20.16842105263158
+    },
+    {
+        "img_path": "284.bmp",
+        "gt_score": 66.91489361702128
+    },
+    {
+        "img_path": "285.bmp",
+        "gt_score": 56.076502732240435
+    },
+    {
+        "img_path": "286.bmp",
+        "gt_score": 40.741379310344826
+    },
+    {
+        "img_path": "287.bmp",
+        "gt_score": 30.91160220994475
+    },
+    {
+        "img_path": "288.bmp",
+        "gt_score": 47.797687861271676
+    },
+    {
+        "img_path": "289.bmp",
+        "gt_score": 43.458333333333336
+    },
+    {
+        "img_path": "28.bmp",
+        "gt_score": 61.013513513513516
+    },
+    {
+        "img_path": "290.bmp",
+        "gt_score": 35.8125
+    },
+    {
+        "img_path": "291.bmp",
+        "gt_score": 30.916666666666668
+    },
+    {
+        "img_path": "292.bmp",
+        "gt_score": 43.546875
+    },
+    {
+        "img_path": "293.bmp",
+        "gt_score": 40.67231638418079
+    },
+    {
+        "img_path": "294.bmp",
+        "gt_score": 12.83435582822086
+    },
+    {
+        "img_path": "295.bmp",
+        "gt_score": 72.46913580246914
+    },
+    {
+        "img_path": "296.bmp",
+        "gt_score": 38.37931034482759
+    },
+    {
+        "img_path": "297.bmp",
+        "gt_score": 27.07182320441989
+    },
+    {
+        "img_path": "298.bmp",
+        "gt_score": 49.63681592039801
+    },
+    {
+        "img_path": "299.bmp",
+        "gt_score": 56.39664804469274
+    },
+    {
+        "img_path": "29.bmp",
+        "gt_score": 38.506024096385545
+    },
+    {
+        "img_path": "300.bmp",
+        "gt_score": 41.25966850828729
+    },
+    {
+        "img_path": "301.bmp",
+        "gt_score": 74.7877094972067
+    },
+    {
+        "img_path": "302.bmp",
+        "gt_score": 63.908496732026144
+    },
+    {
+        "img_path": "303.bmp",
+        "gt_score": 51.137724550898206
+    },
+    {
+        "img_path": "304.bmp",
+        "gt_score": 87.36559139784946
+    },
+    {
+        "img_path": "305.bmp",
+        "gt_score": 67.19886363636364
+    },
+    {
+        "img_path": "306.bmp",
+        "gt_score": 51.17326732673267
+    },
+    {
+        "img_path": "307.bmp",
+        "gt_score": 13.71938775510204
+    },
+    {
+        "img_path": "308.bmp",
+        "gt_score": 44.92934782608695
+    },
+    {
+        "img_path": "309.bmp",
+        "gt_score": 19.376404494382022
+    },
+    {
+        "img_path": "30.bmp",
+        "gt_score": 35.103658536585364
+    },
+    {
+        "img_path": "310.bmp",
+        "gt_score": 69.67142857142858
+    },
+    {
+        "img_path": "311.bmp",
+        "gt_score": 22.655844155844157
+    },
+    {
+        "img_path": "312.bmp",
+        "gt_score": 56.67777777777778
+    },
+    {
+        "img_path": "313.bmp",
+        "gt_score": 49.247191011235955
+    },
+    {
+        "img_path": "314.bmp",
+        "gt_score": 52.79213483146067
+    },
+    {
+        "img_path": "315.bmp",
+        "gt_score": 69.937106918239
+    },
+    {
+        "img_path": "316.bmp",
+        "gt_score": 49.301587301587304
+    },
+    {
+        "img_path": "317.bmp",
+        "gt_score": 34.26704545454545
+    },
+    {
+        "img_path": "318.bmp",
+        "gt_score": 35.16931216931217
+    },
+    {
+        "img_path": "319.bmp",
+        "gt_score": 76.2909090909091
+    },
+    {
+        "img_path": "31.bmp",
+        "gt_score": 53.55191256830601
+    },
+    {
+        "img_path": "320.bmp",
+        "gt_score": 77.07142857142857
+    },
+    {
+        "img_path": "321.bmp",
+        "gt_score": 44.26285714285714
+    },
+    {
+        "img_path": "322.bmp",
+        "gt_score": 53.47938144329897
+    },
+    {
+        "img_path": "323.bmp",
+        "gt_score": 65.39080459770115
+    },
+    {
+        "img_path": "324.bmp",
+        "gt_score": 77.92682926829268
+    },
+    {
+        "img_path": "325.bmp",
+        "gt_score": 52.353932584269664
+    },
+    {
+        "img_path": "326.bmp",
+        "gt_score": 46.90769230769231
+    },
+    {
+        "img_path": "327.bmp",
+        "gt_score": 58.42045454545455
+    },
+    {
+        "img_path": "328.bmp",
+        "gt_score": 82.53939393939395
+    },
+    {
+        "img_path": "329.bmp",
+        "gt_score": 6.39344262295082
+    },
+    {
+        "img_path": "32.bmp",
+        "gt_score": 68.78888888888889
+    },
+    {
+        "img_path": "330.bmp",
+        "gt_score": 67.72413793103448
+    },
+    {
+        "img_path": "331.bmp",
+        "gt_score": 67.18888888888888
+    },
+    {
+        "img_path": "332.bmp",
+        "gt_score": 80.5906432748538
+    },
+    {
+        "img_path": "333.bmp",
+        "gt_score": 51.09289617486339
+    },
+    {
+        "img_path": "334.bmp",
+        "gt_score": 58.38974358974359
+    },
+    {
+        "img_path": "335.bmp",
+        "gt_score": 43.86390532544379
+    },
+    {
+        "img_path": "336.bmp",
+        "gt_score": 47.379120879120876
+    },
+    {
+        "img_path": "337.bmp",
+        "gt_score": 11.760479041916168
+    },
+    {
+        "img_path": "338.bmp",
+        "gt_score": 86.60215053763442
+    },
+    {
+        "img_path": "339.bmp",
+        "gt_score": 62.31764705882353
+    },
+    {
+        "img_path": "33.bmp",
+        "gt_score": 51.55232558139535
+    },
+    {
+        "img_path": "340.bmp",
+        "gt_score": 27.962264150943398
+    },
+    {
+        "img_path": "341.bmp",
+        "gt_score": 8.932960893854748
+    },
+    {
+        "img_path": "342.bmp",
+        "gt_score": 67.68681318681318
+    },
+    {
+        "img_path": "343.bmp",
+        "gt_score": 66.8625
+    },
+    {
+        "img_path": "344.bmp",
+        "gt_score": 79.80225988700565
+    },
+    {
+        "img_path": "345.bmp",
+        "gt_score": 41.338541666666664
+    },
+    {
+        "img_path": "346.bmp",
+        "gt_score": 58.916666666666664
+    },
+    {
+        "img_path": "347.bmp",
+        "gt_score": 58.65217391304348
+    },
+    {
+        "img_path": "348.bmp",
+        "gt_score": 30.537634408602152
+    },
+    {
+        "img_path": "349.bmp",
+        "gt_score": 69.28333333333333
+    },
+    {
+        "img_path": "34.bmp",
+        "gt_score": 34.255434782608695
+    },
+    {
+        "img_path": "350.bmp",
+        "gt_score": 58.6551724137931
+    },
+    {
+        "img_path": "351.bmp",
+        "gt_score": 71.02857142857142
+    },
+    {
+        "img_path": "352.bmp",
+        "gt_score": 52.03061224489796
+    },
+    {
+        "img_path": "353.bmp",
+        "gt_score": 68.09944751381215
+    },
+    {
+        "img_path": "354.bmp",
+        "gt_score": 52.682464454976305
+    },
+    {
+        "img_path": "355.bmp",
+        "gt_score": 76.27624309392266
+    },
+    {
+        "img_path": "356.bmp",
+        "gt_score": 43.20245398773006
+    },
+    {
+        "img_path": "357.bmp",
+        "gt_score": 64.5524861878453
+    },
+    {
+        "img_path": "358.bmp",
+        "gt_score": 50.66847826086956
+    },
+    {
+        "img_path": "359.bmp",
+        "gt_score": 62.923529411764704
+    },
+    {
+        "img_path": "35.bmp",
+        "gt_score": 34.37988826815643
+    },
+    {
+        "img_path": "360.bmp",
+        "gt_score": 24.97093023255814
+    },
+    {
+        "img_path": "361.bmp",
+        "gt_score": 67.38150289017341
+    },
+    {
+        "img_path": "362.bmp",
+        "gt_score": 44.56204379562044
+    },
+    {
+        "img_path": "363.bmp",
+        "gt_score": 36.52147239263804
+    },
+    {
+        "img_path": "364.bmp",
+        "gt_score": 23.164893617021278
+    },
+    {
+        "img_path": "365.bmp",
+        "gt_score": 43.88268156424581
+    },
+    {
+        "img_path": "366.bmp",
+        "gt_score": 53.86631016042781
+    },
+    {
+        "img_path": "367.bmp",
+        "gt_score": 50.135416666666664
+    },
+    {
+        "img_path": "368.bmp",
+        "gt_score": 52.92168674698795
+    },
+    {
+        "img_path": "369.bmp",
+        "gt_score": 43.32919254658385
+    },
+    {
+        "img_path": "36.bmp",
+        "gt_score": 57.377245508982035
+    },
+    {
+        "img_path": "370.bmp",
+        "gt_score": 28.343949044585987
+    },
+    {
+        "img_path": "371.bmp",
+        "gt_score": 66.57803468208093
+    },
+    {
+        "img_path": "372.bmp",
+        "gt_score": 68.03208556149733
+    },
+    {
+        "img_path": "373.bmp",
+        "gt_score": 59.62814070351759
+    },
+    {
+        "img_path": "374.bmp",
+        "gt_score": 43.18716577540107
+    },
+    {
+        "img_path": "375.bmp",
+        "gt_score": 24.03012048192771
+    },
+    {
+        "img_path": "376.bmp",
+        "gt_score": 23.213483146067414
+    },
+    {
+        "img_path": "377.bmp",
+        "gt_score": 74.20571428571428
+    },
+    {
+        "img_path": "378.bmp",
+        "gt_score": 71.50625
+    },
+    {
+        "img_path": "379.bmp",
+        "gt_score": 61.31666666666667
+    },
+    {
+        "img_path": "37.bmp",
+        "gt_score": 64.61818181818182
+    },
+    {
+        "img_path": "380.bmp",
+        "gt_score": 79.11363636363636
+    },
+    {
+        "img_path": "381.bmp",
+        "gt_score": 63.76063829787234
+    },
+    {
+        "img_path": "382.bmp",
+        "gt_score": 82.11111111111111
+    },
+    {
+        "img_path": "383.bmp",
+        "gt_score": 69.70285714285714
+    },
+    {
+        "img_path": "384.bmp",
+        "gt_score": 35.037974683544306
+    },
+    {
+        "img_path": "385.bmp",
+        "gt_score": 56.61363636363637
+    },
+    {
+        "img_path": "386.bmp",
+        "gt_score": 40.72727272727273
+    },
+    {
+        "img_path": "387.bmp",
+        "gt_score": 74.01840490797547
+    },
+    {
+        "img_path": "388.bmp",
+        "gt_score": 58.37647058823529
+    },
+    {
+        "img_path": "389.bmp",
+        "gt_score": 64.44827586206897
+    },
+    {
+        "img_path": "38.bmp",
+        "gt_score": 30.150537634408604
+    },
+    {
+        "img_path": "390.bmp",
+        "gt_score": 59.00574712643678
+    },
+    {
+        "img_path": "391.bmp",
+        "gt_score": 82.77540106951872
+    },
+    {
+        "img_path": "392.bmp",
+        "gt_score": 81.84049079754601
+    },
+    {
+        "img_path": "393.bmp",
+        "gt_score": 69.7560975609756
+    },
+    {
+        "img_path": "394.bmp",
+        "gt_score": 48.54736842105263
+    },
+    {
+        "img_path": "395.bmp",
+        "gt_score": 53.833333333333336
+    },
+    {
+        "img_path": "396.bmp",
+        "gt_score": 68.14851485148515
+    },
+    {
+        "img_path": "397.bmp",
+        "gt_score": 51.66470588235294
+    },
+    {
+        "img_path": "398.bmp",
+        "gt_score": 36.895705521472394
+    },
+    {
+        "img_path": "399.bmp",
+        "gt_score": 65.921875
+    },
+    {
+        "img_path": "39.bmp",
+        "gt_score": 73.27932960893855
+    },
+    {
+        "img_path": "3.bmp",
+        "gt_score": 44.4461219097943
+    },
+    {
+        "img_path": "400.bmp",
+        "gt_score": 58.640243902439025
+    },
+    {
+        "img_path": "401.bmp",
+        "gt_score": 54.404761904761905
+    },
+    {
+        "img_path": "402.bmp",
+        "gt_score": 76.84563758389261
+    },
+    {
+        "img_path": "403.bmp",
+        "gt_score": 71.25714285714285
+    },
+    {
+        "img_path": "404.bmp",
+        "gt_score": 76.0965909090909
+    },
+    {
+        "img_path": "405.bmp",
+        "gt_score": 38.123456790123456
+    },
+    {
+        "img_path": "406.bmp",
+        "gt_score": 79.7025641025641
+    },
+    {
+        "img_path": "407.bmp",
+        "gt_score": 55.46153846153846
+    },
+    {
+        "img_path": "408.bmp",
+        "gt_score": 33.14035087719298
+    },
+    {
+        "img_path": "409.bmp",
+        "gt_score": 67.59649122807018
+    },
+    {
+        "img_path": "40.bmp",
+        "gt_score": 34.09770114942529
+    },
+    {
+        "img_path": "410.bmp",
+        "gt_score": 58.304597701149426
+    },
+    {
+        "img_path": "411.bmp",
+        "gt_score": 17.956989247311828
+    },
+    {
+        "img_path": "412.bmp",
+        "gt_score": 56.43421052631579
+    },
+    {
+        "img_path": "413.bmp",
+        "gt_score": 33.01149425287356
+    },
+    {
+        "img_path": "414.bmp",
+        "gt_score": 45.86224489795919
+    },
+    {
+        "img_path": "415.bmp",
+        "gt_score": 16.904191616766468
+    },
+    {
+        "img_path": "416.bmp",
+        "gt_score": 79.76756756756757
+    },
+    {
+        "img_path": "417.bmp",
+        "gt_score": 72.0934065934066
+    },
+    {
+        "img_path": "418.bmp",
+        "gt_score": 66.92090395480226
+    },
+    {
+        "img_path": "419.bmp",
+        "gt_score": 71.89784946236558
+    },
+    {
+        "img_path": "41.bmp",
+        "gt_score": 59.66486486486487
+    },
+    {
+        "img_path": "420.bmp",
+        "gt_score": 55.994923857868024
+    },
+    {
+        "img_path": "421.bmp",
+        "gt_score": 74.16564417177914
+    },
+    {
+        "img_path": "422.bmp",
+        "gt_score": 62.25139664804469
+    },
+    {
+        "img_path": "423.bmp",
+        "gt_score": 71.56441717791411
+    },
+    {
+        "img_path": "424.bmp",
+        "gt_score": 59.481283422459896
+    },
+    {
+        "img_path": "425.bmp",
+        "gt_score": 64.16959064327486
+    },
+    {
+        "img_path": "426.bmp",
+        "gt_score": 67.40119760479043
+    },
+    {
+        "img_path": "427.bmp",
+        "gt_score": 52.68617021276596
+    },
+    {
+        "img_path": "428.bmp",
+        "gt_score": 37.91477272727273
+    },
+    {
+        "img_path": "429.bmp",
+        "gt_score": 13.005681818181818
+    },
+    {
+        "img_path": "42.bmp",
+        "gt_score": 63.33519553072626
+    },
+    {
+        "img_path": "430.bmp",
+        "gt_score": 62.61497326203209
+    },
+    {
+        "img_path": "431.bmp",
+        "gt_score": 46.41573033707865
+    },
+    {
+        "img_path": "432.bmp",
+        "gt_score": 61.947916666666664
+    },
+    {
+        "img_path": "433.bmp",
+        "gt_score": 34.496855345911946
+    },
+    {
+        "img_path": "434.bmp",
+        "gt_score": 58.76219512195122
+    },
+    {
+        "img_path": "435.bmp",
+        "gt_score": 49.879746835443036
+    },
+    {
+        "img_path": "436.bmp",
+        "gt_score": 57.38125
+    },
+    {
+        "img_path": "437.bmp",
+        "gt_score": 65.1989247311828
+    },
+    {
+        "img_path": "438.bmp",
+        "gt_score": 57.333333333333336
+    },
+    {
+        "img_path": "439.bmp",
+        "gt_score": 18.938271604938272
+    },
+    {
+        "img_path": "43.bmp",
+        "gt_score": 18.477707006369428
+    },
+    {
+        "img_path": "440.bmp",
+        "gt_score": 60.21081081081081
+    },
+    {
+        "img_path": "441.bmp",
+        "gt_score": 65.83832335329342
+    },
+    {
+        "img_path": "442.bmp",
+        "gt_score": 71.05641025641026
+    },
+    {
+        "img_path": "443.bmp",
+        "gt_score": 17.005555555555556
+    },
+    {
+        "img_path": "444.bmp",
+        "gt_score": 83.17708333333333
+    },
+    {
+        "img_path": "445.bmp",
+        "gt_score": 47.24352331606217
+    },
+    {
+        "img_path": "446.bmp",
+        "gt_score": 13.12568306010929
+    },
+    {
+        "img_path": "447.bmp",
+        "gt_score": 25.331460674157302
+    },
+    {
+        "img_path": "448.bmp",
+        "gt_score": 61.53846153846154
+    },
+    {
+        "img_path": "449.bmp",
+        "gt_score": 41.1
+    },
+    {
+        "img_path": "44.bmp",
+        "gt_score": 72.03921568627452
+    },
+    {
+        "img_path": "450.bmp",
+        "gt_score": 63.19631901840491
+    },
+    {
+        "img_path": "451.bmp",
+        "gt_score": 69.38690476190476
+    },
+    {
+        "img_path": "452.bmp",
+        "gt_score": 62.464864864864865
+    },
+    {
+        "img_path": "453.bmp",
+        "gt_score": 38.191489361702125
+    },
+    {
+        "img_path": "454.bmp",
+        "gt_score": 46.85889570552147
+    },
+    {
+        "img_path": "455.bmp",
+        "gt_score": 75.5765306122449
+    },
+    {
+        "img_path": "456.bmp",
+        "gt_score": 79.08
+    },
+    {
+        "img_path": "457.bmp",
+        "gt_score": 44.44711538461539
+    },
+    {
+        "img_path": "458.bmp",
+        "gt_score": 7.688118811881188
+    },
+    {
+        "img_path": "459.bmp",
+        "gt_score": 77.20118343195266
+    },
+    {
+        "img_path": "45.bmp",
+        "gt_score": 56.095238095238095
+    },
+    {
+        "img_path": "460.bmp",
+        "gt_score": 6.043269230769231
+    },
+    {
+        "img_path": "461.bmp",
+        "gt_score": 75.77987421383648
+    },
+    {
+        "img_path": "462.bmp",
+        "gt_score": 65.53254437869822
+    },
+    {
+        "img_path": "463.bmp",
+        "gt_score": 72.92307692307692
+    },
+    {
+        "img_path": "464.bmp",
+        "gt_score": 55.7752808988764
+    },
+    {
+        "img_path": "465.bmp",
+        "gt_score": 69.20689655172414
+    },
+    {
+        "img_path": "466.bmp",
+        "gt_score": 76.4090909090909
+    },
+    {
+        "img_path": "467.bmp",
+        "gt_score": 57.644444444444446
+    },
+    {
+        "img_path": "468.bmp",
+        "gt_score": 7.369565217391305
+    },
+    {
+        "img_path": "469.bmp",
+        "gt_score": 58.54666666666667
+    },
+    {
+        "img_path": "46.bmp",
+        "gt_score": 15.220125786163521
+    },
+    {
+        "img_path": "470.bmp",
+        "gt_score": 59.40963855421687
+    },
+    {
+        "img_path": "471.bmp",
+        "gt_score": 50.13953488372093
+    },
+    {
+        "img_path": "472.bmp",
+        "gt_score": 53.77987421383648
+    },
+    {
+        "img_path": "473.bmp",
+        "gt_score": 65.17441860465117
+    },
+    {
+        "img_path": "474.bmp",
+        "gt_score": 22.545454545454547
+    },
+    {
+        "img_path": "475.bmp",
+        "gt_score": 64.08888888888889
+    },
+    {
+        "img_path": "476.bmp",
+        "gt_score": 54.16230366492147
+    },
+    {
+        "img_path": "477.bmp",
+        "gt_score": 75.52222222222223
+    },
+    {
+        "img_path": "478.bmp",
+        "gt_score": 60.01086956521739
+    },
+    {
+        "img_path": "479.bmp",
+        "gt_score": 66.01449275362319
+    },
+    {
+        "img_path": "47.bmp",
+        "gt_score": 49.5
+    },
+    {
+        "img_path": "480.bmp",
+        "gt_score": 52.779761904761905
+    },
+    {
+        "img_path": "481.bmp",
+        "gt_score": 50.09289617486339
+    },
+    {
+        "img_path": "482.bmp",
+        "gt_score": 51.83068783068783
+    },
+    {
+        "img_path": "483.bmp",
+        "gt_score": 45.2027027027027
+    },
+    {
+        "img_path": "484.bmp",
+        "gt_score": 67.78260869565217
+    },
+    {
+        "img_path": "485.bmp",
+        "gt_score": 53.86010362694301
+    },
+    {
+        "img_path": "486.bmp",
+        "gt_score": 70.75568181818181
+    },
+    {
+        "img_path": "487.bmp",
+        "gt_score": 62.345029239766085
+    },
+    {
+        "img_path": "488.bmp",
+        "gt_score": 57.46470588235294
+    },
+    {
+        "img_path": "489.bmp",
+        "gt_score": 12.932960893854748
+    },
+    {
+        "img_path": "48.bmp",
+        "gt_score": 81.34482758620689
+    },
+    {
+        "img_path": "490.bmp",
+        "gt_score": 67.61691542288557
+    },
+    {
+        "img_path": "491.bmp",
+        "gt_score": 56.47727272727273
+    },
+    {
+        "img_path": "492.bmp",
+        "gt_score": 62.80628272251309
+    },
+    {
+        "img_path": "493.bmp",
+        "gt_score": 27.53932584269663
+    },
+    {
+        "img_path": "494.bmp",
+        "gt_score": 85.21739130434783
+    },
+    {
+        "img_path": "495.bmp",
+        "gt_score": 57.09756097560975
+    },
+    {
+        "img_path": "496.bmp",
+        "gt_score": 65.50314465408805
+    },
+    {
+        "img_path": "497.bmp",
+        "gt_score": 32.56111111111111
+    },
+    {
+        "img_path": "498.bmp",
+        "gt_score": 35.641975308641975
+    },
+    {
+        "img_path": "499.bmp",
+        "gt_score": 80.86338797814207
+    },
+    {
+        "img_path": "49.bmp",
+        "gt_score": 51.899441340782126
+    },
+    {
+        "img_path": "4.bmp",
+        "gt_score": 31.97831416179521
+    },
+    {
+        "img_path": "500.bmp",
+        "gt_score": 68.45270270270271
+    },
+    {
+        "img_path": "501.bmp",
+        "gt_score": 37.86363636363637
+    },
+    {
+        "img_path": "502.bmp",
+        "gt_score": 71.48275862068965
+    },
+    {
+        "img_path": "503.bmp",
+        "gt_score": 27.204678362573098
+    },
+    {
+        "img_path": "504.bmp",
+        "gt_score": 56.18562874251497
+    },
+    {
+        "img_path": "505.bmp",
+        "gt_score": 63.09036144578313
+    },
+    {
+        "img_path": "506.bmp",
+        "gt_score": 73.0752688172043
+    },
+    {
+        "img_path": "507.bmp",
+        "gt_score": 78.8036809815951
+    },
+    {
+        "img_path": "508.bmp",
+        "gt_score": 63.07142857142857
+    },
+    {
+        "img_path": "509.bmp",
+        "gt_score": 40.48571428571429
+    },
+    {
+        "img_path": "50.bmp",
+        "gt_score": 62.13793103448276
+    },
+    {
+        "img_path": "510.bmp",
+        "gt_score": 78.62874251497006
+    },
+    {
+        "img_path": "511.bmp",
+        "gt_score": 27.84153005464481
+    },
+    {
+        "img_path": "512.bmp",
+        "gt_score": 43.2814371257485
+    },
+    {
+        "img_path": "513.bmp",
+        "gt_score": 70.37037037037037
+    },
+    {
+        "img_path": "514.bmp",
+        "gt_score": 75.6875
+    },
+    {
+        "img_path": "515.bmp",
+        "gt_score": 76.23717948717949
+    },
+    {
+        "img_path": "516.bmp",
+        "gt_score": 52.42934782608695
+    },
+    {
+        "img_path": "517.bmp",
+        "gt_score": 38.23529411764706
+    },
+    {
+        "img_path": "518.bmp",
+        "gt_score": 59.421052631578945
+    },
+    {
+        "img_path": "519.bmp",
+        "gt_score": 62.56613756613756
+    },
+    {
+        "img_path": "51.bmp",
+        "gt_score": 82.28292682926829
+    },
+    {
+        "img_path": "520.bmp",
+        "gt_score": 59.005181347150256
+    },
+    {
+        "img_path": "521.bmp",
+        "gt_score": 52.010989010989015
+    },
+    {
+        "img_path": "522.bmp",
+        "gt_score": 64.79041916167665
+    },
+    {
+        "img_path": "523.bmp",
+        "gt_score": 17.975
+    },
+    {
+        "img_path": "524.bmp",
+        "gt_score": 48.27329192546584
+    },
+    {
+        "img_path": "525.bmp",
+        "gt_score": 78.81935483870967
+    },
+    {
+        "img_path": "526.bmp",
+        "gt_score": 67.1283422459893
+    },
+    {
+        "img_path": "527.bmp",
+        "gt_score": 71.88235294117646
+    },
+    {
+        "img_path": "528.bmp",
+        "gt_score": 70.04819277108433
+    },
+    {
+        "img_path": "529.bmp",
+        "gt_score": 50.59235668789809
+    },
+    {
+        "img_path": "52.bmp",
+        "gt_score": 69.57894736842105
+    },
+    {
+        "img_path": "530.bmp",
+        "gt_score": 14.17816091954023
+    },
+    {
+        "img_path": "531.bmp",
+        "gt_score": 59.47540983606557
+    },
+    {
+        "img_path": "532.bmp",
+        "gt_score": 27.698224852071007
+    },
+    {
+        "img_path": "53.bmp",
+        "gt_score": 42.79503105590062
+    },
+    {
+        "img_path": "54.bmp",
+        "gt_score": 20.349397590361445
+    },
+    {
+        "img_path": "55.bmp",
+        "gt_score": 83.28342245989305
+    },
+    {
+        "img_path": "56.bmp",
+        "gt_score": 10.668571428571429
+    },
+    {
+        "img_path": "57.bmp",
+        "gt_score": 61.55769230769231
+    },
+    {
+        "img_path": "58.bmp",
+        "gt_score": 7.5
+    },
+    {
+        "img_path": "59.bmp",
+        "gt_score": 44.73076923076923
+    },
+    {
+        "img_path": "5.bmp",
+        "gt_score": 62.256182744949975
+    },
+    {
+        "img_path": "60.bmp",
+        "gt_score": 74.18333333333334
+    },
+    {
+        "img_path": "61.bmp",
+        "gt_score": 37.75625
+    },
+    {
+        "img_path": "62.bmp",
+        "gt_score": 54.45945945945946
+    },
+    {
+        "img_path": "63.bmp",
+        "gt_score": 72.87005649717514
+    },
+    {
+        "img_path": "64.bmp",
+        "gt_score": 41.860759493670884
+    },
+    {
+        "img_path": "65.bmp",
+        "gt_score": 60.52284263959391
+    },
+    {
+        "img_path": "66.bmp",
+        "gt_score": 47.88333333333333
+    },
+    {
+        "img_path": "67.bmp",
+        "gt_score": 64.79896907216495
+    },
+    {
+        "img_path": "68.bmp",
+        "gt_score": 39.80473372781065
+    },
+    {
+        "img_path": "69.bmp",
+        "gt_score": 40.39204545454545
+    },
+    {
+        "img_path": "6.bmp",
+        "gt_score": 51.87195926833868
+    },
+    {
+        "img_path": "70.bmp",
+        "gt_score": 58.21608040201005
+    },
+    {
+        "img_path": "71.bmp",
+        "gt_score": 48.625698324022345
+    },
+    {
+        "img_path": "72.bmp",
+        "gt_score": 65.11111111111111
+    },
+    {
+        "img_path": "73.bmp",
+        "gt_score": 81.12578616352201
+    },
+    {
+        "img_path": "74.bmp",
+        "gt_score": 57.40268456375839
+    },
+    {
+        "img_path": "75.bmp",
+        "gt_score": 56.24590163934426
+    },
+    {
+        "img_path": "76.bmp",
+        "gt_score": 76.09467455621302
+    },
+    {
+        "img_path": "77.bmp",
+        "gt_score": 71.52147239263803
+    },
+    {
+        "img_path": "78.bmp",
+        "gt_score": 69.6470588235294
+    },
+    {
+        "img_path": "79.bmp",
+        "gt_score": 54.421875
+    },
+    {
+        "img_path": "7.bmp",
+        "gt_score": 4.937823834196891
+    },
+    {
+        "img_path": "80.bmp",
+        "gt_score": 56.426829268292686
+    },
+    {
+        "img_path": "81.bmp",
+        "gt_score": 30.145539906103288
+    },
+    {
+        "img_path": "82.bmp",
+        "gt_score": 36.153333333333336
+    },
+    {
+        "img_path": "83.bmp",
+        "gt_score": 55.25945945945946
+    },
+    {
+        "img_path": "84.bmp",
+        "gt_score": 56.10650887573964
+    },
+    {
+        "img_path": "85.bmp",
+        "gt_score": 68.60240963855422
+    },
+    {
+        "img_path": "86.bmp",
+        "gt_score": 50.1219512195122
+    },
+    {
+        "img_path": "87.bmp",
+        "gt_score": 40.87096774193548
+    },
+    {
+        "img_path": "88.bmp",
+        "gt_score": 72.31351351351351
+    },
+    {
+        "img_path": "89.bmp",
+        "gt_score": 32.10326086956522
+    },
+    {
+        "img_path": "8.bmp",
+        "gt_score": 42.412121212121214
+    },
+    {
+        "img_path": "90.bmp",
+        "gt_score": 37.048780487804876
+    },
+    {
+        "img_path": "91.bmp",
+        "gt_score": 66.61666666666666
+    },
+    {
+        "img_path": "92.bmp",
+        "gt_score": 64.82035928143712
+    },
+    {
+        "img_path": "93.bmp",
+        "gt_score": 39.8
+    },
+    {
+        "img_path": "94.bmp",
+        "gt_score": 66.0959595959596
+    },
+    {
+        "img_path": "95.bmp",
+        "gt_score": 75.32941176470588
+    },
+    {
+        "img_path": "96.bmp",
+        "gt_score": 63.075268817204304
+    },
+    {
+        "img_path": "97.bmp",
+        "gt_score": 56.355555555555554
+    },
+    {
+        "img_path": "98.bmp",
+        "gt_score": 71.76923076923077
+    },
+    {
+        "img_path": "99.bmp",
+        "gt_score": 11.725806451612904
+    },
+    {
+        "img_path": "9.bmp",
+        "gt_score": 77.90347563279184
+    },
+    {
+        "img_path": "533.JPG",
+        "gt_score": 73.62352941176471
+    },
+    {
+        "img_path": "534.JPG",
+        "gt_score": 52.70967741935484
+    },
+    {
+        "img_path": "535.JPG",
+        "gt_score": 29.502673796791445
+    },
+    {
+        "img_path": "536.JPG",
+        "gt_score": 40.39664804469274
+    },
+    {
+        "img_path": "537.JPG",
+        "gt_score": 63.14754098360656
+    },
+    {
+        "img_path": "538.JPG",
+        "gt_score": 62.53012048192771
+    },
+    {
+        "img_path": "539.JPG",
+        "gt_score": 64.11801242236025
+    },
+    {
+        "img_path": "540.JPG",
+        "gt_score": 35.55172413793103
+    },
+    {
+        "img_path": "541.JPG",
+        "gt_score": 52.55191256830601
+    },
+    {
+        "img_path": "542.JPG",
+        "gt_score": 51.90055248618785
+    },
+    {
+        "img_path": "543.JPG",
+        "gt_score": 68.05555555555556
+    },
+    {
+        "img_path": "544.JPG",
+        "gt_score": 59.98974358974359
+    },
+    {
+        "img_path": "545.JPG",
+        "gt_score": 60.75
+    },
+    {
+        "img_path": "546.JPG",
+        "gt_score": 78.53012048192771
+    },
+    {
+        "img_path": "547.JPG",
+        "gt_score": 21.23560209424084
+    },
+    {
+        "img_path": "548.JPG",
+        "gt_score": 69.47979797979798
+    },
+    {
+        "img_path": "549.JPG",
+        "gt_score": 65.42941176470588
+    },
+    {
+        "img_path": "550.JPG",
+        "gt_score": 25.906432748538013
+    },
+    {
+        "img_path": "551.JPG",
+        "gt_score": 77.28804347826087
+    },
+    {
+        "img_path": "552.JPG",
+        "gt_score": 61.09271523178808
+    },
+    {
+        "img_path": "553.JPG",
+        "gt_score": 78.80813953488372
+    },
+    {
+        "img_path": "554.JPG",
+        "gt_score": 65.06965174129353
+    },
+    {
+        "img_path": "555.JPG",
+        "gt_score": 78.67894736842105
+    },
+    {
+        "img_path": "556.JPG",
+        "gt_score": 70.20555555555555
+    },
+    {
+        "img_path": "557.JPG",
+        "gt_score": 65.26344086021506
+    },
+    {
+        "img_path": "558.JPG",
+        "gt_score": 44.41290322580645
+    },
+    {
+        "img_path": "559.JPG",
+        "gt_score": 72.85093167701864
+    },
+    {
+        "img_path": "560.JPG",
+        "gt_score": 48.69948186528497
+    },
+    {
+        "img_path": "561.JPG",
+        "gt_score": 45.417647058823526
+    },
+    {
+        "img_path": "562.JPG",
+        "gt_score": 50.25945945945946
+    },
+    {
+        "img_path": "563.JPG",
+        "gt_score": 65.88953488372093
+    },
+    {
+        "img_path": "564.JPG",
+        "gt_score": 35.27272727272727
+    },
+    {
+        "img_path": "565.JPG",
+        "gt_score": 21.80110497237569
+    },
+    {
+        "img_path": "566.JPG",
+        "gt_score": 74.33939393939394
+    },
+    {
+        "img_path": "567.JPG",
+        "gt_score": 61.166666666666664
+    },
+    {
+        "img_path": "568.JPG",
+        "gt_score": 67.97814207650273
+    },
+    {
+        "img_path": "569.JPG",
+        "gt_score": 72.10493827160494
+    },
+    {
+        "img_path": "570.JPG",
+        "gt_score": 43.11891891891892
+    },
+    {
+        "img_path": "571.JPG",
+        "gt_score": 73.48557692307692
+    },
+    {
+        "img_path": "572.JPG",
+        "gt_score": 29.582857142857144
+    },
+    {
+        "img_path": "573.JPG",
+        "gt_score": 47.324607329842934
+    },
+    {
+        "img_path": "574.JPG",
+        "gt_score": 52.73780487804878
+    },
+    {
+        "img_path": "575.JPG",
+        "gt_score": 75.18232044198895
+    },
+    {
+        "img_path": "576.JPG",
+        "gt_score": 80.36180904522612
+    },
+    {
+        "img_path": "577.JPG",
+        "gt_score": 76.11827956989248
+    },
+    {
+        "img_path": "578.JPG",
+        "gt_score": 78.10382513661202
+    },
+    {
+        "img_path": "579.JPG",
+        "gt_score": 68.42105263157895
+    },
+    {
+        "img_path": "580.JPG",
+        "gt_score": 63.58064516129032
+    },
+    {
+        "img_path": "581.JPG",
+        "gt_score": 41.68098159509202
+    },
+    {
+        "img_path": "582.JPG",
+        "gt_score": 65.55113636363636
+    },
+    {
+        "img_path": "583.JPG",
+        "gt_score": 58.395348837209305
+    },
+    {
+        "img_path": "584.JPG",
+        "gt_score": 80.9364161849711
+    },
+    {
+        "img_path": "585.JPG",
+        "gt_score": 60.01604278074866
+    },
+    {
+        "img_path": "586.JPG",
+        "gt_score": 57.01136363636363
+    },
+    {
+        "img_path": "587.JPG",
+        "gt_score": 66.69590643274854
+    },
+    {
+        "img_path": "588.JPG",
+        "gt_score": 67.52352941176471
+    },
+    {
+        "img_path": "589.JPG",
+        "gt_score": 81.47027027027028
+    },
+    {
+        "img_path": "590.JPG",
+        "gt_score": 84.81382978723404
+    },
+    {
+        "img_path": "591.JPG",
+        "gt_score": 78.13612565445027
+    },
+    {
+        "img_path": "592.JPG",
+        "gt_score": 57.854922279792746
+    },
+    {
+        "img_path": "593.JPG",
+        "gt_score": 73.06875
+    },
+    {
+        "img_path": "594.JPG",
+        "gt_score": 68.80864197530865
+    },
+    {
+        "img_path": "595.JPG",
+        "gt_score": 8.203389830508474
+    },
+    {
+        "img_path": "596.JPG",
+        "gt_score": 49.40828402366864
+    },
+    {
+        "img_path": "597.JPG",
+        "gt_score": 63.04761904761905
+    },
+    {
+        "img_path": "598.JPG",
+        "gt_score": 45.3031914893617
+    },
+    {
+        "img_path": "599.JPG",
+        "gt_score": 56.193370165745854
+    },
+    {
+        "img_path": "600.JPG",
+        "gt_score": 48.515723270440255
+    },
+    {
+        "img_path": "601.JPG",
+        "gt_score": 60.946236559139784
+    },
+    {
+        "img_path": "602.JPG",
+        "gt_score": 42.765060240963855
+    },
+    {
+        "img_path": "603.JPG",
+        "gt_score": 66.68156424581005
+    },
+    {
+        "img_path": "604.JPG",
+        "gt_score": 74.62893081761007
+    },
+    {
+        "img_path": "605.JPG",
+        "gt_score": 50.950819672131146
+    },
+    {
+        "img_path": "606.JPG",
+        "gt_score": 31.497409326424872
+    },
+    {
+        "img_path": "607.JPG",
+        "gt_score": 48.28421052631579
+    },
+    {
+        "img_path": "608.JPG",
+        "gt_score": 59.98837209302326
+    },
+    {
+        "img_path": "609.JPG",
+        "gt_score": 65.455
+    },
+    {
+        "img_path": "610.JPG",
+        "gt_score": 65.49342105263158
+    },
+    {
+        "img_path": "611.JPG",
+        "gt_score": 38.48947368421052
+    },
+    {
+        "img_path": "612.JPG",
+        "gt_score": 71.00568181818181
+    },
+    {
+        "img_path": "613.JPG",
+        "gt_score": 53.301886792452834
+    },
+    {
+        "img_path": "614.JPG",
+        "gt_score": 58.15819209039548
+    },
+    {
+        "img_path": "615.JPG",
+        "gt_score": 40.1283422459893
+    },
+    {
+        "img_path": "616.JPG",
+        "gt_score": 81.83815028901734
+    },
+    {
+        "img_path": "617.JPG",
+        "gt_score": 79.83333333333333
+    },
+    {
+        "img_path": "618.JPG",
+        "gt_score": 74.90697674418605
+    },
+    {
+        "img_path": "619.JPG",
+        "gt_score": 42.33529411764706
+    },
+    {
+        "img_path": "620.JPG",
+        "gt_score": 48.8562874251497
+    },
+    {
+        "img_path": "621.JPG",
+        "gt_score": 69.87765957446808
+    },
+    {
+        "img_path": "622.JPG",
+        "gt_score": 78.33333333333333
+    },
+    {
+        "img_path": "623.JPG",
+        "gt_score": 45.80813953488372
+    },
+    {
+        "img_path": "624.JPG",
+        "gt_score": 71.1657458563536
+    },
+    {
+        "img_path": "625.JPG",
+        "gt_score": 61.49473684210526
+    },
+    {
+        "img_path": "626.JPG",
+        "gt_score": 32.32203389830509
+    },
+    {
+        "img_path": "627.JPG",
+        "gt_score": 50.58709677419355
+    },
+    {
+        "img_path": "628.JPG",
+        "gt_score": 31.77027027027027
+    },
+    {
+        "img_path": "629.JPG",
+        "gt_score": 46.46590909090909
+    },
+    {
+        "img_path": "630.JPG",
+        "gt_score": 55.99390243902439
+    },
+    {
+        "img_path": "631.JPG",
+        "gt_score": 70.65803108808291
+    },
+    {
+        "img_path": "632.JPG",
+        "gt_score": 21.142857142857142
+    },
+    {
+        "img_path": "633.JPG",
+        "gt_score": 26.202247191011235
+    },
+    {
+        "img_path": "634.JPG",
+        "gt_score": 16.13450292397661
+    },
+    {
+        "img_path": "635.JPG",
+        "gt_score": 63.76243093922652
+    },
+    {
+        "img_path": "636.JPG",
+        "gt_score": 64.51807228915662
+    },
+    {
+        "img_path": "637.JPG",
+        "gt_score": 31.45578231292517
+    },
+    {
+        "img_path": "638.JPG",
+        "gt_score": 49.64052287581699
+    },
+    {
+        "img_path": "639.JPG",
+        "gt_score": 43.95973154362416
+    },
+    {
+        "img_path": "640.JPG",
+        "gt_score": 43.53846153846154
+    },
+    {
+        "img_path": "641.JPG",
+        "gt_score": 45.50909090909091
+    },
+    {
+        "img_path": "642.JPG",
+        "gt_score": 49.17142857142857
+    },
+    {
+        "img_path": "643.JPG",
+        "gt_score": 73.94554455445545
+    },
+    {
+        "img_path": "644.JPG",
+        "gt_score": 35.37931034482759
+    },
+    {
+        "img_path": "645.JPG",
+        "gt_score": 43.019354838709674
+    },
+    {
+        "img_path": "646.JPG",
+        "gt_score": 59.3646408839779
+    },
+    {
+        "img_path": "647.JPG",
+        "gt_score": 66.99447513812154
+    },
+    {
+        "img_path": "648.JPG",
+        "gt_score": 27.83888888888889
+    },
+    {
+        "img_path": "649.JPG",
+        "gt_score": 53.775757575757574
+    },
+    {
+        "img_path": "650.JPG",
+        "gt_score": 71.36363636363636
+    },
+    {
+        "img_path": "651.JPG",
+        "gt_score": 30.724719101123597
+    },
+    {
+        "img_path": "652.JPG",
+        "gt_score": 6.520710059171598
+    },
+    {
+        "img_path": "653.JPG",
+        "gt_score": 15.647398843930636
+    },
+    {
+        "img_path": "654.JPG",
+        "gt_score": 71.8013698630137
+    },
+    {
+        "img_path": "655.JPG",
+        "gt_score": 12.562874251497005
+    },
+    {
+        "img_path": "656.JPG",
+        "gt_score": 54.19371727748691
+    },
+    {
+        "img_path": "657.JPG",
+        "gt_score": 16.60126582278481
+    },
+    {
+        "img_path": "658.JPG",
+        "gt_score": 77.07865168539325
+    },
+    {
+        "img_path": "659.JPG",
+        "gt_score": 19.491525423728813
+    },
+    {
+        "img_path": "660.JPG",
+        "gt_score": 63.54320987654321
+    },
+    {
+        "img_path": "661.JPG",
+        "gt_score": 19.803571428571427
+    },
+    {
+        "img_path": "662.JPG",
+        "gt_score": 19.55367231638418
+    },
+    {
+        "img_path": "663.JPG",
+        "gt_score": 23.058479532163744
+    },
+    {
+        "img_path": "664.JPG",
+        "gt_score": 52.13855421686747
+    },
+    {
+        "img_path": "665.JPG",
+        "gt_score": 60.04320987654321
+    },
+    {
+        "img_path": "666.JPG",
+        "gt_score": 15.582822085889571
+    },
+    {
+        "img_path": "667.JPG",
+        "gt_score": 55.03157894736842
+    },
+    {
+        "img_path": "668.JPG",
+        "gt_score": 9.208333333333334
+    },
+    {
+        "img_path": "669.JPG",
+        "gt_score": 9.827586206896552
+    },
+    {
+        "img_path": "670.JPG",
+        "gt_score": 34.944134078212294
+    },
+    {
+        "img_path": "671.JPG",
+        "gt_score": 6.224242424242425
+    },
+    {
+        "img_path": "672.JPG",
+        "gt_score": 9.90967741935484
+    },
+    {
+        "img_path": "673.JPG",
+        "gt_score": 3.42
+    },
+    {
+        "img_path": "674.JPG",
+        "gt_score": 68.11167512690355
+    },
+    {
+        "img_path": "675.JPG",
+        "gt_score": 38.184357541899445
+    },
+    {
+        "img_path": "676.JPG",
+        "gt_score": 14.96236559139785
+    },
+    {
+        "img_path": "677.JPG",
+        "gt_score": 8.477777777777778
+    },
+    {
+        "img_path": "678.JPG",
+        "gt_score": 4.865030674846626
+    },
+    {
+        "img_path": "679.JPG",
+        "gt_score": 7.0785340314136125
+    },
+    {
+        "img_path": "680.JPG",
+        "gt_score": 10.44186046511628
+    },
+    {
+        "img_path": "681.JPG",
+        "gt_score": 18.596153846153847
+    },
+    {
+        "img_path": "682.JPG",
+        "gt_score": 40.07471264367816
+    },
+    {
+        "img_path": "683.JPG",
+        "gt_score": 37.33898305084746
+    },
+    {
+        "img_path": "684.JPG",
+        "gt_score": 27.853403141361255
+    },
+    {
+        "img_path": "685.JPG",
+        "gt_score": 60.09756097560975
+    },
+    {
+        "img_path": "686.JPG",
+        "gt_score": 29.475675675675674
+    },
+    {
+        "img_path": "687.JPG",
+        "gt_score": 49.127272727272725
+    },
+    {
+        "img_path": "688.JPG",
+        "gt_score": 66.79032258064517
+    },
+    {
+        "img_path": "689.JPG",
+        "gt_score": 12.55621301775148
+    },
+    {
+        "img_path": "690.JPG",
+        "gt_score": 77.82758620689656
+    },
+    {
+        "img_path": "691.JPG",
+        "gt_score": 37.25396825396825
+    },
+    {
+        "img_path": "692.JPG",
+        "gt_score": 25.237837837837837
+    },
+    {
+        "img_path": "693.JPG",
+        "gt_score": 43.7027027027027
+    },
+    {
+        "img_path": "694.JPG",
+        "gt_score": 9.738853503184714
+    },
+    {
+        "img_path": "695.JPG",
+        "gt_score": 27.660818713450293
+    },
+    {
+        "img_path": "696.JPG",
+        "gt_score": 30.162650602409638
+    },
+    {
+        "img_path": "697.JPG",
+        "gt_score": 48.02
+    },
+    {
+        "img_path": "698.JPG",
+        "gt_score": 4.846153846153846
+    },
+    {
+        "img_path": "699.JPG",
+        "gt_score": 77.74594594594595
+    },
+    {
+        "img_path": "700.JPG",
+        "gt_score": 5.277777777777778
+    },
+    {
+        "img_path": "701.JPG",
+        "gt_score": 17.4875
+    },
+    {
+        "img_path": "702.JPG",
+        "gt_score": 4.343915343915344
+    },
+    {
+        "img_path": "703.JPG",
+        "gt_score": 19.173684210526314
+    },
+    {
+        "img_path": "704.JPG",
+        "gt_score": 17.022988505747126
+    },
+    {
+        "img_path": "705.JPG",
+        "gt_score": 48.20454545454545
+    },
+    {
+        "img_path": "706.JPG",
+        "gt_score": 45.56896551724138
+    },
+    {
+        "img_path": "707.JPG",
+        "gt_score": 18.006060606060608
+    },
+    {
+        "img_path": "708.JPG",
+        "gt_score": 72.4438202247191
+    },
+    {
+        "img_path": "709.JPG",
+        "gt_score": 61.93292682926829
+    },
+    {
+        "img_path": "710.JPG",
+        "gt_score": 53.830601092896174
+    },
+    {
+        "img_path": "711.JPG",
+        "gt_score": 57.92613636363637
+    },
+    {
+        "img_path": "712.JPG",
+        "gt_score": 86.34693877551021
+    },
+    {
+        "img_path": "713.JPG",
+        "gt_score": 46.41340782122905
+    },
+    {
+        "img_path": "714.JPG",
+        "gt_score": 31.833333333333332
+    },
+    {
+        "img_path": "715.JPG",
+        "gt_score": 88.34078212290503
+    },
+    {
+        "img_path": "716.JPG",
+        "gt_score": 90.24468085106383
+    },
+    {
+        "img_path": "717.JPG",
+        "gt_score": 66.53703703703704
+    },
+    {
+        "img_path": "718.JPG",
+        "gt_score": 46.424083769633505
+    },
+    {
+        "img_path": "719.JPG",
+        "gt_score": 82.61290322580645
+    },
+    {
+        "img_path": "720.JPG",
+        "gt_score": 62.10880829015544
+    },
+    {
+        "img_path": "721.JPG",
+        "gt_score": 80.69938650306749
+    },
+    {
+        "img_path": "722.JPG",
+        "gt_score": 27.964102564102564
+    },
+    {
+        "img_path": "723.JPG",
+        "gt_score": 23.53846153846154
+    },
+    {
+        "img_path": "724.JPG",
+        "gt_score": 30.737142857142857
+    },
+    {
+        "img_path": "725.JPG",
+        "gt_score": 36.96296296296296
+    },
+    {
+        "img_path": "726.JPG",
+        "gt_score": 45.523809523809526
+    },
+    {
+        "img_path": "727.JPG",
+        "gt_score": 31.5
+    },
+    {
+        "img_path": "728.JPG",
+        "gt_score": 83.47976878612717
+    },
+    {
+        "img_path": "729.JPG",
+        "gt_score": 77.48663101604278
+    },
+    {
+        "img_path": "730.JPG",
+        "gt_score": 46.875
+    },
+    {
+        "img_path": "731.JPG",
+        "gt_score": 45.33519553072626
+    },
+    {
+        "img_path": "732.JPG",
+        "gt_score": 23.64673913043478
+    },
+    {
+        "img_path": "733.JPG",
+        "gt_score": 19.64406779661017
+    },
+    {
+        "img_path": "734.JPG",
+        "gt_score": 4.308139534883721
+    },
+    {
+        "img_path": "735.JPG",
+        "gt_score": 54.425925925925924
+    },
+    {
+        "img_path": "736.JPG",
+        "gt_score": 76.90395480225989
+    },
+    {
+        "img_path": "737.JPG",
+        "gt_score": 43.986486486486484
+    },
+    {
+        "img_path": "738.JPG",
+        "gt_score": 69.42328042328042
+    },
+    {
+        "img_path": "739.JPG",
+        "gt_score": 83.92121212121212
+    },
+    {
+        "img_path": "740.JPG",
+        "gt_score": 69.28651685393258
+    },
+    {
+        "img_path": "741.JPG",
+        "gt_score": 59.82911392405063
+    },
+    {
+        "img_path": "742.JPG",
+        "gt_score": 5.658682634730539
+    },
+    {
+        "img_path": "743.JPG",
+        "gt_score": 72.95212765957447
+    },
+    {
+        "img_path": "744.JPG",
+        "gt_score": 69.4
+    },
+    {
+        "img_path": "745.JPG",
+        "gt_score": 69.53374233128834
+    },
+    {
+        "img_path": "746.JPG",
+        "gt_score": 76.98445595854922
+    },
+    {
+        "img_path": "747.JPG",
+        "gt_score": 64.50279329608938
+    },
+    {
+        "img_path": "748.JPG",
+        "gt_score": 79.50292397660819
+    },
+    {
+        "img_path": "749.JPG",
+        "gt_score": 81.58522727272727
+    },
+    {
+        "img_path": "750.JPG",
+        "gt_score": 57.52542372881356
+    },
+    {
+        "img_path": "751.JPG",
+        "gt_score": 25.773809523809526
+    },
+    {
+        "img_path": "752.JPG",
+        "gt_score": 60.63013698630137
+    },
+    {
+        "img_path": "753.JPG",
+        "gt_score": 83.8452380952381
+    },
+    {
+        "img_path": "754.JPG",
+        "gt_score": 44.142857142857146
+    },
+    {
+        "img_path": "755.JPG",
+        "gt_score": 64.96195652173913
+    },
+    {
+        "img_path": "756.JPG",
+        "gt_score": 87.37106918238993
+    },
+    {
+        "img_path": "757.JPG",
+        "gt_score": 65.60326086956522
+    },
+    {
+        "img_path": "758.JPG",
+        "gt_score": 76.21787709497207
+    },
+    {
+        "img_path": "759.JPG",
+        "gt_score": 75.47093023255815
+    },
+    {
+        "img_path": "760.JPG",
+        "gt_score": 48.16766467065868
+    },
+    {
+        "img_path": "761.JPG",
+        "gt_score": 72.92105263157895
+    },
+    {
+        "img_path": "762.JPG",
+        "gt_score": 74.3975155279503
+    },
+    {
+        "img_path": "763.JPG",
+        "gt_score": 65.4795918367347
+    },
+    {
+        "img_path": "764.JPG",
+        "gt_score": 77.17837837837838
+    },
+    {
+        "img_path": "765.JPG",
+        "gt_score": 82.07344632768361
+    },
+    {
+        "img_path": "766.JPG",
+        "gt_score": 76.25628140703517
+    },
+    {
+        "img_path": "767.JPG",
+        "gt_score": 85.52409638554217
+    },
+    {
+        "img_path": "768.JPG",
+        "gt_score": 83.41573033707866
+    },
+    {
+        "img_path": "769.JPG",
+        "gt_score": 80.33333333333333
+    },
+    {
+        "img_path": "770.JPG",
+        "gt_score": 87.58201058201058
+    },
+    {
+        "img_path": "771.JPG",
+        "gt_score": 73.54010695187166
+    },
+    {
+        "img_path": "772.JPG",
+        "gt_score": 12.796407185628743
+    },
+    {
+        "img_path": "773.JPG",
+        "gt_score": 82.5632183908046
+    },
+    {
+        "img_path": "774.JPG",
+        "gt_score": 84.78061224489795
+    },
+    {
+        "img_path": "775.JPG",
+        "gt_score": 83.62130177514793
+    },
+    {
+        "img_path": "776.JPG",
+        "gt_score": 91.0780487804878
+    },
+    {
+        "img_path": "777.JPG",
+        "gt_score": 78.02439024390245
+    },
+    {
+        "img_path": "778.JPG",
+        "gt_score": 81.5521472392638
+    },
+    {
+        "img_path": "779.JPG",
+        "gt_score": 80.93406593406593
+    },
+    {
+        "img_path": "780.JPG",
+        "gt_score": 92.4319526627219
+    },
+    {
+        "img_path": "781.JPG",
+        "gt_score": 88.91758241758242
+    },
+    {
+        "img_path": "782.JPG",
+        "gt_score": 49.651162790697676
+    },
+    {
+        "img_path": "783.JPG",
+        "gt_score": 77.06593406593407
+    },
+    {
+        "img_path": "784.JPG",
+        "gt_score": 82.97590361445783
+    },
+    {
+        "img_path": "785.JPG",
+        "gt_score": 90.54970760233918
+    },
+    {
+        "img_path": "786.JPG",
+        "gt_score": 83.40972222222223
+    },
+    {
+        "img_path": "787.JPG",
+        "gt_score": 41.33125
+    },
+    {
+        "img_path": "788.JPG",
+        "gt_score": 36.815642458100555
+    },
+    {
+        "img_path": "789.JPG",
+        "gt_score": 74.51724137931035
+    },
+    {
+        "img_path": "790.JPG",
+        "gt_score": 71.68156424581005
+    },
+    {
+        "img_path": "791.JPG",
+        "gt_score": 60.13142857142857
+    },
+    {
+        "img_path": "792.JPG",
+        "gt_score": 79.39490445859873
+    },
+    {
+        "img_path": "793.JPG",
+        "gt_score": 66.1067415730337
+    },
+    {
+        "img_path": "794.JPG",
+        "gt_score": 77.43781094527363
+    },
+    {
+        "img_path": "795.JPG",
+        "gt_score": 79.61421319796955
+    },
+    {
+        "img_path": "796.JPG",
+        "gt_score": 68.54838709677419
+    },
+    {
+        "img_path": "797.JPG",
+        "gt_score": 24.51412429378531
+    },
+    {
+        "img_path": "798.JPG",
+        "gt_score": 61.05555555555556
+    },
+    {
+        "img_path": "799.JPG",
+        "gt_score": 69.61538461538461
+    },
+    {
+        "img_path": "800.JPG",
+        "gt_score": 9.551546391752577
+    },
+    {
+        "img_path": "801.JPG",
+        "gt_score": 64.28220858895706
+    },
+    {
+        "img_path": "802.JPG",
+        "gt_score": 8.722513089005236
+    },
+    {
+        "img_path": "803.JPG",
+        "gt_score": 21.49462365591398
+    },
+    {
+        "img_path": "804.JPG",
+        "gt_score": 21.19277108433735
+    },
+    {
+        "img_path": "805.JPG",
+        "gt_score": 40.707692307692305
+    },
+    {
+        "img_path": "806.JPG",
+        "gt_score": 85.97714285714285
+    },
+    {
+        "img_path": "807.JPG",
+        "gt_score": 71.49214659685863
+    },
+    {
+        "img_path": "808.JPG",
+        "gt_score": 83.36309523809524
+    },
+    {
+        "img_path": "809.JPG",
+        "gt_score": 74.68789808917198
+    },
+    {
+        "img_path": "810.JPG",
+        "gt_score": 59.93604651162791
+    },
+    {
+        "img_path": "811.JPG",
+        "gt_score": 76.80423280423281
+    },
+    {
+        "img_path": "812.JPG",
+        "gt_score": 64.61025641025641
+    },
+    {
+        "img_path": "813.JPG",
+        "gt_score": 37.02285714285714
+    },
+    {
+        "img_path": "814.JPG",
+        "gt_score": 25.47159090909091
+    },
+    {
+        "img_path": "815.JPG",
+        "gt_score": 32.45637583892618
+    },
+    {
+        "img_path": "816.JPG",
+        "gt_score": 16.026845637583893
+    },
+    {
+        "img_path": "817.JPG",
+        "gt_score": 14.305084745762711
+    },
+    {
+        "img_path": "818.JPG",
+        "gt_score": 21.770114942528735
+    },
+    {
+        "img_path": "819.JPG",
+        "gt_score": 8.275510204081632
+    },
+    {
+        "img_path": "820.JPG",
+        "gt_score": 78.33136094674556
+    },
+    {
+        "img_path": "821.JPG",
+        "gt_score": 50.97575757575758
+    },
+    {
+        "img_path": "822.JPG",
+        "gt_score": 24.936842105263157
+    },
+    {
+        "img_path": "823.JPG",
+        "gt_score": 13.028901734104046
+    },
+    {
+        "img_path": "824.JPG",
+        "gt_score": 12.89937106918239
+    },
+    {
+        "img_path": "825.JPG",
+        "gt_score": 44.46927374301676
+    },
+    {
+        "img_path": "826.JPG",
+        "gt_score": 76.1094527363184
+    },
+    {
+        "img_path": "827.JPG",
+        "gt_score": 82.47849462365592
+    },
+    {
+        "img_path": "828.JPG",
+        "gt_score": 68.98113207547169
+    },
+    {
+        "img_path": "829.JPG",
+        "gt_score": 26.605263157894736
+    },
+    {
+        "img_path": "830.JPG",
+        "gt_score": 77.35761589403974
+    },
+    {
+        "img_path": "831.JPG",
+        "gt_score": 36.23952095808383
+    },
+    {
+        "img_path": "832.JPG",
+        "gt_score": 34.946107784431135
+    },
+    {
+        "img_path": "833.JPG",
+        "gt_score": 21.722513089005236
+    },
+    {
+        "img_path": "834.JPG",
+        "gt_score": 66.66477272727273
+    },
+    {
+        "img_path": "835.JPG",
+        "gt_score": 59.17613636363637
+    },
+    {
+        "img_path": "836.JPG",
+        "gt_score": 61.68041237113402
+    },
+    {
+        "img_path": "837.JPG",
+        "gt_score": 21.7682119205298
+    },
+    {
+        "img_path": "838.JPG",
+        "gt_score": 26.238888888888887
+    },
+    {
+        "img_path": "839.JPG",
+        "gt_score": 22.707602339181285
+    },
+    {
+        "img_path": "840.JPG",
+        "gt_score": 71.32738095238095
+    },
+    {
+        "img_path": "841.JPG",
+        "gt_score": 63.48022598870057
+    },
+    {
+        "img_path": "842.JPG",
+        "gt_score": 72.78865979381443
+    },
+    {
+        "img_path": "843.JPG",
+        "gt_score": 28.70440251572327
+    },
+    {
+        "img_path": "844.JPG",
+        "gt_score": 91.43617021276596
+    },
+    {
+        "img_path": "845.JPG",
+        "gt_score": 34.78709677419355
+    },
+    {
+        "img_path": "846.JPG",
+        "gt_score": 70.65644171779141
+    },
+    {
+        "img_path": "847.JPG",
+        "gt_score": 60.784946236559136
+    },
+    {
+        "img_path": "848.JPG",
+        "gt_score": 79.5925925925926
+    },
+    {
+        "img_path": "849.JPG",
+        "gt_score": 80.98170731707317
+    },
+    {
+        "img_path": "850.JPG",
+        "gt_score": 84.08108108108108
+    },
+    {
+        "img_path": "851.JPG",
+        "gt_score": 70.60773480662984
+    },
+    {
+        "img_path": "852.JPG",
+        "gt_score": 26.642857142857142
+    },
+    {
+        "img_path": "853.JPG",
+        "gt_score": 83.67955801104972
+    },
+    {
+        "img_path": "854.JPG",
+        "gt_score": 65.00591715976331
+    },
+    {
+        "img_path": "855.JPG",
+        "gt_score": 80.07692307692308
+    },
+    {
+        "img_path": "856.JPG",
+        "gt_score": 20.834285714285713
+    },
+    {
+        "img_path": "857.JPG",
+        "gt_score": 79.08092485549133
+    },
+    {
+        "img_path": "858.JPG",
+        "gt_score": 76.66190476190476
+    },
+    {
+        "img_path": "859.JPG",
+        "gt_score": 49.205128205128204
+    },
+    {
+        "img_path": "860.JPG",
+        "gt_score": 74.9438202247191
+    },
+    {
+        "img_path": "861.JPG",
+        "gt_score": 67.91011235955057
+    },
+    {
+        "img_path": "862.JPG",
+        "gt_score": 27.134715025906736
+    },
+    {
+        "img_path": "863.JPG",
+        "gt_score": 66.2816091954023
+    },
+    {
+        "img_path": "864.JPG",
+        "gt_score": 45.92307692307692
+    },
+    {
+        "img_path": "865.JPG",
+        "gt_score": 80.21052631578948
+    },
+    {
+        "img_path": "866.JPG",
+        "gt_score": 80.6952380952381
+    },
+    {
+        "img_path": "867.JPG",
+        "gt_score": 57.97727272727273
+    },
+    {
+        "img_path": "868.JPG",
+        "gt_score": 23.30054644808743
+    },
+    {
+        "img_path": "869.JPG",
+        "gt_score": 12.044334975369457
+    },
+    {
+        "img_path": "870.JPG",
+        "gt_score": 28.775609756097563
+    },
+    {
+        "img_path": "871.JPG",
+        "gt_score": 34.41860465116279
+    },
+    {
+        "img_path": "872.JPG",
+        "gt_score": 14.216049382716049
+    },
+    {
+        "img_path": "873.JPG",
+        "gt_score": 26.29608938547486
+    },
+    {
+        "img_path": "874.JPG",
+        "gt_score": 6.524861878453039
+    },
+    {
+        "img_path": "875.JPG",
+        "gt_score": 37.12994350282486
+    },
+    {
+        "img_path": "876.JPG",
+        "gt_score": 37.4010989010989
+    },
+    {
+        "img_path": "877.JPG",
+        "gt_score": 87.84782608695652
+    },
+    {
+        "img_path": "878.JPG",
+        "gt_score": 72.25988700564972
+    },
+    {
+        "img_path": "879.JPG",
+        "gt_score": 61.5
+    },
+    {
+        "img_path": "880.JPG",
+        "gt_score": 65.08333333333333
+    },
+    {
+        "img_path": "881.JPG",
+        "gt_score": 43.27363184079602
+    },
+    {
+        "img_path": "882.JPG",
+        "gt_score": 83.54497354497354
+    },
+    {
+        "img_path": "883.JPG",
+        "gt_score": 83.46242774566474
+    },
+    {
+        "img_path": "884.JPG",
+        "gt_score": 29.473372781065088
+    },
+    {
+        "img_path": "885.JPG",
+        "gt_score": 27.88888888888889
+    },
+    {
+        "img_path": "886.JPG",
+        "gt_score": 72.92592592592592
+    },
+    {
+        "img_path": "887.JPG",
+        "gt_score": 50.294117647058826
+    },
+    {
+        "img_path": "888.JPG",
+        "gt_score": 52.10285714285714
+    },
+    {
+        "img_path": "889.JPG",
+        "gt_score": 28.175824175824175
+    },
+    {
+        "img_path": "890.JPG",
+        "gt_score": 62.943502824858754
+    },
+    {
+        "img_path": "891.JPG",
+        "gt_score": 72.04624277456648
+    },
+    {
+        "img_path": "892.JPG",
+        "gt_score": 75.06024096385542
+    },
+    {
+        "img_path": "893.JPG",
+        "gt_score": 61.1656050955414
+    },
+    {
+        "img_path": "894.JPG",
+        "gt_score": 45.46875
+    },
+    {
+        "img_path": "895.JPG",
+        "gt_score": 43.431693989071036
+    },
+    {
+        "img_path": "896.JPG",
+        "gt_score": 56.13496932515337
+    },
+    {
+        "img_path": "897.JPG",
+        "gt_score": 57.717791411042946
+    },
+    {
+        "img_path": "898.JPG",
+        "gt_score": 51.65895953757225
+    },
+    {
+        "img_path": "899.JPG",
+        "gt_score": 73.9627659574468
+    },
+    {
+        "img_path": "900.JPG",
+        "gt_score": 70.70621468926554
+    },
+    {
+        "img_path": "901.JPG",
+        "gt_score": 22.01298701298701
+    },
+    {
+        "img_path": "902.JPG",
+        "gt_score": 78.7081081081081
+    },
+    {
+        "img_path": "903.JPG",
+        "gt_score": 67.17610062893081
+    },
+    {
+        "img_path": "904.JPG",
+        "gt_score": 58.02209944751381
+    },
+    {
+        "img_path": "905.JPG",
+        "gt_score": 70.36875
+    },
+    {
+        "img_path": "906.JPG",
+        "gt_score": 63.87027027027027
+    },
+    {
+        "img_path": "907.JPG",
+        "gt_score": 13.971098265895954
+    },
+    {
+        "img_path": "908.JPG",
+        "gt_score": 73.2421052631579
+    },
+    {
+        "img_path": "909.JPG",
+        "gt_score": 77.42603550295858
+    },
+    {
+        "img_path": "910.JPG",
+        "gt_score": 61.425
+    },
+    {
+        "img_path": "911.JPG",
+        "gt_score": 70.28658536585365
+    },
+    {
+        "img_path": "912.JPG",
+        "gt_score": 38.398809523809526
+    },
+    {
+        "img_path": "913.JPG",
+        "gt_score": 75.54088050314465
+    },
+    {
+        "img_path": "914.JPG",
+        "gt_score": 67.47252747252747
+    },
+    {
+        "img_path": "915.JPG",
+        "gt_score": 77.24607329842932
+    },
+    {
+        "img_path": "916.JPG",
+        "gt_score": 78.025
+    },
+    {
+        "img_path": "917.JPG",
+        "gt_score": 70.7
+    },
+    {
+        "img_path": "918.JPG",
+        "gt_score": 73.375
+    },
+    {
+        "img_path": "919.JPG",
+        "gt_score": 69.1264367816092
+    },
+    {
+        "img_path": "920.JPG",
+        "gt_score": 75.86904761904762
+    },
+    {
+        "img_path": "921.JPG",
+        "gt_score": 74.64880952380952
+    },
+    {
+        "img_path": "922.JPG",
+        "gt_score": 81.85204081632654
+    },
+    {
+        "img_path": "923.JPG",
+        "gt_score": 75.15458937198068
+    },
+    {
+        "img_path": "924.JPG",
+        "gt_score": 10.176795580110497
+    },
+    {
+        "img_path": "925.JPG",
+        "gt_score": 47.33125
+    },
+    {
+        "img_path": "926.JPG",
+        "gt_score": 49.09947643979058
+    },
+    {
+        "img_path": "927.JPG",
+        "gt_score": 57.72192513368984
+    },
+    {
+        "img_path": "928.JPG",
+        "gt_score": 58.993975903614455
+    },
+    {
+        "img_path": "929.JPG",
+        "gt_score": 38.5632183908046
+    },
+    {
+        "img_path": "930.JPG",
+        "gt_score": 50.35087719298246
+    },
+    {
+        "img_path": "931.JPG",
+        "gt_score": 59.43195266272189
+    },
+    {
+        "img_path": "932.JPG",
+        "gt_score": 60.24590163934426
+    },
+    {
+        "img_path": "933.JPG",
+        "gt_score": 73.18032786885246
+    },
+    {
+        "img_path": "934.JPG",
+        "gt_score": 71.83246073298429
+    },
+    {
+        "img_path": "935.JPG",
+        "gt_score": 70.52147239263803
+    },
+    {
+        "img_path": "936.JPG",
+        "gt_score": 76.47126436781609
+    },
+    {
+        "img_path": "937.JPG",
+        "gt_score": 79.49438202247191
+    },
+    {
+        "img_path": "938.JPG",
+        "gt_score": 49.39204545454545
+    },
+    {
+        "img_path": "939.JPG",
+        "gt_score": 67.615
+    },
+    {
+        "img_path": "940.JPG",
+        "gt_score": 61.883720930232556
+    },
+    {
+        "img_path": "941.JPG",
+        "gt_score": 60.54716981132076
+    },
+    {
+        "img_path": "942.JPG",
+        "gt_score": 53.63742690058479
+    },
+    {
+        "img_path": "943.JPG",
+        "gt_score": 62.25257731958763
+    },
+    {
+        "img_path": "944.JPG",
+        "gt_score": 34.29192546583851
+    },
+    {
+        "img_path": "945.JPG",
+        "gt_score": 70.29545454545455
+    },
+    {
+        "img_path": "946.JPG",
+        "gt_score": 74.0251572327044
+    },
+    {
+        "img_path": "947.JPG",
+        "gt_score": 77.45061728395062
+    },
+    {
+        "img_path": "948.JPG",
+        "gt_score": 24.203821656050955
+    },
+    {
+        "img_path": "949.JPG",
+        "gt_score": 25.437125748502993
+    },
+    {
+        "img_path": "950.JPG",
+        "gt_score": 74.46236559139786
+    },
+    {
+        "img_path": "951.JPG",
+        "gt_score": 75.98255813953489
+    },
+    {
+        "img_path": "952.JPG",
+        "gt_score": 42.42261904761905
+    },
+    {
+        "img_path": "953.JPG",
+        "gt_score": 58.7979274611399
+    },
+    {
+        "img_path": "954.JPG",
+        "gt_score": 62.79558011049724
+    },
+    {
+        "img_path": "955.JPG",
+        "gt_score": 54.61842105263158
+    },
+    {
+        "img_path": "956.JPG",
+        "gt_score": 77.42774566473989
+    },
+    {
+        "img_path": "957.JPG",
+        "gt_score": 32.62777777777778
+    },
+    {
+        "img_path": "958.JPG",
+        "gt_score": 64.98837209302326
+    },
+    {
+        "img_path": "959.JPG",
+        "gt_score": 49.87301587301587
+    },
+    {
+        "img_path": "960.JPG",
+        "gt_score": 44.6875
+    },
+    {
+        "img_path": "961.JPG",
+        "gt_score": 4.807453416149069
+    },
+    {
+        "img_path": "962.JPG",
+        "gt_score": 61.926829268292686
+    },
+    {
+        "img_path": "963.JPG",
+        "gt_score": 78.84242424242424
+    },
+    {
+        "img_path": "964.JPG",
+        "gt_score": 63.64071856287425
+    },
+    {
+        "img_path": "965.JPG",
+        "gt_score": 71.81547619047619
+    },
+    {
+        "img_path": "966.JPG",
+        "gt_score": 69.37823834196891
+    },
+    {
+        "img_path": "967.JPG",
+        "gt_score": 72.84285714285714
+    },
+    {
+        "img_path": "968.JPG",
+        "gt_score": 65.03947368421052
+    },
+    {
+        "img_path": "969.JPG",
+        "gt_score": 80.55208333333333
+    },
+    {
+        "img_path": "970.JPG",
+        "gt_score": 68.91428571428571
+    },
+    {
+        "img_path": "971.JPG",
+        "gt_score": 80.10055865921788
+    },
+    {
+        "img_path": "972.JPG",
+        "gt_score": 68.85443037974683
+    },
+    {
+        "img_path": "973.JPG",
+        "gt_score": 73.30813953488372
+    },
+    {
+        "img_path": "974.JPG",
+        "gt_score": 69.61349693251533
+    },
+    {
+        "img_path": "975.JPG",
+        "gt_score": 56.69590643274854
+    },
+    {
+        "img_path": "976.JPG",
+        "gt_score": 74.22564102564102
+    },
+    {
+        "img_path": "977.JPG",
+        "gt_score": 66.94285714285714
+    },
+    {
+        "img_path": "978.JPG",
+        "gt_score": 44.954802259887
+    },
+    {
+        "img_path": "979.JPG",
+        "gt_score": 49.45180722891566
+    },
+    {
+        "img_path": "980.JPG",
+        "gt_score": 65.3641975308642
+    },
+    {
+        "img_path": "981.JPG",
+        "gt_score": 56.370558375634516
+    },
+    {
+        "img_path": "982.JPG",
+        "gt_score": 44.68
+    },
+    {
+        "img_path": "983.JPG",
+        "gt_score": 74.81920903954803
+    },
+    {
+        "img_path": "984.JPG",
+        "gt_score": 46.78362573099415
+    },
+    {
+        "img_path": "985.JPG",
+        "gt_score": 34.975903614457835
+    },
+    {
+        "img_path": "986.JPG",
+        "gt_score": 61.101190476190474
+    },
+    {
+        "img_path": "987.JPG",
+        "gt_score": 81.03664921465969
+    },
+    {
+        "img_path": "988.JPG",
+        "gt_score": 54.80346820809248
+    },
+    {
+        "img_path": "989.JPG",
+        "gt_score": 78.5126582278481
+    },
+    {
+        "img_path": "990.JPG",
+        "gt_score": 86.2127659574468
+    },
+    {
+        "img_path": "991.JPG",
+        "gt_score": 37.42512077294686
+    },
+    {
+        "img_path": "992.JPG",
+        "gt_score": 58.94708994708995
+    },
+    {
+        "img_path": "993.JPG",
+        "gt_score": 46.76923076923077
+    },
+    {
+        "img_path": "994.JPG",
+        "gt_score": 65.46067415730337
+    },
+    {
+        "img_path": "995.JPG",
+        "gt_score": 83.43169398907104
+    },
+    {
+        "img_path": "996.JPG",
+        "gt_score": 61.02030456852792
+    },
+    {
+        "img_path": "997.JPG",
+        "gt_score": 65.44970414201184
+    },
+    {
+        "img_path": "998.JPG",
+        "gt_score": 50.830601092896174
+    },
+    {
+        "img_path": "999.JPG",
+        "gt_score": 49.06707317073171
+    },
+    {
+        "img_path": "1000.JPG",
+        "gt_score": 56.51219512195122
+    },
+    {
+        "img_path": "1001.JPG",
+        "gt_score": 53.55747126436781
+    },
+    {
+        "img_path": "1002.JPG",
+        "gt_score": 40.672222222222224
+    },
+    {
+        "img_path": "1003.JPG",
+        "gt_score": 30.48913043478261
+    },
+    {
+        "img_path": "1004.JPG",
+        "gt_score": 64.32121212121213
+    },
+    {
+        "img_path": "1005.JPG",
+        "gt_score": 62.35028248587571
+    },
+    {
+        "img_path": "1006.JPG",
+        "gt_score": 66.21428571428571
+    },
+    {
+        "img_path": "1007.JPG",
+        "gt_score": 63.14594594594595
+    },
+    {
+        "img_path": "1008.JPG",
+        "gt_score": 57.84276729559748
+    },
+    {
+        "img_path": "1009.JPG",
+        "gt_score": 56.157303370786515
+    },
+    {
+        "img_path": "1010.JPG",
+        "gt_score": 46.67045454545455
+    },
+    {
+        "img_path": "1011.JPG",
+        "gt_score": 54.174358974358974
+    },
+    {
+        "img_path": "1012.JPG",
+        "gt_score": 75.87434554973822
+    },
+    {
+        "img_path": "1013.JPG",
+        "gt_score": 38.1
+    },
+    {
+        "img_path": "1014.JPG",
+        "gt_score": 58.80952380952381
+    },
+    {
+        "img_path": "1015.JPG",
+        "gt_score": 63.96045197740113
+    },
+    {
+        "img_path": "1016.JPG",
+        "gt_score": 65.63473053892216
+    },
+    {
+        "img_path": "1017.JPG",
+        "gt_score": 29.967914438502675
+    },
+    {
+        "img_path": "1018.JPG",
+        "gt_score": 42.43975903614458
+    },
+    {
+        "img_path": "1019.JPG",
+        "gt_score": 62.96174863387978
+    },
+    {
+        "img_path": "1020.JPG",
+        "gt_score": 55.148809523809526
+    },
+    {
+        "img_path": "1021.JPG",
+        "gt_score": 73.86702127659575
+    },
+    {
+        "img_path": "1022.JPG",
+        "gt_score": 51.308571428571426
+    },
+    {
+        "img_path": "1023.JPG",
+        "gt_score": 72.64646464646465
+    },
+    {
+        "img_path": "1024.JPG",
+        "gt_score": 42.770833333333336
+    },
+    {
+        "img_path": "1025.JPG",
+        "gt_score": 72.03048780487805
+    },
+    {
+        "img_path": "1026.JPG",
+        "gt_score": 72.51552795031056
+    },
+    {
+        "img_path": "1027.JPG",
+        "gt_score": 79.93888888888888
+    },
+    {
+        "img_path": "1028.JPG",
+        "gt_score": 76.16265060240964
+    },
+    {
+        "img_path": "1029.JPG",
+        "gt_score": 81.51612903225806
+    },
+    {
+        "img_path": "1030.JPG",
+        "gt_score": 72.75661375661376
+    },
+    {
+        "img_path": "1031.JPG",
+        "gt_score": 67.45604395604396
+    },
+    {
+        "img_path": "1032.JPG",
+        "gt_score": 77.5548780487805
+    },
+    {
+        "img_path": "1033.JPG",
+        "gt_score": 69.78804347826087
+    },
+    {
+        "img_path": "1034.JPG",
+        "gt_score": 75.75842696629213
+    },
+    {
+        "img_path": "1035.JPG",
+        "gt_score": 67.50526315789473
+    },
+    {
+        "img_path": "1036.JPG",
+        "gt_score": 75.58247422680412
+    },
+    {
+        "img_path": "1037.JPG",
+        "gt_score": 48.91525423728814
+    },
+    {
+        "img_path": "1038.JPG",
+        "gt_score": 21.876288659793815
+    },
+    {
+        "img_path": "1039.JPG",
+        "gt_score": 59.660714285714285
+    },
+    {
+        "img_path": "1040.JPG",
+        "gt_score": 56.142857142857146
+    },
+    {
+        "img_path": "1041.JPG",
+        "gt_score": 75.92771084337349
+    },
+    {
+        "img_path": "1042.JPG",
+        "gt_score": 25.928571428571427
+    },
+    {
+        "img_path": "1043.JPG",
+        "gt_score": 73.31210191082802
+    },
+    {
+        "img_path": "1044.JPG",
+        "gt_score": 82.3021978021978
+    },
+    {
+        "img_path": "1045.JPG",
+        "gt_score": 80.48351648351648
+    },
+    {
+        "img_path": "1046.JPG",
+        "gt_score": 61.07368421052632
+    },
+    {
+        "img_path": "1047.JPG",
+        "gt_score": 37.76020408163265
+    },
+    {
+        "img_path": "1048.JPG",
+        "gt_score": 57.8562874251497
+    },
+    {
+        "img_path": "1049.JPG",
+        "gt_score": 81.21875
+    },
+    {
+        "img_path": "1050.JPG",
+        "gt_score": 72.06024096385542
+    },
+    {
+        "img_path": "1051.JPG",
+        "gt_score": 57.32748538011696
+    },
+    {
+        "img_path": "1052.JPG",
+        "gt_score": 54.62
+    },
+    {
+        "img_path": "1053.JPG",
+        "gt_score": 72.48913043478261
+    },
+    {
+        "img_path": "1054.JPG",
+        "gt_score": 77.24752475247524
+    },
+    {
+        "img_path": "1055.JPG",
+        "gt_score": 64.23295454545455
+    },
+    {
+        "img_path": "1056.JPG",
+        "gt_score": 39.62658227848101
+    },
+    {
+        "img_path": "1057.JPG",
+        "gt_score": 49.44444444444444
+    },
+    {
+        "img_path": "1058.JPG",
+        "gt_score": 60.21656050955414
+    },
+    {
+        "img_path": "1059.JPG",
+        "gt_score": 55.383720930232556
+    },
+    {
+        "img_path": "1060.JPG",
+        "gt_score": 61.21857923497268
+    },
+    {
+        "img_path": "1061.JPG",
+        "gt_score": 73.0
+    },
+    {
+        "img_path": "1062.JPG",
+        "gt_score": 83.11640211640211
+    },
+    {
+        "img_path": "1063.JPG",
+        "gt_score": 66.67469879518072
+    },
+    {
+        "img_path": "1064.JPG",
+        "gt_score": 76.08108108108108
+    },
+    {
+        "img_path": "1065.JPG",
+        "gt_score": 68.56424581005587
+    },
+    {
+        "img_path": "1066.JPG",
+        "gt_score": 39.391959798994975
+    },
+    {
+        "img_path": "1067.JPG",
+        "gt_score": 49.32748538011696
+    },
+    {
+        "img_path": "1068.JPG",
+        "gt_score": 56.73298429319372
+    },
+    {
+        "img_path": "1069.JPG",
+        "gt_score": 84.04402515723271
+    },
+    {
+        "img_path": "1070.JPG",
+        "gt_score": 58.77070063694268
+    },
+    {
+        "img_path": "1071.JPG",
+        "gt_score": 66.0
+    },
+    {
+        "img_path": "1072.JPG",
+        "gt_score": 75.25287356321839
+    },
+    {
+        "img_path": "1073.JPG",
+        "gt_score": 74.74731182795699
+    },
+    {
+        "img_path": "1074.JPG",
+        "gt_score": 82.2046783625731
+    },
+    {
+        "img_path": "1075.JPG",
+        "gt_score": 66.61111111111111
+    },
+    {
+        "img_path": "1076.JPG",
+        "gt_score": 70.63186813186813
+    },
+    {
+        "img_path": "1077.JPG",
+        "gt_score": 71.27544910179641
+    },
+    {
+        "img_path": "1078.JPG",
+        "gt_score": 61.93296089385475
+    },
+    {
+        "img_path": "1079.JPG",
+        "gt_score": 26.661016949152543
+    },
+    {
+        "img_path": "1080.JPG",
+        "gt_score": 59.63636363636363
+    },
+    {
+        "img_path": "1081.JPG",
+        "gt_score": 52.194736842105264
+    },
+    {
+        "img_path": "1082.JPG",
+        "gt_score": 65.28426395939087
+    },
+    {
+        "img_path": "1083.JPG",
+        "gt_score": 70.26704545454545
+    },
+    {
+        "img_path": "1084.JPG",
+        "gt_score": 78.18562874251496
+    },
+    {
+        "img_path": "1085.JPG",
+        "gt_score": 83.375
+    },
+    {
+        "img_path": "1086.JPG",
+        "gt_score": 82.31288343558282
+    },
+    {
+        "img_path": "1087.JPG",
+        "gt_score": 72.83333333333333
+    },
+    {
+        "img_path": "1088.JPG",
+        "gt_score": 49.95679012345679
+    },
+    {
+        "img_path": "1089.JPG",
+        "gt_score": 80.18343195266272
+    },
+    {
+        "img_path": "1090.JPG",
+        "gt_score": 53.878787878787875
+    },
+    {
+        "img_path": "1091.JPG",
+        "gt_score": 73.06217616580311
+    },
+    {
+        "img_path": "1092.JPG",
+        "gt_score": 77.90285714285714
+    },
+    {
+        "img_path": "1093.JPG",
+        "gt_score": 59.98360655737705
+    },
+    {
+        "img_path": "1094.JPG",
+        "gt_score": 56.86805555555556
+    },
+    {
+        "img_path": "1095.JPG",
+        "gt_score": 76.26424870466322
+    },
+    {
+        "img_path": "1096.JPG",
+        "gt_score": 86.06010928961749
+    },
+    {
+        "img_path": "1097.JPG",
+        "gt_score": 82.51336898395722
+    },
+    {
+        "img_path": "1098.JPG",
+        "gt_score": 10.760736196319018
+    },
+    {
+        "img_path": "1099.JPG",
+        "gt_score": 74.615
+    },
+    {
+        "img_path": "1100.JPG",
+        "gt_score": 76.28571428571429
+    },
+    {
+        "img_path": "1101.JPG",
+        "gt_score": 78.79617834394904
+    },
+    {
+        "img_path": "1102.JPG",
+        "gt_score": 64.36945812807882
+    },
+    {
+        "img_path": "1103.JPG",
+        "gt_score": 57.70108695652174
+    },
+    {
+        "img_path": "1104.JPG",
+        "gt_score": 50.81410256410256
+    },
+    {
+        "img_path": "1105.JPG",
+        "gt_score": 75.63440860215054
+    },
+    {
+        "img_path": "1106.JPG",
+        "gt_score": 66.52331606217616
+    },
+    {
+        "img_path": "1107.JPG",
+        "gt_score": 78.41573033707866
+    },
+    {
+        "img_path": "1108.JPG",
+        "gt_score": 73.27932960893855
+    },
+    {
+        "img_path": "1109.JPG",
+        "gt_score": 69.58857142857143
+    },
+    {
+        "img_path": "1110.JPG",
+        "gt_score": 50.0
+    },
+    {
+        "img_path": "1111.JPG",
+        "gt_score": 80.63225806451612
+    },
+    {
+        "img_path": "1112.JPG",
+        "gt_score": 43.593333333333334
+    },
+    {
+        "img_path": "1113.JPG",
+        "gt_score": 31.640883977900554
+    },
+    {
+        "img_path": "1114.JPG",
+        "gt_score": 76.96296296296296
+    },
+    {
+        "img_path": "1115.JPG",
+        "gt_score": 64.00537634408602
+    },
+    {
+        "img_path": "1116.JPG",
+        "gt_score": 49.98918918918919
+    },
+    {
+        "img_path": "1117.JPG",
+        "gt_score": 52.42857142857143
+    },
+    {
+        "img_path": "1118.JPG",
+        "gt_score": 53.645348837209305
+    },
+    {
+        "img_path": "1119.JPG",
+        "gt_score": 57.430939226519335
+    },
+    {
+        "img_path": "1120.JPG",
+        "gt_score": 74.78021978021978
+    },
+    {
+        "img_path": "1121.JPG",
+        "gt_score": 76.96703296703296
+    },
+    {
+        "img_path": "1122.JPG",
+        "gt_score": 55.01204819277108
+    },
+    {
+        "img_path": "1123.JPG",
+        "gt_score": 49.617283950617285
+    },
+    {
+        "img_path": "1124.JPG",
+        "gt_score": 77.2
+    },
+    {
+        "img_path": "1125.JPG",
+        "gt_score": 61.60621761658031
+    },
+    {
+        "img_path": "1126.JPG",
+        "gt_score": 72.09316770186335
+    },
+    {
+        "img_path": "1127.JPG",
+        "gt_score": 80.62941176470588
+    },
+    {
+        "img_path": "1128.JPG",
+        "gt_score": 70.07361963190183
+    },
+    {
+        "img_path": "1129.JPG",
+        "gt_score": 55.913513513513514
+    },
+    {
+        "img_path": "1130.JPG",
+        "gt_score": 46.03921568627451
+    },
+    {
+        "img_path": "1131.JPG",
+        "gt_score": 72.54651162790698
+    },
+    {
+        "img_path": "1132.JPG",
+        "gt_score": 50.4180790960452
+    },
+    {
+        "img_path": "1133.JPG",
+        "gt_score": 64.32967032967034
+    },
+    {
+        "img_path": "1134.JPG",
+        "gt_score": 65.90058479532163
+    },
+    {
+        "img_path": "1135.JPG",
+        "gt_score": 40.389830508474574
+    },
+    {
+        "img_path": "1136.JPG",
+        "gt_score": 66.41142857142857
+    },
+    {
+        "img_path": "1137.JPG",
+        "gt_score": 77.01714285714286
+    },
+    {
+        "img_path": "1138.JPG",
+        "gt_score": 67.60479041916167
+    },
+    {
+        "img_path": "1139.JPG",
+        "gt_score": 44.17204301075269
+    },
+    {
+        "img_path": "1140.JPG",
+        "gt_score": 51.902061855670105
+    },
+    {
+        "img_path": "1141.JPG",
+        "gt_score": 70.67415730337079
+    },
+    {
+        "img_path": "1142.JPG",
+        "gt_score": 71.7639751552795
+    },
+    {
+        "img_path": "1143.JPG",
+        "gt_score": 61.105555555555554
+    },
+    {
+        "img_path": "1144.JPG",
+        "gt_score": 71.27210884353741
+    },
+    {
+        "img_path": "1145.JPG",
+        "gt_score": 47.21025641025641
+    },
+    {
+        "img_path": "1146.JPG",
+        "gt_score": 73.20481927710843
+    },
+    {
+        "img_path": "1147.JPG",
+        "gt_score": 75.83516483516483
+    },
+    {
+        "img_path": "1148.JPG",
+        "gt_score": 48.45303867403315
+    },
+    {
+        "img_path": "1149.JPG",
+        "gt_score": 72.12727272727273
+    },
+    {
+        "img_path": "1150.JPG",
+        "gt_score": 68.19680851063829
+    },
+    {
+        "img_path": "1151.JPG",
+        "gt_score": 58.64321608040201
+    },
+    {
+        "img_path": "1152.JPG",
+        "gt_score": 61.851851851851855
+    },
+    {
+        "img_path": "1153.JPG",
+        "gt_score": 71.12631578947368
+    },
+    {
+        "img_path": "1154.JPG",
+        "gt_score": 28.09090909090909
+    },
+    {
+        "img_path": "1155.JPG",
+        "gt_score": 74.36263736263736
+    },
+    {
+        "img_path": "1156.JPG",
+        "gt_score": 28.810650887573964
+    },
+    {
+        "img_path": "1157.JPG",
+        "gt_score": 51.86046511627907
+    },
+    {
+        "img_path": "1158.JPG",
+        "gt_score": 48.14525139664804
+    },
+    {
+        "img_path": "1159.JPG",
+        "gt_score": 47.83625730994152
+    },
+    {
+        "img_path": "1160.bmp",
+        "gt_score": 21.6858593363051
+    },
+    {
+        "img_path": "1161.bmp",
+        "gt_score": 11.9002849002849
+    },
+    {
+        "img_path": "1162.bmp",
+        "gt_score": 62.66171187910318
+    },
+    {
+        "img_path": "1163.bmp",
+        "gt_score": 87.06559248921593
+    },
+    {
+        "img_path": "1164.bmp",
+        "gt_score": 72.75387092778396
+    }
+]

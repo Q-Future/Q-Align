@@ -170,7 +170,9 @@ for gz_file in gz_files:
     os.system("tar -xzf {} -C ./playground/data/lsvq/".format(gz_file))
 ```
 
+
 ### Evaluation
+
 
 After preparing the datasets, you can evaluate pre-trained **OneAlign** as follows:
 
@@ -192,7 +194,19 @@ python q_align/evaluate/iaa_eval.py --model_path q-future/one-align --device cud
 python q_align/evaluate/vqa_eval.py --model_path q-future/one-align --device cuda:0
 ```
 
-We will release other pre-trained checkpoints soon.
+See our [model zoo](./model_zoo) for all available models that you can use.
+
+To convert output logits to scores, you may follow the simplest code below:
+
+```python
+import numpy as np
+    
+def wa5(logits):
+    logprobs = np.array([logits["excellent"], logits["good"], logits["fair"], logits["poor"], logits["bad"]])
+    probs = np.exp(logprobs) / np.sum(np.exp(logprobs))
+    score = np.inner(probs, np.array([5,4,3,2,1]))
+    return score
+```
 
 
 ### Training
@@ -256,7 +270,7 @@ We sincerely thank Dr Weixia Zhang (@onionbao) and Dr Chaofeng Chen (@chaofenghu
 @article{wu2023qalign,
   title={Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels},
   author={Wu, Haoning and Zhang, Zicheng and Zhang, Weixia and Chen, Chaofeng and Li, Chunyi and Liao, Liang and Wang, Annan and Zhang, Erli and Sun, Wenxiu and Yan, Qiong and Min, Xiongkuo and Zhai, Guangtai and Lin, Weisi},
-  journal={arXiv preprint arXiv:2312.xxxxx},
+  journal={arXiv preprint arXiv:2312.17090},
   year={2023},
   institution={Nanyang Technological University and Shanghai Jiao Tong University and Sensetime Research},
   note={Equal Contribution by Wu, Haoning and Zhang, Zicheng. Project Lead by Wu, Haoning. Corresponding Authors: Zhai, Guangtai and Lin, Weisi.}

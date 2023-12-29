@@ -24,7 +24,7 @@ def load_video(video_file):
 
 
 class QAlignScorer(nn.Module):
-    def __init__(self, pretrained="q-future/q-align-koniq-spaq-v0", device="cuda:0"):
+    def __init__(self, pretrained="q-future/one-align", device="cuda:0"):
         super().__init__()
         tokenizer, model, image_processor, _ = load_pretrained_model(pretrained, None, "mplug_owl2", device=device)
         prompt = "USER: How would you rate the quality of this image?\n<|image|>\nASSISTANT: The quality of the image is"
@@ -51,7 +51,7 @@ class QAlignScorer(nn.Module):
             return result
         
     def forward(self, image: List[Image.Image]):
-        image = [self.expand2square(img, self.tuple(int(x*255) for x in image_processor.image_mean)) for img in image]
+        image = [self.expand2square(img, tuple(int(x*255) for x in self.image_processor.image_mean)) for img in image]
         with torch.inference_mode():
             image_tensor = self.image_processor.preprocess(image, return_tensors="pt")["pixel_values"].half().to(self.model.device)
             output_logits = self.model(self.input_ids.repeat(image_tensor.shape[0], 1),
@@ -61,7 +61,7 @@ class QAlignScorer(nn.Module):
         
         
 class QAlignAestheticScorer(nn.Module):
-    def __init__(self, pretrained="q-future/q-align-aesthetic", device="cuda:0"):
+    def __init__(self, pretrained="q-future/one-align", device="cuda:0"):
         super().__init__()
         tokenizer, model, image_processor, _ = load_pretrained_model(pretrained, None, "mplug_owl2", device=device)
         prompt = "USER: How would you rate the aesthetics of this image?\n<|image|>\nASSISTANT: The aesthetics of the image is"
@@ -97,7 +97,7 @@ class QAlignAestheticScorer(nn.Module):
             return torch.softmax(output_logits, -1) @ self.weight_tensor
         
 class QAlignVideoScorer(nn.Module):
-    def __init__(self, pretrained="q-future/q-align-lsvq-only", device="cuda:0"):
+    def __init__(self, pretrained="q-future/one-align", device="cuda:0"):
         super().__init__()
         tokenizer, model, image_processor, _ = load_pretrained_model(pretrained, None, "mplug_owl2", device=device)
         prompt = "USER: How would you rate the quality of this video?\n<|image|>\nASSISTANT: The quality of the video is"
@@ -136,7 +136,7 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="q-future/q-align-koniq-spaq-v0")
+    parser.add_argument("--model-path", type=str, default="q-future/one-align")
     parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--img_path", type=str, default="fig/singapore_flyer.jpg")
     parser.add_argument("--aesthetic", action="store_true")

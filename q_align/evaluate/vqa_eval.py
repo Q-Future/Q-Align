@@ -63,15 +63,16 @@ def main(args):
     import json
 
     
+    
     image_paths = [
-        "playground/data/",
-        "playground/data/",
+        "../datasets/KoNViD_1k_videos/",
+        "../datasets/MaxWell/videos/",
     ]
 
-    json_prefix = "playground/data/generate_label_code/mos_single_simple/"
+    json_prefix = "playground/data/test_jsons/"
     jsons = [
-        json_prefix + "test_lsvq.json",
-        json_prefix + "test_lsvq_1080p.json",
+        json_prefix + "konvid.json",
+        json_prefix + "maxwell_test.json",
     ]
 
     os.makedirs(f"results/{args.model_path}/", exist_ok=True)
@@ -145,7 +146,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="q-future/q-align-lsvq-0")
+    parser.add_argument("--model-path", type=str, default="q-future/one-align")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--conv-mode", type=str, default=None)

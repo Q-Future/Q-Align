@@ -65,7 +65,7 @@ def main(args):
     image_path = "playground/data/"
                   
 
-    json_prefix = "playground/data/"
+    json_prefix = "playground/data/test_jsons/"
     jsons = [
         json_prefix + "test_ava.json",
     ]
@@ -150,7 +150,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="q-future/q-align-aesthetic")
+    parser.add_argument("--model-path", type=str, default="q-future/one-align")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--conv-mode", type=str, default=None)
