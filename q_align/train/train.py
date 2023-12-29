@@ -574,7 +574,12 @@ class LazySupervisedDataset(Dataset):
                 #    continue
                 if isinstance(image_file, list):
                     # Multiple Images as Input
-                    image = [Image.open(os.path.join(image_folder, imfile)).convert('RGB') for imfile in image_file]
+                    try:
+                        image = [Image.open(os.path.join(image_folder, imfile)).convert('RGB') for imfile in image_file]
+                    except Exception as ex:
+                        print(ex)
+                        i = self.next_rand()
+                        continue
                     if self.data_args.image_aspect_ratio == 'pad':
                         image = [expand2square(img, tuple(int(x*255) for x in processor.image_mean)) for img in image]
                         image = processor.preprocess(image, return_tensors='pt')['pixel_values']
@@ -589,7 +594,12 @@ class LazySupervisedDataset(Dataset):
                     else:
                         image = processor.preprocess(image, return_tensors='pt')['pixel_values']
                 else:
-                    image = Image.open(os.path.join(image_folder, image_file)).convert('RGB')
+                    try:
+                        image = Image.open(os.path.join(image_folder, image_file)).convert('RGB')
+                    except Exception as ex:
+                        print(ex)
+                        i = self.next_rand()
+                        continue
                     if self.data_args.image_aspect_ratio == 'pad':
                         image = expand2square(image, tuple(int(x*255) for x in processor.image_mean))
                         image = processor.preprocess(image, return_tensors='pt')['pixel_values'][0]
