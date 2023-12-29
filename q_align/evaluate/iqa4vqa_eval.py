@@ -58,12 +58,16 @@ def main(args):
 
     
     image_paths = [
-        "../datasets/KoNViD_1k_videos/",
-        "../datasets/MaxWell/videos/",
+        "playground/data/",
+        "playground/data/",
+        "playground/data/KoNViD_1k_videos/",
+        "playground/data/maxwell/",
     ]
 
-    json_prefix = "plyaground/data/test_jsons/"
+    json_prefix = "playground/data/test_jsons/"
     jsons = [
+        json_prefix + "test_lsvq.json",
+        json_prefix + "test_lsvq_1080p.json",
         json_prefix + "konvid.json",
         json_prefix + "maxwell_test.json",
     ]
@@ -132,7 +136,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model-path", type=str, default="q-future/q-align-image")
     parser.add_argument("--model-base", type=str, default=None)
-    parser.add_argument("--device", type=str, default="cuda")
+    parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--conv-mode", type=str, default=None)
     parser.add_argument("--temperature", type=float, default=0.2)
     parser.add_argument("--max-new-tokens", type=int, default=512)

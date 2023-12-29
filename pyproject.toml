@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "q_align"
-version = "1.0.0"
-description = "Aligning LMMs for Visual Quality Assessment (based on mPLUG-Owl2)"
+version = "1.0.1"
+description = "Q-ALIGN: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels (based on mPLUG-Owl2)"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -19,7 +19,7 @@ dependencies = [
     "pydantic<2,>=1", "markdown2[all]", "numpy", "scikit-learn==1.2.2",
     "gradio==3.35.2", "gradio_client==0.2.9",
     "requests", "httpx==0.24.0", "uvicorn", "fastapi", "icecream",
-    "einops==0.6.1", "einops-exts==0.0.4", "timm==0.6.13", "decord",
+    "einops==0.6.1", "einops-exts==0.0.4", "timm==0.6.13", "decord", "scipy",
 ]
 
 [project.optional-dependencies]

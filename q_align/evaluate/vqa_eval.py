@@ -63,14 +63,18 @@ def main(args):
     import json
 
     
-    
     image_paths = [
-        "../datasets/KoNViD_1k_videos/",
-        "../datasets/MaxWell/videos/",
+        "playground/data/",
+        "playground/data/",
+        "playground/data/KoNViD_1k_videos/",
+        "playground/data/maxwell/",
+
     ]
 
     json_prefix = "playground/data/test_jsons/"
     jsons = [
+        json_prefix + "test_lsvq.json",
+        json_prefix + "test_lsvq_1080p.json",
         json_prefix + "konvid.json",
         json_prefix + "maxwell_test.json",
     ]
@@ -103,44 +107,47 @@ def main(args):
             prs, gts = [], []
             for i, llddata in enumerate(tqdm(iqadata, desc="Evaluating [{}]".format(json_.split("/")[-1]))):
                 try:
-                    filename = llddata["img_path"]
-                except:
-                    filename = llddata["image"]
-                llddata["logits"] = defaultdict(float)
-                
-                image = load_video(image_path + filename)
-                def expand2square(pil_img, background_color):
-                        width, height = pil_img.size
-                        if width == height:
-                            return pil_img
-                        elif width > height:
-                            result = Image.new(pil_img.mode, (width, width), background_color)
-                            result.paste(pil_img, (0, (width - height) // 2))
-                            return result
-                        else:
-                            result = Image.new(pil_img.mode, (height, height), background_color)
-                            result.paste(pil_img, ((height - width) // 2, 0))
-                            return result
-                image = [expand2square(img, tuple(int(x*255) for x in image_processor.image_mean)) for img in image]
-                image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].half().to(args.device)
+                    try:
+                        filename = llddata["img_path"]
+                    except:
+                        filename = llddata["image"]
+                    llddata["logits"] = defaultdict(float)
 
-                if True:
-                    with torch.inference_mode():
-                        output_logits = model(input_ids,
-                            images=[image_tensor])["logits"][:,-1]
-                        for tok, id_ in zip(toks, ids_):
-                            llddata["logits"][tok] += output_logits.mean(0)[id_].item()
-                        llddata["score"] = wa5(llddata["logits"])
-                        # print(llddata)
-                        prs.append(llddata["score"])
-                        gts.append(llddata["gt_score"])
-                        # print(llddata)
-                        json_ = json_.replace("combined/", "combined-")
-                        with open(f"results/{args.model_path}/{json_.split('/')[-1]}", "a") as wf:
-                            json.dump(llddata, wf)
-                            
-                if i > 0 and i % 200 == 0:
-                    print(spearmanr(prs,gts)[0], pearsonr(prs,gts)[0])
+                    image = load_video(image_path + filename)
+                    def expand2square(pil_img, background_color):
+                            width, height = pil_img.size
+                            if width == height:
+                                return pil_img
+                            elif width > height:
+                                result = Image.new(pil_img.mode, (width, width), background_color)
+                                result.paste(pil_img, (0, (width - height) // 2))
+                                return result
+                            else:
+                                result = Image.new(pil_img.mode, (height, height), background_color)
+                                result.paste(pil_img, ((height - width) // 2, 0))
+                                return result
+                    image = [expand2square(img, tuple(int(x*255) for x in image_processor.image_mean)) for img in image]
+                    image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].half().to(args.device)
+
+                    if True:
+                        with torch.inference_mode():
+                            output_logits = model(input_ids,
+                                images=[image_tensor])["logits"][:,-1]
+                            for tok, id_ in zip(toks, ids_):
+                                llddata["logits"][tok] += output_logits.mean(0)[id_].item()
+                            llddata["score"] = wa5(llddata["logits"])
+                            # print(llddata)
+                            prs.append(llddata["score"])
+                            gts.append(llddata["gt_score"])
+                            # print(llddata)
+                            json_ = json_.replace("combined/", "combined-")
+                            with open(f"results/{args.model_path}/{json_.split('/')[-1]}", "a") as wf:
+                                json.dump(llddata, wf)
+
+                    if i > 0 and i % 200 == 0:
+                        print(spearmanr(prs,gts)[0], pearsonr(prs,gts)[0])
+                except:
+                    continue
             print("Spearmanr", spearmanr(prs,gts)[0], "Pearson", pearsonr(prs,gts)[0])
 
 
@@ -148,7 +155,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model-path", type=str, default="q-future/one-align")
     parser.add_argument("--model-base", type=str, default=None)
-    parser.add_argument("--device", type=str, default="cuda")
+    parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--conv-mode", type=str, default=None)
     parser.add_argument("--temperature", type=float, default=0.2)
     parser.add_argument("--max-new-tokens", type=int, default=512)
