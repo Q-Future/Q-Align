@@ -1,8 +1,11 @@
 <div align="center">
   <h1>Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels</h1> 
     
+<div style="width: 50%; text-align: center; margin:auto;">
+      <img style="width: 50%" src="fig/onescorer.png">
+</div> 
     
-*One Unified Model for Visual scoring.*
+<a href="https://huggingface.co/spaces/teowu/OneScorer">One Unified Model for Visual scoring.</a>
 
   <div>
       <a href="https://teowu.github.io/" target="_blank">Haoning Wu</a><sup>1</sup><sup>*</sup><sup>+</sup>,
@@ -37,10 +40,6 @@
    </div>   
     
     
-<h2>Results</h2> 
-<div style="width: 50%; text-align: center; margin:auto;">
-      <img style="width: 50%" src="fig/onescorer.png">
-</div> 
 
     
 <h2>Results</h2> 
