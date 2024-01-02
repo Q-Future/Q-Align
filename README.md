@@ -78,6 +78,23 @@ pip install -e ".[train]"
 pip install flash_attn --no-build-isolation
 ```
 
+
+## Quicker Start with HuggingFace AutoModel
+
+No need to install this GitHub repo. 
+
+```python
+import requests
+import torch
+from transformers import AutoModelForCausalLM
+
+model = AutoModelForCausalLM.from_pretrained("q-future/one-align", trust_remote_code=True, 
+                                             torch_dtype=torch.float16, device_map={"":"cuda:0"})
+
+from PIL import Image
+model.score([Image.open(requests.get("https://raw.githubusercontent.com/Q-Future/Q-Align/main/fig/singapore_flyer.jpg", stream=True).raw)], task_="quality", input_="image") # task_ : quality | aesthetics; # input_: image | video
+
+```
 ## Quick Start
 
 ### Image Quality Scorer
