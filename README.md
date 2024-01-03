@@ -92,8 +92,8 @@ model = AutoModelForCausalLM.from_pretrained("q-future/one-align", trust_remote_
                                              torch_dtype=torch.float16, device_map={"":"cuda:0"})
 
 from PIL import Image
-model.score([Image.open(requests.get("https://raw.githubusercontent.com/Q-Future/Q-Align/main/fig/singapore_flyer.jpg", stream=True).raw)], task_="quality", input_="image") # task_ : quality | aesthetics; # input_: image | video
-
+model.score([Image.open(requests.get("https://raw.githubusercontent.com/Q-Future/Q-Align/main/fig/singapore_flyer.jpg",
+                                     stream=True).raw)], task_="quality", input_="image") # task_ : quality | aesthetics; # input_: image | video
 ```
 ## Quick Start
 
@@ -109,7 +109,7 @@ python q_align/evaluate/scorer.py --img_path $DEFAULT_IMG_PATH
 - Python API
 
 ```python
-from q_align.evaluate.scorer import QAlignScorer
+from q_align import QAlignScorer
 from PIL import Image
 
 scorer = QAlignScorer()
@@ -129,7 +129,7 @@ python q_align/evaluate/scorer.py --img_path $DEFAULT_IMG_PATH --aesthetic --mod
 - Python API
 
 ```python
-from q_align.evaluate.scorer import QAlignAestheticScorer
+from q_align import QAlignAestheticScorer
 from PIL import Image
 
 scorer = QAlignAestheticScorer()
@@ -150,7 +150,7 @@ python q_align/evaluate/scorer.py --img_path $DEFAULT_IMG_PATH --video --model-p
 - Python API
 
 ```python
-from q_align.evaluate.scorer import QAlignVideoScorer, load_video
+from q_align import QAlignVideoScorer, load_video
 
 scorer = QAlignVideoScorer()
 video_list = [load_video("fig/baby.mp4")]

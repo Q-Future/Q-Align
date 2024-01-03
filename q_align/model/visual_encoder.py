@@ -918,11 +918,3 @@ class MplugOwlVisualAbstractorModel(PreTrainedModel):
         )
     
     
-if __name__ == "__main__":
-    from configuration_mplug_owl2 import MPLUGOwl2Config
-    config = MPLUGOwl2Config()
-    visual_model = MplugOwlVisionModel(config.visual_config["visual_model"])
-    print(visual_model)
-    
-    abstractor_module = MplugOwlVisualAbstractorModel(config.visual_config["visual_abstractor"], config.hidden_size)
-    print(abstractor_module)

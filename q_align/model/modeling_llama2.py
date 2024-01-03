@@ -8,6 +8,14 @@ import torch.nn.functional as F
 import torch.utils.checkpoint
 from torch import nn
 
+
+import copy
+import os
+import sys
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+sys.path.insert(0, dir_path)
+
 import transformers
 from transformers.models.llama.modeling_llama import *
 from transformers.configuration_utils import PretrainedConfig

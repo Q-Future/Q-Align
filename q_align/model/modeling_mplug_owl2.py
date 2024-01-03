@@ -19,14 +19,58 @@ import torch
 import torch.nn as nn
 from torch.nn import CrossEntropyLoss
 
-from transformers import AutoConfig, AutoModelForCausalLM, LlamaConfig, LlamaModel, LlamaForCausalLM
+import copy
+import os
+import sys
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+sys.path.insert(0, dir_path)
+
+from transformers import AutoConfig, AutoModelForCausalLM, AutoTokenizer, CLIPImageProcessor, LlamaConfig, LlamaModel, LlamaForCausalLM
 from transformers.modeling_outputs import CausalLMOutputWithPast
 
 from .configuration_mplug_owl2 import MPLUGOwl2Config, MplugOwlVisionConfig, MplugOwlVisualAbstractorConfig
 from .visual_encoder import MplugOwlVisionModel, MplugOwlVisualAbstractorModel
 from .modeling_llama2 import replace_llama_modality_adaptive
-from q_align.constants import IMAGE_TOKEN_INDEX, IGNORE_INDEX
+IGNORE_INDEX = -100
+IMAGE_TOKEN_INDEX = -200
+DEFAULT_IMAGE_TOKEN = "<|image|>"
 from icecream import ic
+
+def tokenizer_image_token(prompt, tokenizer, image_token_index=IMAGE_TOKEN_INDEX, return_tensors=None):
+    prompt_chunks = [tokenizer(chunk).input_ids if len(chunk) > 0 else [] for chunk in prompt.split(DEFAULT_IMAGE_TOKEN)]
+
+    def insert_separator(X, sep):
+        return [ele for sublist in zip(X, [sep]*len(X)) for ele in sublist][:-1]
+
+    input_ids = []
+    offset = 0
+    if len(prompt_chunks) > 0 and len(prompt_chunks[0]) > 0 and prompt_chunks[0][0] == tokenizer.bos_token_id:
+        offset = 1
+        input_ids.append(prompt_chunks[0][0])
+
+    for x in insert_separator(prompt_chunks, [image_token_index] * (offset + 1)):
+        input_ids.extend(x[offset:])
+
+    if return_tensors is not None:
+        if return_tensors == 'pt':
+            return torch.tensor(input_ids, dtype=torch.long)
+        raise ValueError(f'Unsupported tensor type: {return_tensors}')
+    return input_ids
+
+def expand2square(pil_img, background_color):
+        from PIL import Image
+        width, height = pil_img.size
+        if width == height:
+            return pil_img
+        elif width > height:
+            result = Image.new(pil_img.mode, (width, width), background_color)
+            result.paste(pil_img, (0, (width - height) // 2))
+            return result
+        else:
+            result = Image.new(pil_img.mode, (height, height), background_color)
+            result.paste(pil_img, ((height - width) // 2, 0))
+            return result
 
 class MPLUGOwl2MetaModel:
     def __init__(self, config):
@@ -207,15 +251,44 @@ class MPLUGOwl2LlamaForCausalLM(LlamaForCausalLM, MPLUGOwl2MetaForCausalLM):
     def __init__(self, config):
         super(LlamaForCausalLM, self).__init__(config)
         self.model = MPLUGOwl2LlamaModel(config)
+        
+        self.tokenizer = AutoTokenizer.from_pretrained("q-future/one-align")
+        self.image_processor = CLIPImageProcessor.from_pretrained("q-future/one-align")
 
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
+        self.preferential_ids_ = [id_[1] for id_ in self.tokenizer(["excellent","good","fair","poor","bad"])["input_ids"]]
 
         # Initialize weights and apply final processing
         self.post_init()
+        
 
     def get_model(self):
         return self.model
-
+    
+    def score(self, images, 
+              task_: str = "quality",
+              input_: str = "image",
+             ):
+        if not hasattr(self, "weight_tensor"):
+            self.weight_tensor = torch.Tensor([5.,4.,3.,2.,1.]).half().to(self.device)
+        prompt = "USER: How would you rate the {} of this {}?\n<|image|>\nASSISTANT: The {} of the {} is".format(task_, input_, input_, task_)
+        if input_ == "image":
+            images = [expand2square(img, tuple(int(x*255) for x in self.image_processor.image_mean)) for img in images]
+            input_ids = tokenizer_image_token(prompt, self.tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(self.device)
+            with torch.inference_mode():
+                image_tensor = self.image_processor.preprocess(images, return_tensors="pt")["pixel_values"].half().to(self.device)
+                output_logits = self(input_ids.repeat(image_tensor.shape[0], 1),
+                                images=image_tensor)["logits"][:,-1, self.preferential_ids_]
+                return torch.softmax(output_logits, -1) @ self.weight_tensor
+        else:
+            video = [[expand2square(frame, tuple(int(x*255) for x in self.image_processor.image_mean)) for frame in vid] for vid in images]
+            input_ids = tokenizer_image_token(prompt, self.tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(self.device)
+            with torch.inference_mode():
+                video_tensors = [self.image_processor.preprocess(vid, return_tensors="pt")["pixel_values"].half().to(self.model.device) for vid in video]
+                output_logits = self(input_ids.repeat(len(video_tensors), 1),
+                            images=video_tensors)["logits"][:,-1, self.preferential_ids_]
+                return torch.softmax(output_logits, -1) @ self.weight_tensor
+        
     def forward(
         self,
         input_ids: torch.LongTensor = None,
@@ -307,10 +380,10 @@ AutoModelForCausalLM.register(MPLUGOwl2Config, MPLUGOwl2LlamaForCausalLM)
 replace_llama_modality_adaptive()
 
 if __name__ == "__main__":
-    config = MPLUGOwl2Config.from_pretrained('/cpfs01/shared/public/test/vicuna-7b-v1.5/')
+    config = MPLUGOwl2Config.from_pretrained('q-future/one-align')
     from icecream import ic
     # config = MPLUGOwl2Config()
-    model =  MPLUGOwl2LlamaForCausalLM(config)
+    model =  AutoModelForCausalLM(config)
     
     images = torch.randn(2, 3, 448, 448)
     input_ids = torch.cat([
