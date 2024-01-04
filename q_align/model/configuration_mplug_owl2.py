@@ -117,6 +117,7 @@ class LlamaConfig(PretrainedConfig):
         rope_theta=10000.0,
         rope_scaling=None,
         attention_bias=False,
+        attention_dropout=0.0,
         **kwargs,
     ):
         self.vocab_size = vocab_size
@@ -140,6 +141,8 @@ class LlamaConfig(PretrainedConfig):
         self.rope_scaling = rope_scaling
         self._rope_scaling_validation()
         self.attention_bias = attention_bias
+        self.attention_dropout = attention_dropout
+        self._attn_implementation = "flash_attention_2"
 
         super().__init__(
             pad_token_id=pad_token_id,

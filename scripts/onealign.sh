@@ -1,7 +1,7 @@
 #!/bin/bash
 LOAD='MAGAer13/mplug-owl2-llama2-7b'
 
-DATA_FILE=playground/data/training_sft/train_iqa_vqa.json
+DATA_FILE=playground/data/training_sft/train_all.json
 deepspeed --master_port 25801 q_align/train/train_mem.py \
     --deepspeed ./scripts/zero3.json \
     --model_name_or_path $LOAD \
@@ -11,14 +11,14 @@ deepspeed --master_port 25801 q_align/train/train_mem.py \
     --image_aspect_ratio pad \
     --group_by_modality_length True \
     --bf16 True \
-    --output_dir ./q-align-iqa-vqa \
+    --output_dir ./one-align \
     --num_train_epochs 2 \
-    --per_device_train_batch_size 8 \
+    --per_device_train_batch_size 32 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 1 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
-    --save_steps 813 \
+    --save_steps 1100 \
     --save_total_limit 2 \
     --learning_rate 2e-5 \
     --weight_decay 0. \

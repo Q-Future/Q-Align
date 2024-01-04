@@ -40,7 +40,6 @@
    </div>   
     
     
-
     
 <h2>Results</h2> 
 <div style="width: 75%; text-align: center; margin:auto;">
@@ -59,6 +58,16 @@
       <img style="width: 75%" src="fig/structure.png">
 </div>
 </div> 
+
+## [Important Note!]
+
+
+Thus, we have modified respective code for mPLUG-Owl2 to adapt it to the newest transformer version, i.e. `transformers==4.36.1`, so that you do not need to create a separate outdated environment while using it alongside other projects. The updated code is no longer compatible with the old-version Q-Align (v1.0.1/v1.0.0, and before), please update to the newest version via the following scripts:
+
+```shell
+git pull
+pip install -e .
+```
 
 
 ## Installation
@@ -273,7 +282,7 @@ sh scripts/l1_lsvq.sh
 - Training OneAlign with IQA datasets, AVA dataset (IAA) and LSVQ dataset (VQA):
 
 ```shell
-sh scripts/all_.sh
+sh scripts/onealign.sh
 ```
 
 *At least 8\*A6000 GPUs or 4\*A100 GPUs will be enough for the training.*
