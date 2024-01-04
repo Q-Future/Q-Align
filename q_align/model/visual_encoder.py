@@ -383,6 +383,7 @@ class MplugOwlVisionEncoder(nn.Module):
 
 class MplugOwlVisionModel(PreTrainedModel):
     main_input_name = "pixel_values"
+    _no_split_modules = ["MplugOwlVisionEncoderLayer"]
 
     def __init__(self, config):
         super().__init__(config)
@@ -754,6 +755,7 @@ class MplugOwlVisualAbstractorEncoder(nn.Module):
 
 
 class MplugOwlVisualAbstractorModel(PreTrainedModel):
+    _no_split_modules = ["MplugOwlVisualAbstractorLayer"]
     def __init__(self, config, language_hidden_size):
         super().__init__(config)
         self.config = config

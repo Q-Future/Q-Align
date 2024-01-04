@@ -9,7 +9,6 @@ from transformers.trainer import (
     get_parameter_names,
     has_length,
     ALL_LAYERNORM_LAYERS,
-    ShardedDDPOption,
     logger,
 )
 from typing import List, Optional
@@ -154,10 +153,10 @@ class MPLUGOwl2Trainer(Trainer):
         We provide a reasonable default that works well. If you want to use something else, you can pass a tuple in the
         Trainer's init through `optimizers`, or subclass and override this method in a subclass.
         """
-        if is_sagemaker_mp_enabled():
-            return super().create_optimizer()
-        if self.sharded_ddp == ShardedDDPOption.SIMPLE:
-            return super().create_optimizer()
+        #if is_sagemaker_mp_enabled():
+        #    return super().create_optimizer()
+        #if self.sharded_ddp == ShardedDDPOption.SIMPLE:
+        #    return super().create_optimizer()
 
         opt_model = self.model
 
@@ -212,13 +211,7 @@ class MPLUGOwl2Trainer(Trainer):
             ic(len(optimizer_grouped_parameters[0]['params']),len(optimizer_grouped_parameters[1]['params']))
             optimizer_cls, optimizer_kwargs = Trainer.get_optimizer_cls_and_kwargs(self.args)
 
-            if self.sharded_ddp == ShardedDDPOption.SIMPLE:
-                self.optimizer = OSS(
-                    params=optimizer_grouped_parameters,
-                    optim=optimizer_cls,
-                    **optimizer_kwargs,
-                )
-            else:
+            if True:
                 self.optimizer = optimizer_cls(optimizer_grouped_parameters, **optimizer_kwargs)
                 if optimizer_cls.__name__ == "Adam8bit":
                     import bitsandbytes

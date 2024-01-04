@@ -602,9 +602,9 @@ class LazySupervisedDataset(Dataset):
                         continue
                     if self.data_args.image_aspect_ratio == 'pad':
                         image = expand2square(image, tuple(int(x*255) for x in processor.image_mean))
-                        image = processor.preprocess(image, return_tensors='pt')['pixel_values'][0]
+                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
                     else:
-                        image = processor.preprocess(image, return_tensors='pt')['pixel_values'][0]
+                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
                 sources = preprocess_multimodal(
                     copy.deepcopy([e["conversations"] for e in sources]),
                     self.data_args)
