@@ -688,7 +688,7 @@ def train():
     if training_args.bits in [4, 8]:
         from transformers import BitsAndBytesConfig
         bnb_model_from_pretrained_args.update(dict(
-            device_map={"": training_args.device},
+            #device_map={"": training_args.device},
             load_in_4bit=training_args.bits == 4,
             load_in_8bit=training_args.bits == 8,
             quantization_config=BitsAndBytesConfig(
@@ -741,6 +741,7 @@ def train():
             if training_args.fp16:
                 model.to(torch.float16)
         rank0_print("Adding LoRA adapters...")
+        
         model = get_peft_model(model, lora_config)
 
     tokenizer = transformers.AutoTokenizer.from_pretrained(
@@ -777,9 +778,9 @@ def train():
     model.config.image_grid_pinpoints = data_args.image_grid_pinpoints
     model.config.tune_visual_abstractor = model_args.tune_visual_abstractor = training_args.tune_visual_abstractor
     ic(training_args.tune_visual_abstractor)
-    model.requires_grad_(True)
+    #model.requires_grad_(False)
     if training_args.tune_visual_abstractor:
-        # model.requires_grad_(False)
+        model.requires_grad_(False)
         for p in model.get_model().visual_abstractor.parameters():
             p.requires_grad = True
             
