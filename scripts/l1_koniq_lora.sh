@@ -1,26 +1,28 @@
 #!/bin/bash
 LOAD='MAGAer13/mplug-owl2-llama2-7b'
 
-DATA_FILE=playground/data/training_sft/train_iqa_vqa.json
+DATA_FILE=playground/data/training_sft/train_koniq_spaq_kadid.json
 deepspeed --master_port 25801 q_align/train/train_mem.py \
     --deepspeed ./scripts/zero3.json \
+    --visual_abstractor_lr 2e-5 \
     --model_name_or_path $LOAD \
     --version v1 \
     --data_path $DATA_FILE \
-    --image_folder playground/data/ \
+    --image_folder ../datasets/ \
     --image_aspect_ratio pad \
     --group_by_modality_length True \
+    --tune_visual_abstractor True \
     --bf16 True \
-    --output_dir ./q-align-iqa-vqa \
-    --num_train_epochs 2 \
-    --per_device_train_batch_size 8 \
+    --output_dir ./q-align-iqa \
+    --num_train_epochs 3 \
+    --per_device_train_batch_size 32 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 1 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
-    --save_steps 813 \
-    --save_total_limit 2 \
-    --learning_rate 2e-5 \
+    --save_steps 1000 \
+    --save_total_limit 3 \
+    --learning_rate 2e-4 \
     --weight_decay 0. \
     --warmup_ratio 0.03 \
     --lr_scheduler_type "cosine" \

@@ -1,3 +1,6 @@
+This is the legacy branch that can work well with `transformers==4.31.0`, and will stop service from Jan 15, 2024.
+Please switch to [main branch](https://github.com/Q-Future/Q-Align). if you wish to see further updates.
+
 <div align="center">
   <h1>Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels</h1> 
     
@@ -81,7 +84,8 @@ pip install flash_attn --no-build-isolation
 
 ## Quicker Start with HuggingFace AutoModel
 
-No need to install this GitHub repo. 
+
+The AutoModel now only supports higher version (e.g. 4.36.1) of transformers. Please switch to [main branch](https://github.com/Q-Future/Q-Align).
 
 ```python
 import requests
@@ -95,6 +99,7 @@ from PIL import Image
 model.score([Image.open(requests.get("https://raw.githubusercontent.com/Q-Future/Q-Align/main/fig/singapore_flyer.jpg",
                                      stream=True).raw)], task_="quality", input_="image") # task_ : quality | aesthetics; # input_: image | video
 ```
+
 ## Quick Start
 
 We have fixed the multi-GPU inference problem.
@@ -273,7 +278,7 @@ sh scripts/l1_lsvq.sh
 - Training OneAlign with IQA datasets, AVA dataset (IAA) and LSVQ dataset (VQA):
 
 ```shell
-sh scripts/all_.sh
+sh scripts/onealign.sh
 ```
 
 *At least 8\*A6000 GPUs or 4\*A100 GPUs will be enough for the training.*
