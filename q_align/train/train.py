@@ -702,11 +702,16 @@ def train():
             )
         ))
 
+        
+
     model = MPLUGOwl2LlamaForCausalLM.from_pretrained(
         model_args.model_name_or_path,
         cache_dir=training_args.cache_dir,
+        use_flash_attention_2=True,
+        torch_dtype=compute_dtype,
         **bnb_model_from_pretrained_args
     )
+    print(model.config)
     model.config.use_cache = False
 
     if model_args.freeze_backbone:
@@ -777,7 +782,7 @@ def train():
     model.config.image_aspect_ratio = data_args.image_aspect_ratio
     model.config.image_grid_pinpoints = data_args.image_grid_pinpoints
     model.config.tune_visual_abstractor = model_args.tune_visual_abstractor = training_args.tune_visual_abstractor
-    ic(training_args.tune_visual_abstractor)
+    print(training_args.tune_visual_abstractor)
     #model.requires_grad_(False)
     if training_args.tune_visual_abstractor:
         model.requires_grad_(False)
@@ -785,7 +790,7 @@ def train():
             p.requires_grad = True
             
     model.config.freeze_vision_model = training_args.freeze_vision_model
-    ic(training_args.freeze_vision_model)
+    print(training_args.freeze_vision_model)
     if training_args.freeze_vision_model:
         for p in model.get_model().vision_model.parameters():
             p.requires_grad = False

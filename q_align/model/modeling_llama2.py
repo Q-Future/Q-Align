@@ -18,7 +18,19 @@ sys.path.insert(0, dir_path)
 
 import transformers
 from transformers.models.llama.modeling_llama import *
-from transformers.models.llama.modeling_llama import *
+
+def _get_unpad_data(attention_mask):
+    seqlens_in_batch = attention_mask.sum(dim=-1, dtype=torch.int32)
+    indices = torch.nonzero(attention_mask.flatten(), as_tuple=False).flatten()
+    max_seqlen_in_batch = seqlens_in_batch.max().item()
+    cu_seqlens = F.pad(torch.cumsum(seqlens_in_batch, dim=0, dtype=torch.torch.int32), (1, 0))
+    return (
+        indices,
+        cu_seqlens,
+        max_seqlen_in_batch,
+    )
+
+
 from transformers.configuration_utils import PretrainedConfig
 from transformers.utils import logging
 
@@ -499,6 +511,7 @@ class LlamaDecoderLayer(nn.Module):
     def __init__(self, config: LlamaConfig, layer_idx):
         super().__init__()
         self.hidden_size = config.hidden_size
+        print(config._attn_implementation)
         self.self_attn = LlamaAttention(config=config)
         self.self_attn = LLAMA_ATTENTION_CLASSES[config._attn_implementation](config=config, layer_idx=layer_idx)
         self.mlp = LlamaMLP(config)

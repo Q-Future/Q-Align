@@ -321,6 +321,7 @@ DEFAULT_VISUAL_CONFIG = {
 
 class MPLUGOwl2Config(LlamaConfig):
     model_type = "mplug_owl2"
+    _attn_implementation = "flash_attention_2"
     def __init__(self, visual_config=None, **kwargs):
         if visual_config is None:
             self.visual_config = DEFAULT_VISUAL_CONFIG
