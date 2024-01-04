@@ -72,7 +72,7 @@ class TrainingArguments(transformers.TrainingArguments):
     optim: str = field(default="adamw_torch")
     remove_unused_columns: bool = field(default=False)
     
-    tune_visual_abstractor: bool = field(default=True)
+    tune_visual_abstractor: bool = field(default=False)
     freeze_vision_model: bool = field(default=True)
 
     model_max_length: int = field(
@@ -102,6 +102,7 @@ class TrainingArguments(transformers.TrainingArguments):
     lora_bias: str = "none"
     visual_abstractor_lr: Optional[float] = None
     group_by_modality_length: bool = field(default=False)
+    save_safetensors: bool = False
 
 
 def maybe_zero_3(param, ignore_status=False, name=None):
@@ -161,20 +162,31 @@ def get_mm_adapter_state_maybe_zero_3(named_params, keys_to_match):
 def find_all_linear_names(model):
     cls = torch.nn.Linear
     lora_module_names = set()
-    multimodal_keywords = ['vision_model', 'visual_abstractor']
+    multimodal_keywords = ['visual_abstractor']
     for name, module in model.named_modules():
-        if any(mm_keyword in name for mm_keyword in multimodal_keywords):
-            continue
+        if not any(mm_keyword in name for mm_keyword in multimodal_keywords):
+            if "v_proj.multiway.1" in name or "q_proj" in name:
+                lora_module_names.add(name)
+            else:
+                continue
+        else:
+            if "query" in name or "value" in name:
+                lora_module_names.add(name)
+            else:
+                continue
         if isinstance(module, cls):
             lora_module_names.add(name)
 
     if 'lm_head' in lora_module_names: # needed for 16-bit
         lora_module_names.remove('lm_head')
-    return list(lora_module_names)
+    ls = list(lora_module_names)
+    print(ls)
+    return ls
 
 
 def safe_save_model_for_hf_trainer(trainer: transformers.Trainer,
-                                   output_dir: str):
+                                   output_dir: str,
+                                  ):
     """Collects the state dict and dump to disk."""
 
     if trainer.deepspeed:
@@ -183,12 +195,14 @@ def safe_save_model_for_hf_trainer(trainer: transformers.Trainer,
         return
 
     state_dict = trainer.model.state_dict()
+    
     if trainer.args.should_save:
         cpu_state_dict = {
             key: value.cpu()
             for key, value in state_dict.items()
         }
         del state_dict
+
         trainer._save(output_dir, state_dict=cpu_state_dict)  # noqa
 
 
@@ -748,7 +762,6 @@ def train():
         rank0_print("Adding LoRA adapters...")
         
         model = get_peft_model(model, lora_config)
-
     tokenizer = transformers.AutoTokenizer.from_pretrained(
         model_args.model_name_or_path,
         cache_dir=training_args.cache_dir,
@@ -783,11 +796,21 @@ def train():
     model.config.image_grid_pinpoints = data_args.image_grid_pinpoints
     model.config.tune_visual_abstractor = model_args.tune_visual_abstractor = training_args.tune_visual_abstractor
     print(training_args.tune_visual_abstractor)
-    #model.requires_grad_(False)
-    if training_args.tune_visual_abstractor:
-        model.requires_grad_(False)
-        for p in model.get_model().visual_abstractor.parameters():
+    for n, p in model.named_parameters():
+        if training_args.lora_enable:
+            p.requires_grad = True if "lora_" in n else False
+        else:
             p.requires_grad = True
+    if training_args.lora_enable:
+        model.print_trainable_parameters()     
+
+    if training_args.tune_visual_abstractor:
+        #model.requires_grad_(False)
+        for n, p in model.get_model().visual_abstractor.named_parameters():
+            if training_args.lora_enable:
+                p.requires_grad = True if "lora_" in n else False
+            else:
+                p.requires_grad = True
             
     model.config.freeze_vision_model = training_args.freeze_vision_model
     print(training_args.freeze_vision_model)
@@ -795,6 +818,7 @@ def train():
         for p in model.get_model().vision_model.parameters():
             p.requires_grad = False
             
+    model.print_trainable_parameters()     
     model.config.visual_abstractor_lr = training_args.visual_abstractor_lr
 
 
@@ -843,7 +867,8 @@ def train():
             torch.save(non_lora_state_dict, os.path.join(training_args.output_dir, 'non_lora_trainables.bin'))
     else:
         safe_save_model_for_hf_trainer(trainer=trainer,
-                                       output_dir=training_args.output_dir)
+                                       output_dir=training_args.output_dir,
+                                       )
 
 
 if __name__ == "__main__":
