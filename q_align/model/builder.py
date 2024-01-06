@@ -40,7 +40,7 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
         )
     else:
         kwargs['torch_dtype'] = torch.float16
-    if 'mplug_owl2' in model_name.lower():
+    if 'q-align' in model_name.lower():
         # Load LLaVA model
         if 'lora' in model_name.lower() and model_base is None:
             warnings.warn('There is `lora` in model name but no `model_base` is provided. If you are loading a LoRA model, please provide the `model_base` argument. Detailed instruction: https://github.com/haotian-liu/LLaVA#launch-a-model-worker-lora-weights-unmerged.')
@@ -57,6 +57,7 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
             print('Loading additional mPLUG-Owl2 weights...')
             if os.path.exists(os.path.join(model_path, 'non_lora_trainables.bin')):
                 non_lora_trainables = torch.load(os.path.join(model_path, 'non_lora_trainables.bin'), map_location='cpu')
+                print(non_lora_trainables.keys())
             else:
                 # this is probably from HF Hub
                 from huggingface_hub import hf_hub_download

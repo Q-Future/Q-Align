@@ -95,8 +95,8 @@ class TrainingArguments(transformers.TrainingArguments):
         metadata={"help": "How many bits to use."}
     )
     lora_enable: bool = False
-    lora_r: int = 64
-    lora_alpha: int = 16
+    lora_r: int = 128 #128
+    lora_alpha: int = 256
     lora_dropout: float = 0.05
     lora_weight_path: str = ""
     lora_bias: str = "none"
@@ -170,6 +170,7 @@ def find_all_linear_names(model):
             else:
                 continue
         else:
+            continue
             if "query" in name or "value" in name:
                 lora_module_names.add(name)
             else:
@@ -801,16 +802,16 @@ def train():
             p.requires_grad = True if "lora_" in n else False
         else:
             p.requires_grad = True
+        #if "lm_head" in n:
+            #print(n)
+            #p.requires_grad = True
     if training_args.lora_enable:
         model.print_trainable_parameters()     
 
     if training_args.tune_visual_abstractor:
         #model.requires_grad_(False)
         for n, p in model.get_model().visual_abstractor.named_parameters():
-            if training_args.lora_enable:
-                p.requires_grad = True if "lora_" in n else False
-            else:
-                p.requires_grad = True
+            p.requires_grad = True
             
     model.config.freeze_vision_model = training_args.freeze_vision_model
     print(training_args.freeze_vision_model)

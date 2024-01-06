@@ -1,0 +1,2117 @@
+[
+    {
+        "id": "csiq/dst_imgs/awgn/foxy.AWGN.1.png->0.013529024",
+        "image": "csiq/dst_imgs/awgn/foxy.AWGN.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.013529024
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/foxy.AWGN.2.png->0.063616927",
+        "image": "csiq/dst_imgs/awgn/foxy.AWGN.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.063616927
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/foxy.AWGN.3.png->0.136469127",
+        "image": "csiq/dst_imgs/awgn/foxy.AWGN.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.136469127
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/foxy.AWGN.4.png->0.250446077",
+        "image": "csiq/dst_imgs/awgn/foxy.AWGN.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.250446077
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/foxy.AWGN.5.png->0.381162909",
+        "image": "csiq/dst_imgs/awgn/foxy.AWGN.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.381162909
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/foxy.JPEG.1.png->0.016043839",
+        "image": "csiq/dst_imgs/jpeg/foxy.JPEG.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.016043839
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/foxy.JPEG.2.png->0.074938534",
+        "image": "csiq/dst_imgs/jpeg/foxy.JPEG.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.074938534
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/foxy.JPEG.3.png->0.154161706",
+        "image": "csiq/dst_imgs/jpeg/foxy.JPEG.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.154161706
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/foxy.JPEG.4.png->0.322036595",
+        "image": "csiq/dst_imgs/jpeg/foxy.JPEG.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.322036595
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/foxy.JPEG.5.png->0.551065343",
+        "image": "csiq/dst_imgs/jpeg/foxy.JPEG.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.551065343
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/foxy.jpeg2000.1.png->0.015410763",
+        "image": "csiq/dst_imgs/jpeg2000/foxy.jpeg2000.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.015410763
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/foxy.jpeg2000.2.png->0.056297805",
+        "image": "csiq/dst_imgs/jpeg2000/foxy.jpeg2000.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.056297805
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/foxy.jpeg2000.3.png->0.178761669",
+        "image": "csiq/dst_imgs/jpeg2000/foxy.jpeg2000.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.178761669
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/foxy.jpeg2000.4.png->0.379202593",
+        "image": "csiq/dst_imgs/jpeg2000/foxy.jpeg2000.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.379202593
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/foxy.jpeg2000.5.png->0.60902992",
+        "image": "csiq/dst_imgs/jpeg2000/foxy.jpeg2000.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.60902992
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/foxy.fnoise.1.png->0.022737985",
+        "image": "csiq/dst_imgs/fnoise/foxy.fnoise.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.022737985
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/foxy.fnoise.2.png->0.092166914",
+        "image": "csiq/dst_imgs/fnoise/foxy.fnoise.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.092166914
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/foxy.fnoise.3.png->0.332709221",
+        "image": "csiq/dst_imgs/fnoise/foxy.fnoise.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.332709221
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/foxy.fnoise.4.png->0.400978252",
+        "image": "csiq/dst_imgs/fnoise/foxy.fnoise.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.400978252
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/foxy.fnoise.5.png->0.575855404",
+        "image": "csiq/dst_imgs/fnoise/foxy.fnoise.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.575855404
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/foxy.contrast.1.png->0.0467668",
+        "image": "csiq/dst_imgs/contrast/foxy.contrast.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0467668
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/foxy.contrast.2.png->0.183250495",
+        "image": "csiq/dst_imgs/contrast/foxy.contrast.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.183250495
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/foxy.contrast.3.png->0.356076798",
+        "image": "csiq/dst_imgs/contrast/foxy.contrast.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.356076798
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/foxy.contrast.4.png->0.469925279",
+        "image": "csiq/dst_imgs/contrast/foxy.contrast.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.469925279
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/geckos.AWGN.1.png->0.028506453",
+        "image": "csiq/dst_imgs/awgn/geckos.AWGN.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.028506453
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/geckos.AWGN.2.png->0.060272303",
+        "image": "csiq/dst_imgs/awgn/geckos.AWGN.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.060272303
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/geckos.AWGN.3.png->0.116694627",
+        "image": "csiq/dst_imgs/awgn/geckos.AWGN.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.116694627
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/geckos.AWGN.4.png->0.201859218",
+        "image": "csiq/dst_imgs/awgn/geckos.AWGN.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.201859218
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/geckos.AWGN.5.png->0.336185974",
+        "image": "csiq/dst_imgs/awgn/geckos.AWGN.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.336185974
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/geckos.JPEG.1.png->0.021995238",
+        "image": "csiq/dst_imgs/jpeg/geckos.JPEG.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.021995238
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/geckos.JPEG.2.png->0.04674105",
+        "image": "csiq/dst_imgs/jpeg/geckos.JPEG.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.04674105
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/geckos.JPEG.3.png->0.134774631",
+        "image": "csiq/dst_imgs/jpeg/geckos.JPEG.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.134774631
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/geckos.JPEG.4.png->0.462546028",
+        "image": "csiq/dst_imgs/jpeg/geckos.JPEG.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.462546028
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/geckos.JPEG.5.png->0.734366327",
+        "image": "csiq/dst_imgs/jpeg/geckos.JPEG.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.734366327
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/geckos.jpeg2000.1.png->0.022350232",
+        "image": "csiq/dst_imgs/jpeg2000/geckos.jpeg2000.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.022350232
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/geckos.jpeg2000.2.png->0.044189211",
+        "image": "csiq/dst_imgs/jpeg2000/geckos.jpeg2000.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.044189211
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/geckos.jpeg2000.3.png->0.170479495",
+        "image": "csiq/dst_imgs/jpeg2000/geckos.jpeg2000.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.170479495
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/geckos.jpeg2000.4.png->0.377390815",
+        "image": "csiq/dst_imgs/jpeg2000/geckos.jpeg2000.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.377390815
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/geckos.jpeg2000.5.png->0.61710268",
+        "image": "csiq/dst_imgs/jpeg2000/geckos.jpeg2000.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.61710268
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/geckos.fnoise.1.png->0.004040563",
+        "image": "csiq/dst_imgs/fnoise/geckos.fnoise.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.004040563
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/geckos.fnoise.2.png->0.19014873",
+        "image": "csiq/dst_imgs/fnoise/geckos.fnoise.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.19014873
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/geckos.fnoise.3.png->0.337512957",
+        "image": "csiq/dst_imgs/fnoise/geckos.fnoise.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.337512957
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/geckos.fnoise.4.png->0.451414333",
+        "image": "csiq/dst_imgs/fnoise/geckos.fnoise.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.451414333
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/geckos.fnoise.5.png->0.609817512",
+        "image": "csiq/dst_imgs/fnoise/geckos.fnoise.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.609817512
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/geckos.contrast.1.png->0.105397684",
+        "image": "csiq/dst_imgs/contrast/geckos.contrast.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.105397684
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/geckos.contrast.2.png->0.238840044",
+        "image": "csiq/dst_imgs/contrast/geckos.contrast.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.238840044
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/geckos.contrast.3.png->0.452382725",
+        "image": "csiq/dst_imgs/contrast/geckos.contrast.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.452382725
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/monument.AWGN.1.png->0.012406726",
+        "image": "csiq/dst_imgs/awgn/monument.AWGN.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.012406726
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/monument.AWGN.2.png->0.081070102",
+        "image": "csiq/dst_imgs/awgn/monument.AWGN.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.081070102
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/monument.AWGN.3.png->0.183266368",
+        "image": "csiq/dst_imgs/awgn/monument.AWGN.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.183266368
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/monument.AWGN.4.png->0.324757965",
+        "image": "csiq/dst_imgs/awgn/monument.AWGN.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.324757965
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/monument.AWGN.5.png->0.467743034",
+        "image": "csiq/dst_imgs/awgn/monument.AWGN.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.467743034
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/monument.JPEG.1.png->0.015565402",
+        "image": "csiq/dst_imgs/jpeg/monument.JPEG.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.015565402
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/monument.JPEG.2.png->0.063269539",
+        "image": "csiq/dst_imgs/jpeg/monument.JPEG.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.063269539
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/monument.JPEG.3.png->0.32396334",
+        "image": "csiq/dst_imgs/jpeg/monument.JPEG.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.32396334
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/monument.JPEG.4.png->0.567924205",
+        "image": "csiq/dst_imgs/jpeg/monument.JPEG.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.567924205
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/monument.JPEG.5.png->0.765558606",
+        "image": "csiq/dst_imgs/jpeg/monument.JPEG.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.765558606
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/monument.jpeg2000.1.png->0.014623702",
+        "image": "csiq/dst_imgs/jpeg2000/monument.jpeg2000.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.014623702
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/monument.jpeg2000.2.png->0.106412128",
+        "image": "csiq/dst_imgs/jpeg2000/monument.jpeg2000.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.106412128
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/monument.jpeg2000.3.png->0.38094815",
+        "image": "csiq/dst_imgs/jpeg2000/monument.jpeg2000.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.38094815
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/monument.jpeg2000.4.png->0.665181992",
+        "image": "csiq/dst_imgs/jpeg2000/monument.jpeg2000.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.665181992
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/monument.jpeg2000.5.png->0.82059766",
+        "image": "csiq/dst_imgs/jpeg2000/monument.jpeg2000.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 0.82059766
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/monument.fnoise.1.png->0.030942595",
+        "image": "csiq/dst_imgs/fnoise/monument.fnoise.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.030942595
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/monument.fnoise.2.png->0.208239877",
+        "image": "csiq/dst_imgs/fnoise/monument.fnoise.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.208239877
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/monument.fnoise.3.png->0.320126539",
+        "image": "csiq/dst_imgs/fnoise/monument.fnoise.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.320126539
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/monument.fnoise.4.png->0.513709065",
+        "image": "csiq/dst_imgs/fnoise/monument.fnoise.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.513709065
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/monument.fnoise.5.png->0.598477582",
+        "image": "csiq/dst_imgs/fnoise/monument.fnoise.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.598477582
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/monument.contrast.1.png->0.013177207",
+        "image": "csiq/dst_imgs/contrast/monument.contrast.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.013177207
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/monument.contrast.2.png->0.142370261",
+        "image": "csiq/dst_imgs/contrast/monument.contrast.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.142370261
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/monument.contrast.3.png->0.258125453",
+        "image": "csiq/dst_imgs/contrast/monument.contrast.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.258125453
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/monument.contrast.4.png->0.323350586",
+        "image": "csiq/dst_imgs/contrast/monument.contrast.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.323350586
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/snow_leaves.AWGN.1.png->0.018847775",
+        "image": "csiq/dst_imgs/awgn/snow_leaves.AWGN.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.018847775
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/snow_leaves.AWGN.2.png->0.06348715",
+        "image": "csiq/dst_imgs/awgn/snow_leaves.AWGN.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.06348715
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/snow_leaves.AWGN.3.png->0.211739714",
+        "image": "csiq/dst_imgs/awgn/snow_leaves.AWGN.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.211739714
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/snow_leaves.AWGN.4.png->0.293438517",
+        "image": "csiq/dst_imgs/awgn/snow_leaves.AWGN.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.293438517
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/snow_leaves.AWGN.5.png->0.434127385",
+        "image": "csiq/dst_imgs/awgn/snow_leaves.AWGN.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.434127385
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/snow_leaves.JPEG.1.png->0.02185801",
+        "image": "csiq/dst_imgs/jpeg/snow_leaves.JPEG.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.02185801
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/snow_leaves.JPEG.2.png->0.059660572",
+        "image": "csiq/dst_imgs/jpeg/snow_leaves.JPEG.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.059660572
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/snow_leaves.JPEG.3.png->0.260904686",
+        "image": "csiq/dst_imgs/jpeg/snow_leaves.JPEG.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.260904686
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/snow_leaves.JPEG.4.png->0.555248372",
+        "image": "csiq/dst_imgs/jpeg/snow_leaves.JPEG.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.555248372
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/snow_leaves.JPEG.5.png->0.710815844",
+        "image": "csiq/dst_imgs/jpeg/snow_leaves.JPEG.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.710815844
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/snow_leaves.jpeg2000.1.png->0.004027076",
+        "image": "csiq/dst_imgs/jpeg2000/snow_leaves.jpeg2000.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.004027076
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/snow_leaves.jpeg2000.2.png->0.077839981",
+        "image": "csiq/dst_imgs/jpeg2000/snow_leaves.jpeg2000.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.077839981
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/snow_leaves.jpeg2000.3.png->0.187380964",
+        "image": "csiq/dst_imgs/jpeg2000/snow_leaves.jpeg2000.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.187380964
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/snow_leaves.jpeg2000.4.png->0.555399878",
+        "image": "csiq/dst_imgs/jpeg2000/snow_leaves.jpeg2000.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.555399878
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/snow_leaves.jpeg2000.5.png->0.756590616",
+        "image": "csiq/dst_imgs/jpeg2000/snow_leaves.jpeg2000.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.756590616
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/snow_leaves.fnoise.1.png->0.047633662",
+        "image": "csiq/dst_imgs/fnoise/snow_leaves.fnoise.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.047633662
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/snow_leaves.fnoise.2.png->0.224576274",
+        "image": "csiq/dst_imgs/fnoise/snow_leaves.fnoise.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.224576274
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/snow_leaves.fnoise.3.png->0.411411121",
+        "image": "csiq/dst_imgs/fnoise/snow_leaves.fnoise.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.411411121
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/snow_leaves.fnoise.4.png->0.536041919",
+        "image": "csiq/dst_imgs/fnoise/snow_leaves.fnoise.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.536041919
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/snow_leaves.fnoise.5.png->0.679135001",
+        "image": "csiq/dst_imgs/fnoise/snow_leaves.fnoise.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.679135001
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/snow_leaves.contrast.1.png->0.040659684",
+        "image": "csiq/dst_imgs/contrast/snow_leaves.contrast.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.040659684
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/snow_leaves.contrast.2.png->0.220942968",
+        "image": "csiq/dst_imgs/contrast/snow_leaves.contrast.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.220942968
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/snow_leaves.contrast.3.png->0.319526544",
+        "image": "csiq/dst_imgs/contrast/snow_leaves.contrast.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.319526544
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/snow_leaves.contrast.4.png->0.378758397",
+        "image": "csiq/dst_imgs/contrast/snow_leaves.contrast.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.378758397
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/swarm.AWGN.1.png->0.035195863",
+        "image": "csiq/dst_imgs/awgn/swarm.AWGN.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.035195863
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/swarm.AWGN.2.png->0.165719637",
+        "image": "csiq/dst_imgs/awgn/swarm.AWGN.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.165719637
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/swarm.AWGN.3.png->0.321872406",
+        "image": "csiq/dst_imgs/awgn/swarm.AWGN.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.321872406
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/swarm.AWGN.4.png->0.419232083",
+        "image": "csiq/dst_imgs/awgn/swarm.AWGN.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.419232083
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/swarm.AWGN.5.png->0.577175381",
+        "image": "csiq/dst_imgs/awgn/swarm.AWGN.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.577175381
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/swarm.JPEG.1.png->0.046621182",
+        "image": "csiq/dst_imgs/jpeg/swarm.JPEG.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.046621182
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/swarm.JPEG.2.png->0.369293209",
+        "image": "csiq/dst_imgs/jpeg/swarm.JPEG.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.369293209
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/swarm.JPEG.3.png->0.71353187",
+        "image": "csiq/dst_imgs/jpeg/swarm.JPEG.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.71353187
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/swarm.JPEG.4.png->0.775962361",
+        "image": "csiq/dst_imgs/jpeg/swarm.JPEG.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.775962361
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/swarm.JPEG.5.png->0.891153288",
+        "image": "csiq/dst_imgs/jpeg/swarm.JPEG.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 0.891153288
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/swarm.jpeg2000.1.png->0.032796016",
+        "image": "csiq/dst_imgs/jpeg2000/swarm.jpeg2000.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.032796016
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/swarm.jpeg2000.2.png->0.313327703",
+        "image": "csiq/dst_imgs/jpeg2000/swarm.jpeg2000.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.313327703
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/swarm.jpeg2000.3.png->0.57230022",
+        "image": "csiq/dst_imgs/jpeg2000/swarm.jpeg2000.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.57230022
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/swarm.jpeg2000.4.png->0.83737432",
+        "image": "csiq/dst_imgs/jpeg2000/swarm.jpeg2000.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 0.83737432
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/swarm.jpeg2000.5.png->0.967152265",
+        "image": "csiq/dst_imgs/jpeg2000/swarm.jpeg2000.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 0.967152265
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/swarm.fnoise.1.png->0.072390211",
+        "image": "csiq/dst_imgs/fnoise/swarm.fnoise.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.072390211
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/swarm.fnoise.2.png->0.365700167",
+        "image": "csiq/dst_imgs/fnoise/swarm.fnoise.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.365700167
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/swarm.fnoise.3.png->0.586325533",
+        "image": "csiq/dst_imgs/fnoise/swarm.fnoise.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.586325533
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/swarm.fnoise.4.png->0.696730218",
+        "image": "csiq/dst_imgs/fnoise/swarm.fnoise.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.696730218
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/swarm.fnoise.5.png->0.816409022",
+        "image": "csiq/dst_imgs/fnoise/swarm.fnoise.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 0.816409022
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/swarm.contrast.1.png->0.090613172",
+        "image": "csiq/dst_imgs/contrast/swarm.contrast.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.090613172
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/swarm.contrast.2.png->0.314752375",
+        "image": "csiq/dst_imgs/contrast/swarm.contrast.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.314752375
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/swarm.contrast.3.png->0.625269811",
+        "image": "csiq/dst_imgs/contrast/swarm.contrast.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.625269811
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/turtle.AWGN.1.png->0.019980533",
+        "image": "csiq/dst_imgs/awgn/turtle.AWGN.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.019980533
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/turtle.AWGN.2.png->0.119220076",
+        "image": "csiq/dst_imgs/awgn/turtle.AWGN.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.119220076
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/turtle.AWGN.3.png->0.198714856",
+        "image": "csiq/dst_imgs/awgn/turtle.AWGN.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.198714856
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/turtle.AWGN.4.png->0.329354561",
+        "image": "csiq/dst_imgs/awgn/turtle.AWGN.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.329354561
+    },
+    {
+        "id": "csiq/dst_imgs/awgn/turtle.AWGN.5.png->0.435648546",
+        "image": "csiq/dst_imgs/awgn/turtle.AWGN.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.435648546
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/turtle.JPEG.1.png->0.015466593",
+        "image": "csiq/dst_imgs/jpeg/turtle.JPEG.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.015466593
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/turtle.JPEG.2.png->0.12871854",
+        "image": "csiq/dst_imgs/jpeg/turtle.JPEG.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.12871854
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/turtle.JPEG.3.png->0.488429573",
+        "image": "csiq/dst_imgs/jpeg/turtle.JPEG.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.488429573
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/turtle.JPEG.4.png->0.689535474",
+        "image": "csiq/dst_imgs/jpeg/turtle.JPEG.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.689535474
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg/turtle.JPEG.5.png->0.77501614",
+        "image": "csiq/dst_imgs/jpeg/turtle.JPEG.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.77501614
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/turtle.jpeg2000.1.png->0.001971962",
+        "image": "csiq/dst_imgs/jpeg2000/turtle.jpeg2000.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.001971962
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/turtle.jpeg2000.2.png->0.162115617",
+        "image": "csiq/dst_imgs/jpeg2000/turtle.jpeg2000.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.162115617
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/turtle.jpeg2000.3.png->0.53166457",
+        "image": "csiq/dst_imgs/jpeg2000/turtle.jpeg2000.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.53166457
+    },
+    {
+        "id": "csiq/dst_imgs/jpeg2000/turtle.jpeg2000.4.png->0.80232026",
+        "image": "csiq/dst_imgs/jpeg2000/turtle.jpeg2000.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 0.80232026
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/turtle.fnoise.1.png->0.038817584",
+        "image": "csiq/dst_imgs/fnoise/turtle.fnoise.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.038817584
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/turtle.fnoise.2.png->0.172603086",
+        "image": "csiq/dst_imgs/fnoise/turtle.fnoise.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.172603086
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/turtle.fnoise.3.png->0.344785927",
+        "image": "csiq/dst_imgs/fnoise/turtle.fnoise.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.344785927
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/turtle.fnoise.4.png->0.538383994",
+        "image": "csiq/dst_imgs/fnoise/turtle.fnoise.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.538383994
+    },
+    {
+        "id": "csiq/dst_imgs/fnoise/turtle.fnoise.5.png->0.653116798",
+        "image": "csiq/dst_imgs/fnoise/turtle.fnoise.5.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 0.653116798
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/turtle.contrast.1.png->0.079246063",
+        "image": "csiq/dst_imgs/contrast/turtle.contrast.1.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.079246063
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/turtle.contrast.2.png->0.198891583",
+        "image": "csiq/dst_imgs/contrast/turtle.contrast.2.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 0.198891583
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/turtle.contrast.3.png->0.406587855",
+        "image": "csiq/dst_imgs/contrast/turtle.contrast.3.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.406587855
+    },
+    {
+        "id": "csiq/dst_imgs/contrast/turtle.contrast.4.png->0.55423602",
+        "image": "csiq/dst_imgs/contrast/turtle.contrast.4.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 0.55423602
+    }
+]

@@ -1,0 +1,3452 @@
+[
+    {
+        "id": "livec/213.bmp->13.113924050632912",
+        "image": "livec/213.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 13.113924050632912
+    },
+    {
+        "id": "livec/1115.JPG->64.00537634408602",
+        "image": "livec/1115.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 64.00537634408602
+    },
+    {
+        "id": "livec/454.bmp->46.85889570552147",
+        "image": "livec/454.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 46.85889570552147
+    },
+    {
+        "id": "livec/682.JPG->40.07471264367816",
+        "image": "livec/682.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 40.07471264367816
+    },
+    {
+        "id": "livec/703.JPG->19.173684210526314",
+        "image": "livec/703.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 19.173684210526314
+    },
+    {
+        "id": "livec/532.bmp->27.698224852071007",
+        "image": "livec/532.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 27.698224852071007
+    },
+    {
+        "id": "livec/313.bmp->49.247191011235955",
+        "image": "livec/313.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 49.247191011235955
+    },
+    {
+        "id": "livec/1072.JPG->75.25287356321839",
+        "image": "livec/1072.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 75.25287356321839
+    },
+    {
+        "id": "livec/952.JPG->42.42261904761905",
+        "image": "livec/952.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 42.42261904761905
+    },
+    {
+        "id": "livec/669.JPG->9.827586206896552",
+        "image": "livec/669.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 9.827586206896552
+    },
+    {
+        "id": "livec/403.bmp->71.25714285714285",
+        "image": "livec/403.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 71.25714285714285
+    },
+    {
+        "id": "livec/43.bmp->18.477707006369428",
+        "image": "livec/43.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 18.477707006369428
+    },
+    {
+        "id": "livec/318.bmp->35.16931216931217",
+        "image": "livec/318.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 35.16931216931217
+    },
+    {
+        "id": "livec/469.bmp->58.54666666666667",
+        "image": "livec/469.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 58.54666666666667
+    },
+    {
+        "id": "livec/676.JPG->14.96236559139785",
+        "image": "livec/676.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 14.96236559139785
+    },
+    {
+        "id": "livec/632.JPG->21.142857142857142",
+        "image": "livec/632.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 21.142857142857142
+    },
+    {
+        "id": "livec/363.bmp->36.52147239263804",
+        "image": "livec/363.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 36.52147239263804
+    },
+    {
+        "id": "livec/93.bmp->39.8",
+        "image": "livec/93.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 39.8
+    },
+    {
+        "id": "livec/427.bmp->52.68617021276596",
+        "image": "livec/427.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 52.68617021276596
+    },
+    {
+        "id": "livec/513.bmp->70.37037037037037",
+        "image": "livec/513.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 70.37037037037037
+    },
+    {
+        "id": "livec/601.JPG->60.946236559139784",
+        "image": "livec/601.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 60.946236559139784
+    },
+    {
+        "id": "livec/1164.bmp->72.75387092778396",
+        "image": "livec/1164.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 72.75387092778396
+    },
+    {
+        "id": "livec/261.bmp->85.21637426900585",
+        "image": "livec/261.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 85.21637426900585
+    },
+    {
+        "id": "livec/761.JPG->72.92105263157895",
+        "image": "livec/761.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 72.92105263157895
+    },
+    {
+        "id": "livec/873.JPG->26.29608938547486",
+        "image": "livec/873.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 26.29608938547486
+    },
+    {
+        "id": "livec/925.JPG->47.33125",
+        "image": "livec/925.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 47.33125
+    },
+    {
+        "id": "livec/56.bmp->10.668571428571429",
+        "image": "livec/56.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 10.668571428571429
+    },
+    {
+        "id": "livec/291.bmp->30.916666666666668",
+        "image": "livec/291.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.916666666666668
+    },
+    {
+        "id": "livec/664.JPG->52.13855421686747",
+        "image": "livec/664.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 52.13855421686747
+    },
+    {
+        "id": "livec/448.bmp->61.53846153846154",
+        "image": "livec/448.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 61.53846153846154
+    },
+    {
+        "id": "livec/116.bmp->26.097701149425287",
+        "image": "livec/116.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 26.097701149425287
+    },
+    {
+        "id": "livec/280.bmp->34.09497206703911",
+        "image": "livec/280.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 34.09497206703911
+    },
+    {
+        "id": "livec/296.bmp->38.37931034482759",
+        "image": "livec/296.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 38.37931034482759
+    },
+    {
+        "id": "livec/888.JPG->52.10285714285714",
+        "image": "livec/888.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 52.10285714285714
+    },
+    {
+        "id": "livec/1016.JPG->65.63473053892216",
+        "image": "livec/1016.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 65.63473053892216
+    },
+    {
+        "id": "livec/289.bmp->43.458333333333336",
+        "image": "livec/289.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 43.458333333333336
+    },
+    {
+        "id": "livec/250.bmp->50.574585635359114",
+        "image": "livec/250.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 50.574585635359114
+    },
+    {
+        "id": "livec/1146.JPG->73.20481927710843",
+        "image": "livec/1146.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 73.20481927710843
+    },
+    {
+        "id": "livec/479.bmp->66.01449275362319",
+        "image": "livec/479.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 66.01449275362319
+    },
+    {
+        "id": "livec/40.bmp->34.09770114942529",
+        "image": "livec/40.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 34.09770114942529
+    },
+    {
+        "id": "livec/338.bmp->86.60215053763442",
+        "image": "livec/338.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 86.60215053763442
+    },
+    {
+        "id": "livec/486.bmp->70.75568181818181",
+        "image": "livec/486.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 70.75568181818181
+    },
+    {
+        "id": "livec/825.JPG->44.46927374301676",
+        "image": "livec/825.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 44.46927374301676
+    },
+    {
+        "id": "livec/867.JPG->57.97727272727273",
+        "image": "livec/867.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 57.97727272727273
+    },
+    {
+        "id": "livec/901.JPG->22.01298701298701",
+        "image": "livec/901.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 22.01298701298701
+    },
+    {
+        "id": "livec/46.bmp->15.220125786163521",
+        "image": "livec/46.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 15.220125786163521
+    },
+    {
+        "id": "livec/361.bmp->67.38150289017341",
+        "image": "livec/361.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 67.38150289017341
+    },
+    {
+        "id": "livec/1003.JPG->30.48913043478261",
+        "image": "livec/1003.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.48913043478261
+    },
+    {
+        "id": "livec/142.bmp->26.405714285714286",
+        "image": "livec/142.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 26.405714285714286
+    },
+    {
+        "id": "livec/76.bmp->76.09467455621302",
+        "image": "livec/76.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 76.09467455621302
+    },
+    {
+        "id": "livec/161.bmp->8.246835443037975",
+        "image": "livec/161.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 8.246835443037975
+    },
+    {
+        "id": "livec/459.bmp->77.20118343195266",
+        "image": "livec/459.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 77.20118343195266
+    },
+    {
+        "id": "livec/373.bmp->59.62814070351759",
+        "image": "livec/373.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 59.62814070351759
+    },
+    {
+        "id": "livec/180.bmp->39.41340782122905",
+        "image": "livec/180.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 39.41340782122905
+    },
+    {
+        "id": "livec/430.bmp->62.61497326203209",
+        "image": "livec/430.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 62.61497326203209
+    },
+    {
+        "id": "livec/392.bmp->81.84049079754601",
+        "image": "livec/392.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 81.84049079754601
+    },
+    {
+        "id": "livec/130.bmp->86.6086956521739",
+        "image": "livec/130.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 86.6086956521739
+    },
+    {
+        "id": "livec/83.bmp->55.25945945945946",
+        "image": "livec/83.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 55.25945945945946
+    },
+    {
+        "id": "livec/889.JPG->28.175824175824175",
+        "image": "livec/889.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 28.175824175824175
+    },
+    {
+        "id": "livec/648.JPG->27.83888888888889",
+        "image": "livec/648.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 27.83888888888889
+    },
+    {
+        "id": "livec/852.JPG->26.642857142857142",
+        "image": "livec/852.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 26.642857142857142
+    },
+    {
+        "id": "livec/558.JPG->44.41290322580645",
+        "image": "livec/558.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 44.41290322580645
+    },
+    {
+        "id": "livec/254.bmp->48.78",
+        "image": "livec/254.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.78
+    },
+    {
+        "id": "livec/705.JPG->48.20454545454545",
+        "image": "livec/705.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.20454545454545
+    },
+    {
+        "id": "livec/359.bmp->62.923529411764704",
+        "image": "livec/359.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 62.923529411764704
+    },
+    {
+        "id": "livec/188.bmp->28.959537572254334",
+        "image": "livec/188.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 28.959537572254334
+    },
+    {
+        "id": "livec/1124.JPG->77.2",
+        "image": "livec/1124.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 77.2
+    },
+    {
+        "id": "livec/481.bmp->50.09289617486339",
+        "image": "livec/481.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 50.09289617486339
+    },
+    {
+        "id": "livec/628.JPG->31.77027027027027",
+        "image": "livec/628.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 31.77027027027027
+    },
+    {
+        "id": "livec/553.JPG->78.80813953488372",
+        "image": "livec/553.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 78.80813953488372
+    },
+    {
+        "id": "livec/458.bmp->7.688118811881188",
+        "image": "livec/458.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 7.688118811881188
+    },
+    {
+        "id": "livec/848.JPG->79.5925925925926",
+        "image": "livec/848.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 79.5925925925926
+    },
+    {
+        "id": "livec/1051.JPG->57.32748538011696",
+        "image": "livec/1051.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 57.32748538011696
+    },
+    {
+        "id": "livec/497.bmp->32.56111111111111",
+        "image": "livec/497.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 32.56111111111111
+    },
+    {
+        "id": "livec/227.bmp->72.70760233918129",
+        "image": "livec/227.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 72.70760233918129
+    },
+    {
+        "id": "livec/918.JPG->73.375",
+        "image": "livec/918.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 73.375
+    },
+    {
+        "id": "livec/1151.JPG->58.64321608040201",
+        "image": "livec/1151.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 58.64321608040201
+    },
+    {
+        "id": "livec/624.JPG->71.1657458563536",
+        "image": "livec/624.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 71.1657458563536
+    },
+    {
+        "id": "livec/685.JPG->60.09756097560975",
+        "image": "livec/685.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 60.09756097560975
+    },
+    {
+        "id": "livec/890.JPG->62.943502824858754",
+        "image": "livec/890.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 62.943502824858754
+    },
+    {
+        "id": "livec/936.JPG->76.47126436781609",
+        "image": "livec/936.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 76.47126436781609
+    },
+    {
+        "id": "livec/1018.JPG->42.43975903614458",
+        "image": "livec/1018.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 42.43975903614458
+    },
+    {
+        "id": "livec/1123.JPG->49.617283950617285",
+        "image": "livec/1123.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 49.617283950617285
+    },
+    {
+        "id": "livec/52.bmp->69.57894736842105",
+        "image": "livec/52.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 69.57894736842105
+    },
+    {
+        "id": "livec/647.JPG->66.99447513812154",
+        "image": "livec/647.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 66.99447513812154
+    },
+    {
+        "id": "livec/370.bmp->28.343949044585987",
+        "image": "livec/370.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 28.343949044585987
+    },
+    {
+        "id": "livec/611.JPG->38.48947368421052",
+        "image": "livec/611.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 38.48947368421052
+    },
+    {
+        "id": "livec/1065.JPG->68.56424581005587",
+        "image": "livec/1065.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 68.56424581005587
+    },
+    {
+        "id": "livec/599.JPG->56.193370165745854",
+        "image": "livec/599.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 56.193370165745854
+    },
+    {
+        "id": "livec/200.bmp->9.139072847682119",
+        "image": "livec/200.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 9.139072847682119
+    },
+    {
+        "id": "livec/84.bmp->56.10650887573964",
+        "image": "livec/84.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 56.10650887573964
+    },
+    {
+        "id": "livec/172.bmp->63.04522613065327",
+        "image": "livec/172.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 63.04522613065327
+    },
+    {
+        "id": "livec/584.JPG->80.9364161849711",
+        "image": "livec/584.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 80.9364161849711
+    },
+    {
+        "id": "livec/1062.JPG->83.11640211640211",
+        "image": "livec/1062.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 83.11640211640211
+    },
+    {
+        "id": "livec/998.JPG->50.830601092896174",
+        "image": "livec/998.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 50.830601092896174
+    },
+    {
+        "id": "livec/53.bmp->42.79503105590062",
+        "image": "livec/53.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 42.79503105590062
+    },
+    {
+        "id": "livec/955.JPG->54.61842105263158",
+        "image": "livec/955.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 54.61842105263158
+    },
+    {
+        "id": "livec/961.JPG->4.807453416149069",
+        "image": "livec/961.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 4.807453416149069
+    },
+    {
+        "id": "livec/178.bmp->53.70238095238095",
+        "image": "livec/178.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 53.70238095238095
+    },
+    {
+        "id": "livec/982.JPG->44.68",
+        "image": "livec/982.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 44.68
+    },
+    {
+        "id": "livec/738.JPG->69.42328042328042",
+        "image": "livec/738.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 69.42328042328042
+    },
+    {
+        "id": "livec/1088.JPG->49.95679012345679",
+        "image": "livec/1088.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 49.95679012345679
+    },
+    {
+        "id": "livec/1141.JPG->70.67415730337079",
+        "image": "livec/1141.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 70.67415730337079
+    },
+    {
+        "id": "livec/460.bmp->6.043269230769231",
+        "image": "livec/460.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 6.043269230769231
+    },
+    {
+        "id": "livec/98.bmp->71.76923076923077",
+        "image": "livec/98.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 71.76923076923077
+    },
+    {
+        "id": "livec/375.bmp->24.03012048192771",
+        "image": "livec/375.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 24.03012048192771
+    },
+    {
+        "id": "livec/618.JPG->74.90697674418605",
+        "image": "livec/618.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 74.90697674418605
+    },
+    {
+        "id": "livec/979.JPG->49.45180722891566",
+        "image": "livec/979.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 49.45180722891566
+    },
+    {
+        "id": "livec/1032.JPG->77.5548780487805",
+        "image": "livec/1032.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 77.5548780487805
+    },
+    {
+        "id": "livec/695.JPG->27.660818713450293",
+        "image": "livec/695.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 27.660818713450293
+    },
+    {
+        "id": "livec/904.JPG->58.02209944751381",
+        "image": "livec/904.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 58.02209944751381
+    },
+    {
+        "id": "livec/764.JPG->77.17837837837838",
+        "image": "livec/764.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 77.17837837837838
+    },
+    {
+        "id": "livec/445.bmp->47.24352331606217",
+        "image": "livec/445.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 47.24352331606217
+    },
+    {
+        "id": "livec/639.JPG->43.95973154362416",
+        "image": "livec/639.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 43.95973154362416
+    },
+    {
+        "id": "livec/917.JPG->70.7",
+        "image": "livec/917.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 70.7
+    },
+    {
+        "id": "livec/921.JPG->74.64880952380952",
+        "image": "livec/921.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 74.64880952380952
+    },
+    {
+        "id": "livec/609.JPG->65.455",
+        "image": "livec/609.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 65.455
+    },
+    {
+        "id": "livec/461.bmp->75.77987421383648",
+        "image": "livec/461.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 75.77987421383648
+    },
+    {
+        "id": "livec/69.bmp->40.39204545454545",
+        "image": "livec/69.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 40.39204545454545
+    },
+    {
+        "id": "livec/800.JPG->9.551546391752577",
+        "image": "livec/800.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 9.551546391752577
+    },
+    {
+        "id": "livec/245.bmp->10.727272727272727",
+        "image": "livec/245.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 10.727272727272727
+    },
+    {
+        "id": "livec/1004.JPG->64.32121212121213",
+        "image": "livec/1004.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 64.32121212121213
+    },
+    {
+        "id": "livec/758.JPG->76.21787709497207",
+        "image": "livec/758.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 76.21787709497207
+    },
+    {
+        "id": "livec/924.JPG->10.176795580110497",
+        "image": "livec/924.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 10.176795580110497
+    },
+    {
+        "id": "livec/165.bmp->71.86338797814207",
+        "image": "livec/165.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 71.86338797814207
+    },
+    {
+        "id": "livec/86.bmp->50.1219512195122",
+        "image": "livec/86.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 50.1219512195122
+    },
+    {
+        "id": "livec/169.bmp->30.10919540229885",
+        "image": "livec/169.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.10919540229885
+    },
+    {
+        "id": "livec/572.JPG->29.582857142857144",
+        "image": "livec/572.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 29.582857142857144
+    },
+    {
+        "id": "livec/t7.bmp->77.88214783821478",
+        "image": "livec/t7.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 77.88214783821478
+    },
+    {
+        "id": "livec/88.bmp->72.31351351351351",
+        "image": "livec/88.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 72.31351351351351
+    },
+    {
+        "id": "livec/911.JPG->70.28658536585365",
+        "image": "livec/911.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 70.28658536585365
+    },
+    {
+        "id": "livec/302.bmp->63.908496732026144",
+        "image": "livec/302.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 63.908496732026144
+    },
+    {
+        "id": "livec/840.JPG->71.32738095238095",
+        "image": "livec/840.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 71.32738095238095
+    },
+    {
+        "id": "livec/641.JPG->45.50909090909091",
+        "image": "livec/641.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 45.50909090909091
+    },
+    {
+        "id": "livec/347.bmp->58.65217391304348",
+        "image": "livec/347.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 58.65217391304348
+    },
+    {
+        "id": "livec/447.bmp->25.331460674157302",
+        "image": "livec/447.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 25.331460674157302
+    },
+    {
+        "id": "livec/775.JPG->83.62130177514793",
+        "image": "livec/775.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 83.62130177514793
+    },
+    {
+        "id": "livec/667.JPG->55.03157894736842",
+        "image": "livec/667.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 55.03157894736842
+    },
+    {
+        "id": "livec/1085.JPG->83.375",
+        "image": "livec/1085.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 83.375
+    },
+    {
+        "id": "livec/1044.JPG->82.3021978021978",
+        "image": "livec/1044.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 82.3021978021978
+    },
+    {
+        "id": "livec/598.JPG->45.3031914893617",
+        "image": "livec/598.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 45.3031914893617
+    },
+    {
+        "id": "livec/843.JPG->28.70440251572327",
+        "image": "livec/843.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 28.70440251572327
+    },
+    {
+        "id": "livec/140.bmp->77.45833333333333",
+        "image": "livec/140.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 77.45833333333333
+    },
+    {
+        "id": "livec/1005.JPG->62.35028248587571",
+        "image": "livec/1005.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 62.35028248587571
+    },
+    {
+        "id": "livec/634.JPG->16.13450292397661",
+        "image": "livec/634.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 16.13450292397661
+    },
+    {
+        "id": "livec/164.bmp->80.5",
+        "image": "livec/164.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 80.5
+    },
+    {
+        "id": "livec/488.bmp->57.46470588235294",
+        "image": "livec/488.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 57.46470588235294
+    },
+    {
+        "id": "livec/922.JPG->81.85204081632654",
+        "image": "livec/922.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 81.85204081632654
+    },
+    {
+        "id": "livec/807.JPG->71.49214659685863",
+        "image": "livec/807.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 71.49214659685863
+    },
+    {
+        "id": "livec/341.bmp->8.932960893854748",
+        "image": "livec/341.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 8.932960893854748
+    },
+    {
+        "id": "livec/1060.JPG->61.21857923497268",
+        "image": "livec/1060.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 61.21857923497268
+    },
+    {
+        "id": "livec/725.JPG->36.96296296296296",
+        "image": "livec/725.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 36.96296296296296
+    },
+    {
+        "id": "livec/940.JPG->61.883720930232556",
+        "image": "livec/940.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 61.883720930232556
+    },
+    {
+        "id": "livec/144.bmp->76.92391304347827",
+        "image": "livec/144.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 76.92391304347827
+    },
+    {
+        "id": "livec/854.JPG->65.00591715976331",
+        "image": "livec/854.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 65.00591715976331
+    },
+    {
+        "id": "livec/1001.JPG->53.55747126436781",
+        "image": "livec/1001.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 53.55747126436781
+    },
+    {
+        "id": "livec/942.JPG->53.63742690058479",
+        "image": "livec/942.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 53.63742690058479
+    },
+    {
+        "id": "livec/699.JPG->77.74594594594595",
+        "image": "livec/699.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 77.74594594594595
+    },
+    {
+        "id": "livec/941.JPG->60.54716981132076",
+        "image": "livec/941.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 60.54716981132076
+    },
+    {
+        "id": "livec/512.bmp->43.2814371257485",
+        "image": "livec/512.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 43.2814371257485
+    },
+    {
+        "id": "livec/720.JPG->62.10880829015544",
+        "image": "livec/720.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 62.10880829015544
+    },
+    {
+        "id": "livec/1140.JPG->51.902061855670105",
+        "image": "livec/1140.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 51.902061855670105
+    },
+    {
+        "id": "livec/28.bmp->61.013513513513516",
+        "image": "livec/28.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 61.013513513513516
+    },
+    {
+        "id": "livec/32.bmp->68.78888888888889",
+        "image": "livec/32.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 68.78888888888889
+    },
+    {
+        "id": "livec/571.JPG->73.48557692307692",
+        "image": "livec/571.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 73.48557692307692
+    },
+    {
+        "id": "livec/1152.JPG->61.851851851851855",
+        "image": "livec/1152.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 61.851851851851855
+    },
+    {
+        "id": "livec/731.JPG->45.33519553072626",
+        "image": "livec/731.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 45.33519553072626
+    },
+    {
+        "id": "livec/364.bmp->23.164893617021278",
+        "image": "livec/364.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 23.164893617021278
+    },
+    {
+        "id": "livec/182.bmp->52.63131313131313",
+        "image": "livec/182.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 52.63131313131313
+    },
+    {
+        "id": "livec/265.bmp->60.15217391304348",
+        "image": "livec/265.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 60.15217391304348
+    },
+    {
+        "id": "livec/527.bmp->71.88235294117646",
+        "image": "livec/527.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 71.88235294117646
+    },
+    {
+        "id": "livec/868.JPG->23.30054644808743",
+        "image": "livec/868.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 23.30054644808743
+    },
+    {
+        "id": "livec/1025.JPG->72.03048780487805",
+        "image": "livec/1025.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 72.03048780487805
+    },
+    {
+        "id": "livec/831.JPG->36.23952095808383",
+        "image": "livec/831.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 36.23952095808383
+    },
+    {
+        "id": "livec/197.bmp->55.48235294117647",
+        "image": "livec/197.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 55.48235294117647
+    },
+    {
+        "id": "livec/418.bmp->66.92090395480226",
+        "image": "livec/418.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 66.92090395480226
+    },
+    {
+        "id": "livec/480.bmp->52.779761904761905",
+        "image": "livec/480.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 52.779761904761905
+    },
+    {
+        "id": "livec/1138.JPG->67.60479041916167",
+        "image": "livec/1138.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 67.60479041916167
+    },
+    {
+        "id": "livec/797.JPG->24.51412429378531",
+        "image": "livec/797.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 24.51412429378531
+    },
+    {
+        "id": "livec/909.JPG->77.42603550295858",
+        "image": "livec/909.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 77.42603550295858
+    },
+    {
+        "id": "livec/410.bmp->58.304597701149426",
+        "image": "livec/410.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 58.304597701149426
+    },
+    {
+        "id": "livec/204.bmp->75.48170731707317",
+        "image": "livec/204.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 75.48170731707317
+    },
+    {
+        "id": "livec/117.bmp->70.4327485380117",
+        "image": "livec/117.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 70.4327485380117
+    },
+    {
+        "id": "livec/841.JPG->63.48022598870057",
+        "image": "livec/841.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 63.48022598870057
+    },
+    {
+        "id": "livec/30.bmp->35.103658536585364",
+        "image": "livec/30.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 35.103658536585364
+    },
+    {
+        "id": "livec/300.bmp->41.25966850828729",
+        "image": "livec/300.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 41.25966850828729
+    },
+    {
+        "id": "livec/425.bmp->64.16959064327486",
+        "image": "livec/425.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 64.16959064327486
+    },
+    {
+        "id": "livec/1011.JPG->54.174358974358974",
+        "image": "livec/1011.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 54.174358974358974
+    },
+    {
+        "id": "livec/239.bmp->3.497584541062802",
+        "image": "livec/239.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 3.497584541062802
+    },
+    {
+        "id": "livec/753.JPG->83.8452380952381",
+        "image": "livec/753.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 83.8452380952381
+    },
+    {
+        "id": "livec/421.bmp->74.16564417177914",
+        "image": "livec/421.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 74.16564417177914
+    },
+    {
+        "id": "livec/71.bmp->48.625698324022345",
+        "image": "livec/71.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.625698324022345
+    },
+    {
+        "id": "livec/1129.JPG->55.913513513513514",
+        "image": "livec/1129.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 55.913513513513514
+    },
+    {
+        "id": "livec/96.bmp->63.075268817204304",
+        "image": "livec/96.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 63.075268817204304
+    },
+    {
+        "id": "livec/524.bmp->48.27329192546584",
+        "image": "livec/524.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.27329192546584
+    },
+    {
+        "id": "livec/132.bmp->73.02590673575129",
+        "image": "livec/132.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 73.02590673575129
+    },
+    {
+        "id": "livec/642.JPG->49.17142857142857",
+        "image": "livec/642.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 49.17142857142857
+    },
+    {
+        "id": "livec/1100.JPG->76.28571428571429",
+        "image": "livec/1100.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 76.28571428571429
+    },
+    {
+        "id": "livec/405.bmp->38.123456790123456",
+        "image": "livec/405.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 38.123456790123456
+    },
+    {
+        "id": "livec/652.JPG->6.520710059171598",
+        "image": "livec/652.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 6.520710059171598
+    },
+    {
+        "id": "livec/287.bmp->30.91160220994475",
+        "image": "livec/287.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.91160220994475
+    },
+    {
+        "id": "livec/81.bmp->30.145539906103288",
+        "image": "livec/81.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.145539906103288
+    },
+    {
+        "id": "livec/7.bmp->4.937823834196891",
+        "image": "livec/7.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 4.937823834196891
+    },
+    {
+        "id": "livec/352.bmp->52.03061224489796",
+        "image": "livec/352.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 52.03061224489796
+    },
+    {
+        "id": "livec/102.bmp->44.69498452012384",
+        "image": "livec/102.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 44.69498452012384
+    },
+    {
+        "id": "livec/793.JPG->66.1067415730337",
+        "image": "livec/793.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 66.1067415730337
+    },
+    {
+        "id": "livec/678.JPG->4.865030674846626",
+        "image": "livec/678.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 4.865030674846626
+    },
+    {
+        "id": "livec/870.JPG->28.775609756097563",
+        "image": "livec/870.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 28.775609756097563
+    },
+    {
+        "id": "livec/616.JPG->81.83815028901734",
+        "image": "livec/616.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 81.83815028901734
+    },
+    {
+        "id": "livec/61.bmp->37.75625",
+        "image": "livec/61.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 37.75625
+    },
+    {
+        "id": "livec/29.bmp->38.506024096385545",
+        "image": "livec/29.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 38.506024096385545
+    },
+    {
+        "id": "livec/737.JPG->43.986486486486484",
+        "image": "livec/737.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 43.986486486486484
+    },
+    {
+        "id": "livec/1053.JPG->72.48913043478261",
+        "image": "livec/1053.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 72.48913043478261
+    },
+    {
+        "id": "livec/24.bmp->35.835978835978835",
+        "image": "livec/24.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 35.835978835978835
+    },
+    {
+        "id": "livec/476.bmp->54.16230366492147",
+        "image": "livec/476.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 54.16230366492147
+    },
+    {
+        "id": "livec/724.JPG->30.737142857142857",
+        "image": "livec/724.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.737142857142857
+    },
+    {
+        "id": "livec/713.JPG->46.41340782122905",
+        "image": "livec/713.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 46.41340782122905
+    },
+    {
+        "id": "livec/107.bmp->27.957533737773925",
+        "image": "livec/107.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 27.957533737773925
+    },
+    {
+        "id": "livec/704.JPG->17.022988505747126",
+        "image": "livec/704.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 17.022988505747126
+    },
+    {
+        "id": "livec/432.bmp->61.947916666666664",
+        "image": "livec/432.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 61.947916666666664
+    },
+    {
+        "id": "livec/1009.JPG->56.157303370786515",
+        "image": "livec/1009.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 56.157303370786515
+    },
+    {
+        "id": "livec/198.bmp->78.51724137931035",
+        "image": "livec/198.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 78.51724137931035
+    },
+    {
+        "id": "livec/141.bmp->20.581818181818182",
+        "image": "livec/141.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 20.581818181818182
+    },
+    {
+        "id": "livec/393.bmp->69.7560975609756",
+        "image": "livec/393.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 69.7560975609756
+    },
+    {
+        "id": "livec/283.bmp->20.16842105263158",
+        "image": "livec/283.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 20.16842105263158
+    },
+    {
+        "id": "livec/433.bmp->34.496855345911946",
+        "image": "livec/433.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 34.496855345911946
+    },
+    {
+        "id": "livec/279.bmp->70.64497041420118",
+        "image": "livec/279.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 70.64497041420118
+    },
+    {
+        "id": "livec/1037.JPG->48.91525423728814",
+        "image": "livec/1037.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.91525423728814
+    },
+    {
+        "id": "livec/236.bmp->30.983050847457626",
+        "image": "livec/236.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.983050847457626
+    },
+    {
+        "id": "livec/707.JPG->18.006060606060608",
+        "image": "livec/707.JPG",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 18.006060606060608
+    }
+]

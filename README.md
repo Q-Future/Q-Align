@@ -244,8 +244,11 @@ def wa5(logits):
     return score
 ```
 
+### LoRA Fine-tuning on *OneAlign*
 
-### Training
+See [LoRA Fine-tuning Instruction](./lora_finetune). It only requires **2 RTX3090 GPUs**.
+
+### Full Training from Start
 
 #### Image Quality Assessment
 

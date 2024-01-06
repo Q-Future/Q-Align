@@ -1,0 +1,3047 @@
+[
+    {
+        "id": "live/fastfading/img16.bmp->54.41368683",
+        "image": "live/fastfading/img16.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 54.41368683
+    },
+    {
+        "id": "live/fastfading/img17.bmp->47.84995396",
+        "image": "live/fastfading/img17.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 47.84995396
+    },
+    {
+        "id": "live/fastfading/img18.bmp->63.25450438",
+        "image": "live/fastfading/img18.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 63.25450438
+    },
+    {
+        "id": "live/fastfading/img19.bmp->40.68903263",
+        "image": "live/fastfading/img19.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 40.68903263
+    },
+    {
+        "id": "live/fastfading/img20.bmp->29.21077713",
+        "image": "live/fastfading/img20.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 29.21077713
+    },
+    {
+        "id": "live/fastfading/img21.bmp->61.71215264",
+        "image": "live/fastfading/img21.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 61.71215264
+    },
+    {
+        "id": "live/fastfading/img22.bmp->52.53970356",
+        "image": "live/fastfading/img22.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 52.53970356
+    },
+    {
+        "id": "live/fastfading/img23.bmp->43.5227752",
+        "image": "live/fastfading/img23.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 43.5227752
+    },
+    {
+        "id": "live/fastfading/img24.bmp->47.88482938",
+        "image": "live/fastfading/img24.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 47.88482938
+    },
+    {
+        "id": "live/fastfading/img25.bmp->24.33354975",
+        "image": "live/fastfading/img25.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 24.33354975
+    },
+    {
+        "id": "live/fastfading/img56.bmp->45.10698347",
+        "image": "live/fastfading/img56.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 45.10698347
+    },
+    {
+        "id": "live/fastfading/img57.bmp->60.28957268",
+        "image": "live/fastfading/img57.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 60.28957268
+    },
+    {
+        "id": "live/fastfading/img58.bmp->71.87112529",
+        "image": "live/fastfading/img58.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 71.87112529
+    },
+    {
+        "id": "live/fastfading/img59.bmp->21.93614318",
+        "image": "live/fastfading/img59.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 21.93614318
+    },
+    {
+        "id": "live/fastfading/img60.bmp->24.7848016",
+        "image": "live/fastfading/img60.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 24.7848016
+    },
+    {
+        "id": "live/fastfading/img66.bmp->50.6184479",
+        "image": "live/fastfading/img66.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 50.6184479
+    },
+    {
+        "id": "live/fastfading/img67.bmp->58.85341168",
+        "image": "live/fastfading/img67.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 58.85341168
+    },
+    {
+        "id": "live/fastfading/img68.bmp->56.51507879",
+        "image": "live/fastfading/img68.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 56.51507879
+    },
+    {
+        "id": "live/fastfading/img69.bmp->68.30919109",
+        "image": "live/fastfading/img69.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 68.30919109
+    },
+    {
+        "id": "live/fastfading/img70.bmp->21.16647786",
+        "image": "live/fastfading/img70.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 21.16647786
+    },
+    {
+        "id": "live/fastfading/img76.bmp->73.01922494",
+        "image": "live/fastfading/img76.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 73.01922494
+    },
+    {
+        "id": "live/fastfading/img77.bmp->43.34393378",
+        "image": "live/fastfading/img77.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 43.34393378
+    },
+    {
+        "id": "live/fastfading/img78.bmp->42.88348282",
+        "image": "live/fastfading/img78.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 42.88348282
+    },
+    {
+        "id": "live/fastfading/img79.bmp->49.28064464",
+        "image": "live/fastfading/img79.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 49.28064464
+    },
+    {
+        "id": "live/fastfading/img80.bmp->20.37669296",
+        "image": "live/fastfading/img80.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 20.37669296
+    },
+    {
+        "id": "live/fastfading/img106.bmp->53.82623745",
+        "image": "live/fastfading/img106.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 53.82623745
+    },
+    {
+        "id": "live/fastfading/img107.bmp->49.57856814",
+        "image": "live/fastfading/img107.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 49.57856814
+    },
+    {
+        "id": "live/fastfading/img108.bmp->48.51290495",
+        "image": "live/fastfading/img108.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.51290495
+    },
+    {
+        "id": "live/fastfading/img109.bmp->34.27540696",
+        "image": "live/fastfading/img109.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 34.27540696
+    },
+    {
+        "id": "live/fastfading/img110.bmp->21.86108278",
+        "image": "live/fastfading/img110.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 21.86108278
+    },
+    {
+        "id": "live/fastfading/img149.bmp->0.0",
+        "image": "live/fastfading/img149.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/fastfading/img150.bmp->0.0",
+        "image": "live/fastfading/img150.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/fastfading/img157.bmp->0.0",
+        "image": "live/fastfading/img157.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/fastfading/img159.bmp->0.0",
+        "image": "live/fastfading/img159.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/fastfading/img161.bmp->0.0",
+        "image": "live/fastfading/img161.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/fastfading/img167.bmp->0.0",
+        "image": "live/fastfading/img167.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/gblur/img41.bmp->59.65124686",
+        "image": "live/gblur/img41.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 59.65124686
+    },
+    {
+        "id": "live/gblur/img128.bmp->54.39367189",
+        "image": "live/gblur/img128.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 54.39367189
+    },
+    {
+        "id": "live/gblur/img93.bmp->43.83337619",
+        "image": "live/gblur/img93.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 43.83337619
+    },
+    {
+        "id": "live/gblur/img21.bmp->38.39024208",
+        "image": "live/gblur/img21.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 38.39024208
+    },
+    {
+        "id": "live/gblur/img51.bmp->23.62677772",
+        "image": "live/gblur/img51.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 23.62677772
+    },
+    {
+        "id": "live/gblur/img116.bmp->78.57666525",
+        "image": "live/gblur/img116.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 78.57666525
+    },
+    {
+        "id": "live/gblur/img81.bmp->44.61615956",
+        "image": "live/gblur/img81.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 44.61615956
+    },
+    {
+        "id": "live/gblur/img110.bmp->42.07092681",
+        "image": "live/gblur/img110.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 42.07092681
+    },
+    {
+        "id": "live/gblur/img39.bmp->34.97989357",
+        "image": "live/gblur/img39.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 34.97989357
+    },
+    {
+        "id": "live/gblur/img23.bmp->21.82909177",
+        "image": "live/gblur/img23.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 21.82909177
+    },
+    {
+        "id": "live/gblur/img167.bmp->0.0",
+        "image": "live/gblur/img167.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/gblur/img161.bmp->0.0",
+        "image": "live/gblur/img161.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/gblur/img5.bmp->66.84060107",
+        "image": "live/gblur/img5.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 66.84060107
+    },
+    {
+        "id": "live/gblur/img139.bmp->59.82513779",
+        "image": "live/gblur/img139.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 59.82513779
+    },
+    {
+        "id": "live/gblur/img30.bmp->48.03858521",
+        "image": "live/gblur/img30.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.03858521
+    },
+    {
+        "id": "live/gblur/img86.bmp->36.65132395",
+        "image": "live/gblur/img86.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 36.65132395
+    },
+    {
+        "id": "live/gblur/img63.bmp->20.80923557",
+        "image": "live/gblur/img63.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 20.80923557
+    },
+    {
+        "id": "live/gblur/img73.bmp->56.17541355",
+        "image": "live/gblur/img73.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 56.17541355
+    },
+    {
+        "id": "live/gblur/img134.bmp->46.68926806",
+        "image": "live/gblur/img134.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 46.68926806
+    },
+    {
+        "id": "live/gblur/img62.bmp->33.33511313",
+        "image": "live/gblur/img62.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 33.33511313
+    },
+    {
+        "id": "live/gblur/img7.bmp->29.1865912",
+        "image": "live/gblur/img7.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 29.1865912
+    },
+    {
+        "id": "live/gblur/img45.bmp->23.40103451",
+        "image": "live/gblur/img45.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 23.40103451
+    },
+    {
+        "id": "live/gblur/img159.bmp->0.0",
+        "image": "live/gblur/img159.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/gblur/img17.bmp->80.08185242",
+        "image": "live/gblur/img17.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 80.08185242
+    },
+    {
+        "id": "live/gblur/img141.bmp->53.13733445",
+        "image": "live/gblur/img141.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 53.13733445
+    },
+    {
+        "id": "live/gblur/img34.bmp->44.7195608",
+        "image": "live/gblur/img34.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 44.7195608
+    },
+    {
+        "id": "live/gblur/img157.bmp->0.0",
+        "image": "live/gblur/img157.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/gblur/img29.bmp->30.14020581",
+        "image": "live/gblur/img29.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.14020581
+    },
+    {
+        "id": "live/gblur/img9.bmp->25.17930193",
+        "image": "live/gblur/img9.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 25.17930193
+    },
+    {
+        "id": "live/gblur/img118.bmp->64.7132419",
+        "image": "live/gblur/img118.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 64.7132419
+    },
+    {
+        "id": "live/gblur/img53.bmp->55.71378986",
+        "image": "live/gblur/img53.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 55.71378986
+    },
+    {
+        "id": "live/gblur/img55.bmp->47.71158036",
+        "image": "live/gblur/img55.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 47.71158036
+    },
+    {
+        "id": "live/gblur/img75.bmp->41.05616827",
+        "image": "live/gblur/img75.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 41.05616827
+    },
+    {
+        "id": "live/gblur/img133.bmp->26.2758774",
+        "image": "live/gblur/img133.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 26.2758774
+    },
+    {
+        "id": "live/gblur/img149.bmp->0.0",
+        "image": "live/gblur/img149.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/gblur/img150.bmp->0.0",
+        "image": "live/gblur/img150.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img1.bmp->0.0",
+        "image": "live/jp2k/img1.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img3.bmp->34.01073628",
+        "image": "live/jp2k/img3.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 34.01073628
+    },
+    {
+        "id": "live/jp2k/img4.bmp->65.13140971",
+        "image": "live/jp2k/img4.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 65.13140971
+    },
+    {
+        "id": "live/jp2k/img6.bmp->65.15010253",
+        "image": "live/jp2k/img6.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 65.15010253
+    },
+    {
+        "id": "live/jp2k/img11.bmp->0.0",
+        "image": "live/jp2k/img11.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img13.bmp->49.58114314",
+        "image": "live/jp2k/img13.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 49.58114314
+    },
+    {
+        "id": "live/jp2k/img14.bmp->48.84324745",
+        "image": "live/jp2k/img14.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 48.84324745
+    },
+    {
+        "id": "live/jp2k/img29.bmp->61.41371717",
+        "image": "live/jp2k/img29.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 61.41371717
+    },
+    {
+        "id": "live/jp2k/img32.bmp->70.19193144",
+        "image": "live/jp2k/img32.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 70.19193144
+    },
+    {
+        "id": "live/jp2k/img33.bmp->53.84629978",
+        "image": "live/jp2k/img33.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 53.84629978
+    },
+    {
+        "id": "live/jp2k/img35.bmp->0.0",
+        "image": "live/jp2k/img35.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img40.bmp->69.87055816",
+        "image": "live/jp2k/img40.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 69.87055816
+    },
+    {
+        "id": "live/jp2k/img53.bmp->60.60039324",
+        "image": "live/jp2k/img53.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 60.60039324
+    },
+    {
+        "id": "live/jp2k/img57.bmp->0.0",
+        "image": "live/jp2k/img57.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img58.bmp->21.24474003",
+        "image": "live/jp2k/img58.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 21.24474003
+    },
+    {
+        "id": "live/jp2k/img64.bmp->0.0",
+        "image": "live/jp2k/img64.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img65.bmp->74.71223055",
+        "image": "live/jp2k/img65.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 74.71223055
+    },
+    {
+        "id": "live/jp2k/img74.bmp->53.34011511",
+        "image": "live/jp2k/img74.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 53.34011511
+    },
+    {
+        "id": "live/jp2k/img81.bmp->48.34116742",
+        "image": "live/jp2k/img81.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.34116742
+    },
+    {
+        "id": "live/jp2k/img82.bmp->25.09633166",
+        "image": "live/jp2k/img82.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 25.09633166
+    },
+    {
+        "id": "live/jp2k/img84.bmp->0.0",
+        "image": "live/jp2k/img84.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img103.bmp->24.35211476",
+        "image": "live/jp2k/img103.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 24.35211476
+    },
+    {
+        "id": "live/jp2k/img113.bmp->25.90239364",
+        "image": "live/jp2k/img113.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 25.90239364
+    },
+    {
+        "id": "live/jp2k/img114.bmp->26.10206391",
+        "image": "live/jp2k/img114.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 26.10206391
+    },
+    {
+        "id": "live/jp2k/img117.bmp->0.0",
+        "image": "live/jp2k/img117.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img123.bmp->0.0",
+        "image": "live/jp2k/img123.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img126.bmp->24.62483882",
+        "image": "live/jp2k/img126.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 24.62483882
+    },
+    {
+        "id": "live/jp2k/img135.bmp->69.31988838",
+        "image": "live/jp2k/img135.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 69.31988838
+    },
+    {
+        "id": "live/jp2k/img137.bmp->54.48232334",
+        "image": "live/jp2k/img137.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 54.48232334
+    },
+    {
+        "id": "live/jp2k/img139.bmp->0.0",
+        "image": "live/jp2k/img139.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img146.bmp->51.92884613",
+        "image": "live/jp2k/img146.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 51.92884613
+    },
+    {
+        "id": "live/jp2k/img151.bmp->0.0",
+        "image": "live/jp2k/img151.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img156.bmp->61.18215742",
+        "image": "live/jp2k/img156.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 61.18215742
+    },
+    {
+        "id": "live/jp2k/img164.bmp->34.31882592",
+        "image": "live/jp2k/img164.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 34.31882592
+    },
+    {
+        "id": "live/jp2k/img165.bmp->36.80369125",
+        "image": "live/jp2k/img165.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 36.80369125
+    },
+    {
+        "id": "live/jp2k/img170.bmp->48.30468097",
+        "image": "live/jp2k/img170.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.30468097
+    },
+    {
+        "id": "live/jp2k/img173.bmp->30.06590643",
+        "image": "live/jp2k/img173.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.06590643
+    },
+    {
+        "id": "live/jp2k/img184.bmp->0.0",
+        "image": "live/jp2k/img184.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img189.bmp->0.0",
+        "image": "live/jp2k/img189.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jp2k/img196.bmp->55.88732005",
+        "image": "live/jp2k/img196.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 55.88732005
+    },
+    {
+        "id": "live/jp2k/img199.bmp->21.07955184",
+        "image": "live/jp2k/img199.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 21.07955184
+    },
+    {
+        "id": "live/jp2k/img203.bmp->42.82439106",
+        "image": "live/jp2k/img203.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 42.82439106
+    },
+    {
+        "id": "live/jp2k/img205.bmp->25.59001806",
+        "image": "live/jp2k/img205.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 25.59001806
+    },
+    {
+        "id": "live/jp2k/img210.bmp->34.16120589",
+        "image": "live/jp2k/img210.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 34.16120589
+    },
+    {
+        "id": "live/jp2k/img211.bmp->22.45713134",
+        "image": "live/jp2k/img211.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 22.45713134
+    },
+    {
+        "id": "live/jp2k/img215.bmp->62.22323173",
+        "image": "live/jp2k/img215.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 62.22323173
+    },
+    {
+        "id": "live/jp2k/img220.bmp->60.7673798",
+        "image": "live/jp2k/img220.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 60.7673798
+    },
+    {
+        "id": "live/jp2k/img222.bmp->37.02130195",
+        "image": "live/jp2k/img222.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 37.02130195
+    },
+    {
+        "id": "live/jpeg/img9.bmp->60.3114101",
+        "image": "live/jpeg/img9.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 60.3114101
+    },
+    {
+        "id": "live/jpeg/img17.bmp->22.5499129",
+        "image": "live/jpeg/img17.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 22.5499129
+    },
+    {
+        "id": "live/jpeg/img20.bmp->0.0",
+        "image": "live/jpeg/img20.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img23.bmp->74.25212012",
+        "image": "live/jpeg/img23.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 74.25212012
+    },
+    {
+        "id": "live/jpeg/img25.bmp->43.68712908",
+        "image": "live/jpeg/img25.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 43.68712908
+    },
+    {
+        "id": "live/jpeg/img31.bmp->0.0",
+        "image": "live/jpeg/img31.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img35.bmp->70.9584544",
+        "image": "live/jpeg/img35.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 70.9584544
+    },
+    {
+        "id": "live/jpeg/img39.bmp->54.04967816",
+        "image": "live/jpeg/img39.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 54.04967816
+    },
+    {
+        "id": "live/jpeg/img40.bmp->28.32827895",
+        "image": "live/jpeg/img40.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 28.32827895
+    },
+    {
+        "id": "live/jpeg/img41.bmp->60.57822645",
+        "image": "live/jpeg/img41.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 60.57822645
+    },
+    {
+        "id": "live/jpeg/img43.bmp->47.79653011",
+        "image": "live/jpeg/img43.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 47.79653011
+    },
+    {
+        "id": "live/jpeg/img56.bmp->41.433843",
+        "image": "live/jpeg/img56.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 41.433843
+    },
+    {
+        "id": "live/jpeg/img61.bmp->25.77050586",
+        "image": "live/jpeg/img61.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 25.77050586
+    },
+    {
+        "id": "live/jpeg/img64.bmp->21.91503733",
+        "image": "live/jpeg/img64.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 21.91503733
+    },
+    {
+        "id": "live/jpeg/img66.bmp->0.0",
+        "image": "live/jpeg/img66.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img68.bmp->0.0",
+        "image": "live/jpeg/img68.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img69.bmp->52.8906603",
+        "image": "live/jpeg/img69.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 52.8906603
+    },
+    {
+        "id": "live/jpeg/img76.bmp->0.0",
+        "image": "live/jpeg/img76.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img84.bmp->51.01535769",
+        "image": "live/jpeg/img84.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 51.01535769
+    },
+    {
+        "id": "live/jpeg/img90.bmp->48.20131912",
+        "image": "live/jpeg/img90.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.20131912
+    },
+    {
+        "id": "live/jpeg/img91.bmp->73.58912301",
+        "image": "live/jpeg/img91.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 73.58912301
+    },
+    {
+        "id": "live/jpeg/img95.bmp->0.0",
+        "image": "live/jpeg/img95.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img97.bmp->23.35933215",
+        "image": "live/jpeg/img97.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 23.35933215
+    },
+    {
+        "id": "live/jpeg/img110.bmp->46.98621621",
+        "image": "live/jpeg/img110.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 46.98621621
+    },
+    {
+        "id": "live/jpeg/img119.bmp->34.14049053",
+        "image": "live/jpeg/img119.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 34.14049053
+    },
+    {
+        "id": "live/jpeg/img133.bmp->0.0",
+        "image": "live/jpeg/img133.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img139.bmp->0.0",
+        "image": "live/jpeg/img139.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img141.bmp->23.75290582",
+        "image": "live/jpeg/img141.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 23.75290582
+    },
+    {
+        "id": "live/jpeg/img146.bmp->29.24891486",
+        "image": "live/jpeg/img146.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 29.24891486
+    },
+    {
+        "id": "live/jpeg/img152.bmp->42.7603603",
+        "image": "live/jpeg/img152.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 42.7603603
+    },
+    {
+        "id": "live/jpeg/img155.bmp->0.0",
+        "image": "live/jpeg/img155.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img157.bmp->22.91571208",
+        "image": "live/jpeg/img157.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 22.91571208
+    },
+    {
+        "id": "live/jpeg/img162.bmp->58.27189659",
+        "image": "live/jpeg/img162.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 58.27189659
+    },
+    {
+        "id": "live/jpeg/img163.bmp->30.4091085",
+        "image": "live/jpeg/img163.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.4091085
+    },
+    {
+        "id": "live/jpeg/img165.bmp->44.48057974",
+        "image": "live/jpeg/img165.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 44.48057974
+    },
+    {
+        "id": "live/jpeg/img172.bmp->0.0",
+        "image": "live/jpeg/img172.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img181.bmp->53.5613179",
+        "image": "live/jpeg/img181.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 53.5613179
+    },
+    {
+        "id": "live/jpeg/img186.bmp->58.78794451",
+        "image": "live/jpeg/img186.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 58.78794451
+    },
+    {
+        "id": "live/jpeg/img187.bmp->59.85905321",
+        "image": "live/jpeg/img187.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 59.85905321
+    },
+    {
+        "id": "live/jpeg/img191.bmp->0.0",
+        "image": "live/jpeg/img191.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img199.bmp->61.96685137",
+        "image": "live/jpeg/img199.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 61.96685137
+    },
+    {
+        "id": "live/jpeg/img201.bmp->58.63208188",
+        "image": "live/jpeg/img201.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 58.63208188
+    },
+    {
+        "id": "live/jpeg/img204.bmp->59.01313653",
+        "image": "live/jpeg/img204.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 59.01313653
+    },
+    {
+        "id": "live/jpeg/img215.bmp->65.16467871",
+        "image": "live/jpeg/img215.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 65.16467871
+    },
+    {
+        "id": "live/jpeg/img227.bmp->0.0",
+        "image": "live/jpeg/img227.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/jpeg/img228.bmp->24.51332757",
+        "image": "live/jpeg/img228.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 24.51332757
+    },
+    {
+        "id": "live/jpeg/img232.bmp->60.55254515",
+        "image": "live/jpeg/img232.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 60.55254515
+    },
+    {
+        "id": "live/wn/img159.bmp->0.0",
+        "image": "live/wn/img159.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/wn/img15.bmp->65.42857663",
+        "image": "live/wn/img15.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 65.42857663
+    },
+    {
+        "id": "live/wn/img50.bmp->57.19522398",
+        "image": "live/wn/img50.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 57.19522398
+    },
+    {
+        "id": "live/wn/img51.bmp->54.03170245",
+        "image": "live/wn/img51.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 54.03170245
+    },
+    {
+        "id": "live/wn/img27.bmp->39.12944784",
+        "image": "live/wn/img27.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 39.12944784
+    },
+    {
+        "id": "live/wn/img30.bmp->30.79457239",
+        "image": "live/wn/img30.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.79457239
+    },
+    {
+        "id": "live/wn/img94.bmp->72.79674301",
+        "image": "live/wn/img94.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 72.79674301
+    },
+    {
+        "id": "live/wn/img39.bmp->52.80103018",
+        "image": "live/wn/img39.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 52.80103018
+    },
+    {
+        "id": "live/wn/img26.bmp->46.97600778",
+        "image": "live/wn/img26.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 46.97600778
+    },
+    {
+        "id": "live/wn/img111.bmp->36.52224735",
+        "image": "live/wn/img111.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 36.52224735
+    },
+    {
+        "id": "live/wn/img142.bmp->25.1819063",
+        "image": "live/wn/img142.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 25.1819063
+    },
+    {
+        "id": "live/wn/img167.bmp->0.0",
+        "image": "live/wn/img167.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/wn/img149.bmp->0.0",
+        "image": "live/wn/img149.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/wn/img105.bmp->65.4224378",
+        "image": "live/wn/img105.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 65.4224378
+    },
+    {
+        "id": "live/wn/img129.bmp->48.69582101",
+        "image": "live/wn/img129.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 48.69582101
+    },
+    {
+        "id": "live/wn/img139.bmp->41.92179349",
+        "image": "live/wn/img139.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 41.92179349
+    },
+    {
+        "id": "live/wn/img10.bmp->30.9103794",
+        "image": "live/wn/img10.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.9103794
+    },
+    {
+        "id": "live/wn/img78.bmp->20.6586841",
+        "image": "live/wn/img78.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 20.6586841
+    },
+    {
+        "id": "live/wn/img4.bmp->72.06247711",
+        "image": "live/wn/img4.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 72.06247711
+    },
+    {
+        "id": "live/wn/img61.bmp->56.6813925",
+        "image": "live/wn/img61.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 56.6813925
+    },
+    {
+        "id": "live/wn/img130.bmp->52.16119598",
+        "image": "live/wn/img130.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 52.16119598
+    },
+    {
+        "id": "live/wn/img46.bmp->33.2286897",
+        "image": "live/wn/img46.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 33.2286897
+    },
+    {
+        "id": "live/wn/img103.bmp->25.00548167",
+        "image": "live/wn/img103.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 25.00548167
+    },
+    {
+        "id": "live/wn/img77.bmp->65.65386338",
+        "image": "live/wn/img77.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 65.65386338
+    },
+    {
+        "id": "live/wn/img116.bmp->50.37554053",
+        "image": "live/wn/img116.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ],
+        "gt_score": 50.37554053
+    },
+    {
+        "id": "live/wn/img74.bmp->43.02597823",
+        "image": "live/wn/img74.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 43.02597823
+    },
+    {
+        "id": "live/wn/img150.bmp->0.0",
+        "image": "live/wn/img150.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/wn/img107.bmp->30.98683913",
+        "image": "live/wn/img107.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 30.98683913
+    },
+    {
+        "id": "live/wn/img101.bmp->18.22522574",
+        "image": "live/wn/img101.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 18.22522574
+    },
+    {
+        "id": "live/wn/img161.bmp->0.0",
+        "image": "live/wn/img161.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/wn/img157.bmp->0.0",
+        "image": "live/wn/img157.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is bad."
+            }
+        ],
+        "gt_score": 0.0
+    },
+    {
+        "id": "live/wn/img137.bmp->70.11839134",
+        "image": "live/wn/img137.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is excellent."
+            }
+        ],
+        "gt_score": 70.11839134
+    },
+    {
+        "id": "live/wn/img32.bmp->46.28429427",
+        "image": "live/wn/img32.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 46.28429427
+    },
+    {
+        "id": "live/wn/img108.bmp->43.55504333",
+        "image": "live/wn/img108.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ],
+        "gt_score": 43.55504333
+    },
+    {
+        "id": "live/wn/img6.bmp->28.32970638",
+        "image": "live/wn/img6.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 28.32970638
+    },
+    {
+        "id": "live/wn/img125.bmp->21.02304265",
+        "image": "live/wn/img125.bmp",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ],
+        "gt_score": 21.02304265
+    }
+]
