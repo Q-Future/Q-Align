@@ -574,74 +574,79 @@ class LazySupervisedDataset(Dataset):
 
     def __getitem__(self, i) -> Dict[str, torch.Tensor]:
         while True:
-            sources = self.list_data_dict[i]
-            if isinstance(i, int):
-                sources = [sources]
-            assert len(sources) == 1, "Don't know why it is wrapped to a list"  # FIXME
-            if 'image' in sources[0]:
-                image_file = self.list_data_dict[i]['image']
-                    
-                image_folder = self.data_args.image_folder
-                processor = self.data_args.image_processor
-                from pathlib import Path
-                #if not Path(os.path.join(image_folder, image_file)).exists():
-                #    i = self.next_rand()
-                #    continue
-                if isinstance(image_file, list):
-                    # Multiple Images as Input
-                    try:
-                        image = [Image.open(os.path.join(image_folder, imfile)).convert('RGB') for imfile in image_file]
-                    except Exception as ex:
-                        print(ex)
-                        i = self.next_rand()
-                        continue
-                    if self.data_args.image_aspect_ratio == 'pad':
-                        image = [expand2square(img, tuple(int(x*255) for x in processor.image_mean)) for img in image]
-                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
-                    else:
-                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
-                elif os.path.join(image_folder, image_file).endswith("mp4"):
-                    # Video as Input
-                    image = load_video(os.path.join(image_folder, image_file))
-                    if self.data_args.image_aspect_ratio == 'pad':
-                        image = [expand2square(img, tuple(int(x*255) for x in processor.image_mean)) for img in image]
-                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
-                    else:
-                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
-                else:
-                    try:
-                        image = Image.open(os.path.join(image_folder, image_file)).convert('RGB')
-                    except Exception as ex:
-                        print(ex)
-                        i = self.next_rand()
-                        continue
-                    if self.data_args.image_aspect_ratio == 'pad':
-                        image = expand2square(image, tuple(int(x*255) for x in processor.image_mean))
-                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
-                    else:
-                        image = processor.preprocess(image, return_tensors='pt')['pixel_values']
-                sources = preprocess_multimodal(
-                    copy.deepcopy([e["conversations"] for e in sources]),
-                    self.data_args)
-            else:
-                
-                sources = copy.deepcopy([e["conversations"] for e in sources])
-            data_dict = preprocess(
-                sources,
-                self.tokenizer,
-                has_image=('image' in self.list_data_dict[i]))
-            if isinstance(i, int):
-                data_dict = dict(input_ids=data_dict["input_ids"][0],
-                                labels=data_dict["labels"][0])
+            try:
+                sources = self.list_data_dict[i]
+                if isinstance(i, int):
+                    sources = [sources]
+                assert len(sources) == 1, "Don't know why it is wrapped to a list"  # FIXME
+                if 'image' in sources[0]:
+                    image_file = self.list_data_dict[i]['image']
 
-            # image exist in the data
-            if 'image' in self.list_data_dict[i]:
-                data_dict['image'] = image
-            elif self.data_args.is_multimodal:
-                # image does not exist in the data, but the model is multimodal
-                crop_size = self.data_args.image_processor.crop_size
-                data_dict['image'] = torch.zeros(3, crop_size['height'], crop_size['width'])
-            return data_dict
+                    image_folder = self.data_args.image_folder
+                    processor = self.data_args.image_processor
+                    from pathlib import Path
+                    #if not Path(os.path.join(image_folder, image_file)).exists():
+                    #    i = self.next_rand()
+                    #    continue
+                    if isinstance(image_file, list):
+                        # Multiple Images as Input
+                        try:
+                            image = [Image.open(os.path.join(image_folder, imfile)).convert('RGB') for imfile in image_file]
+                        except Exception as ex:
+                            print(ex)
+                            i = self.next_rand()
+                            continue
+                        if self.data_args.image_aspect_ratio == 'pad':
+                            image = [expand2square(img, tuple(int(x*255) for x in processor.image_mean)) for img in image]
+                            image = processor.preprocess(image, return_tensors='pt')['pixel_values']
+                        else:
+                            image = processor.preprocess(image, return_tensors='pt')['pixel_values']
+                    elif os.path.join(image_folder, image_file).endswith("mp4"):
+                        # Video as Input
+                        image = load_video(os.path.join(image_folder, image_file))
+                        if self.data_args.image_aspect_ratio == 'pad':
+                            image = [expand2square(img, tuple(int(x*255) for x in processor.image_mean)) for img in image]
+                            image = processor.preprocess(image, return_tensors='pt')['pixel_values']
+                        else:
+                            image = processor.preprocess(image, return_tensors='pt')['pixel_values']
+                    else:
+                        try:
+                            image = Image.open(os.path.join(image_folder, image_file)).convert('RGB')
+                        except Exception as ex:
+                            print(ex)
+                            i = self.next_rand()
+                            continue
+                        if self.data_args.image_aspect_ratio == 'pad':
+                            image = expand2square(image, tuple(int(x*255) for x in processor.image_mean))
+                            image = processor.preprocess(image, return_tensors='pt')['pixel_values']
+                        else:
+                            image = processor.preprocess(image, return_tensors='pt')['pixel_values']
+                    sources = preprocess_multimodal(
+                        copy.deepcopy([e["conversations"] for e in sources]),
+                        self.data_args)
+                else:
+
+                    sources = copy.deepcopy([e["conversations"] for e in sources])
+                data_dict = preprocess(
+                    sources,
+                    self.tokenizer,
+                    has_image=('image' in self.list_data_dict[i]))
+                if isinstance(i, int):
+                    data_dict = dict(input_ids=data_dict["input_ids"][0],
+                                    labels=data_dict["labels"][0])
+
+                # image exist in the data
+                if 'image' in self.list_data_dict[i]:
+                    data_dict['image'] = image
+                elif self.data_args.is_multimodal:
+                    # image does not exist in the data, but the model is multimodal
+                    crop_size = self.data_args.image_processor.crop_size
+                    data_dict['image'] = torch.zeros(3, crop_size['height'], crop_size['width'])
+                return data_dict
+            except Exception as ex:
+                print(ex)
+                i = self.next_rand()
+                continue
 
 
 @dataclass
