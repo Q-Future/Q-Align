@@ -11,7 +11,7 @@ do
         --model_name_or_path $LOAD \
         --version v1 \
         --data_path $DATA_FILE \
-        --image_folder ../datasets/ \
+        --image_folder playground/data/ \
         --image_aspect_ratio pad \
         --group_by_modality_length True \
         --bf16 True \

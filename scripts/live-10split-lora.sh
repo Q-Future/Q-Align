@@ -4,7 +4,7 @@ LOAD='q-future/one-align'
 for i in $(seq 1 5)
 do
     echo "Split $i"
-    DATA_FILE=playground/data/ft/cgi/train_split_$i.json
+    DATA_FILE=playground/data/ft/live/train_split_$i.json
     deepspeed --master_port 25801 q_align/train/train_mem.py \
         --deepspeed ./scripts/zero3.json \
         --lora_enable True --visual_abstractor_lr 2e-5\
@@ -15,7 +15,7 @@ do
         --image_aspect_ratio pad \
         --group_by_modality_length True \
         --bf16 True \
-        --output_dir ./q-align-cgi-lora-$i \
+        --output_dir ./q-align-live-lora-$i \
         --num_train_epochs 3 \
         --per_device_train_batch_size 32 \
         --per_device_eval_batch_size 4 \
