@@ -1,6 +1,10 @@
+# Model Zoo
+
 <div align="center">
   <h1>Model Zoo</h1> 
 </div>
+
+### Q-Align Models
 
 To support open-source research, we release multiple checkpoints we have trained, with the respective training scripts. They should result in almost the same (or the same) performance with the reported ones in our paper.
 
@@ -18,6 +22,15 @@ While most pre-trained weights as mentioned in paper (*except single-dataset che
 | **IQA**           | [q-future/q-align-iqa](https://huggingface.co/q-future/q-align-iqa) | KonIQ, SPAQ, KADID | [train_koniq_spaq_kadid.json](../playground/data/training_sft/train_koniq_spaq_kadid.json) | [iqa_mix.sh](../scripts/iqa_mix.sh) |
 | **IAA**           | [q-future/q-align-aesthetic](https://huggingface.co/q-future/q-align-aesthetic) | AVA | [train_ava.json](../playground/data/training_sft/train_ava.json) | [l1_ava.sh](../scripts/l1_ava.sh) |
 | **VQA**           | [q-future/q-align-aesthetic](https://huggingface.co/q-future/q-align-vqa) | LSVQ | [train_lsvq.json](../playground/data/training_sft/train_lsvq.json) | [l1_lsvq.sh](../scripts/l1_lsvq.sh) |
+
+
+### Q-Instruct+Q-Align Models
+
+This is only the preview checkpoint. Though improving Q-Bench-MCQ accuracy a bit (*70.44->71.82\% dev / 71.10->72.58\% test now*), this combination will slightly degrade the visual scoring accuracy and thus is only a **preview version**. We are still working on a better combination which does not degrade visual scoring accuracy.
+
+| Checkpoint Type   | Huggingface Path | Training Dataset         | Training Labels                                     | Training script             |
+|-------------------|------------------|--------------------------|---------------------------------------------------|-----------------------------|
+| **Q-Instruct+*OneAlign***      | [teowu/q-instruct-plus-one-align-preview-v0.3](https://huggingface.co/teowu/q-instruct-plus-one-align-preview-v0.3) | Q-Instruct, KonIQ, SPAQ, KADID, AVA, LSVQ | [qinstruct_.json (click to download)](https://huggingface.co/datasets/teowu/Q-Instruct/resolve/main/qinstruct_qalign.json) | [qinstruct_qalign.sh](../scripts/qinstruct_qalign.sh) |
 
 
 
