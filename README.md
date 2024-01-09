@@ -70,7 +70,7 @@ git pull
 pip install -e .
 ```
 
-## [Installation Free!] Quicker Start with HuggingFace AutoModel
+## [Installation Free!] Quicker Start with Hugging Face AutoModel
 
 No need to install this GitHub repo. 
 
