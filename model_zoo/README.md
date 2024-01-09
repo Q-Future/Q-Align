@@ -32,5 +32,22 @@ This is only the preview checkpoint. Though improving Q-Bench-MCQ accuracy a bit
 |-------------------|------------------|--------------------------|---------------------------------------------------|-----------------------------|
 | **Q-Instruct+*OneAlign***      | [teowu/q-instruct-plus-one-align-preview-v0.3](https://huggingface.co/teowu/q-instruct-plus-one-align-preview-v0.3) | Q-Instruct, KonIQ, SPAQ, KADID, AVA, LSVQ | [qinstruct_.json (click to download)](https://huggingface.co/datasets/teowu/Q-Instruct/resolve/main/qinstruct_qalign.json) | [qinstruct_qalign.sh](../scripts/qinstruct_qalign.sh) |
 
+The current preview checkpoint's visual scoring results:
+
+```
+konvid srcc:0.8723 plcc:0.8768
+maxwell_test srcc:0.7579 plcc:0.7544
+test_koniq srcc:0.9439 plcc:0.9530
+test_lsvq_1080p srcc:0.7874 plcc:0.8202
+test_kadid srcc:0.9171 plcc:0.9181
+csiq srcc:0.8685 plcc:0.8911
+agi srcc:0.7869 plcc:0.8403
+test_lsvq srcc:0.8732 plcc:0.8668
+live srcc:0.8934 plcc:0.8620
+test_ava srcc:0.8077 plcc:0.8070
+livec srcc:0.8661 plcc:0.8765
+test_spaq srcc:0.9404 plcc:0.9404
+```
+
 
 
