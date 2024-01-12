@@ -17,7 +17,7 @@ import json
 from tqdm import tqdm
 
 import os
-os.makedirs("results/qinstruct-mpo2-v0.3/", exist_ok=True)
+os.makedirs("results/co-instruct/", exist_ok=True)
 
 def disable_torch_init():
     """
@@ -45,7 +45,7 @@ def main(args):
     tokenizer, model, image_processor, context_len = load_pretrained_model(args.model_path, args.model_base, model_name, args.load_8bit, args.load_4bit, device=args.device)
     
     correct = 0
-    with open(args.questions_file) as f:
+    with open(args.questions_file.format(args.split)) as f:
         llvqa_data = json.load(f)  
         
     pbar = tqdm(total=len(llvqa_data))
@@ -93,7 +93,7 @@ def main(args):
         inp = message
         
         conv = conv_templates[args.conv_mode].copy()
-        inp = DEFAULT_IMAGE_TOKEN + inp
+        inp = "The input image:" + DEFAULT_IMAGE_TOKEN + inp
         conv.append_message(conv.roles[0], inp)
         conv.append_message(conv.roles[1], None)
         prompt = conv.get_prompt()
@@ -101,7 +101,7 @@ def main(args):
         print(prompt)
         
         image = load_image(args.image_folder + filename)
-        image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].half().cuda()
+        image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].half().to(model.device)
         
 
         input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(model.device)
@@ -131,7 +131,7 @@ def main(args):
         pbar.update(1)
         pbar.set_description("[Running Accuracy]: {:.4f},[Response]: {}, [Correct Ans]: {}, , [Prog]: {}".format(correct/(i+1), outputs, llddata.get("correct_ans", -1), i+1))
         
-        with open(args.answers_file, "a") as wf:
+        with open(args.answers_file.format(args.split), "a") as wf:
             json.dump(llddata, wf)
 
         if args.debug:
@@ -140,11 +140,11 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="teowu/q-instruct-plus-one-align-preview-v0.3")
-    parser.add_argument("--model-base", type=str, default="MAGAer13/mplug-owl2-llama2-7b")
+    parser.add_argument("--model-path", type=str, default="q-future/co-instruct-preview")
+    parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--image-folder", type=str, default="/home/ps/Downloads/datasets/LLVQA/images/")
-    parser.add_argument("--questions-file", type=str, default="/home/ps/Downloads/datasets/LLVQA/llvisionqa_test.json")
-    parser.add_argument("--answers-file", type=str, default="results/qinstruct-mpo2-lora/qbench_a1_dev.jsonl")
+    parser.add_argument("--questions-file", type=str, default="/home/ps/Downloads/datasets/LLVQA/llvisionqa_{}.json")
+    parser.add_argument("--answers-file", type=str, default="results/co-instruct/qbench_a1_{}.jsonl")
     parser.add_argument("--split", type=str, default="dev")
     parser.add_argument("--lang", type=str, default="en")
     parser.add_argument("--device", type=str, default="cuda")
