@@ -215,19 +215,19 @@ After preparing the datasets, you can evaluate pre-trained **OneAlign** as follo
 - Image Quality Assessment (IQA)
 
 ```shell
-python q_align/evaluate/iqa_eval.py --model_path q-future/one-align --device cuda:0
+python q_align/evaluate/iqa_eval.py --model-path q-future/one-align --device cuda:0
 ```
 
 - Image Aesthetic Assessment (IAA)
 
 ```shell
-python q_align/evaluate/iaa_eval.py --model_path q-future/one-align --device cuda:0
+python q_align/evaluate/iaa_eval.py --model-path q-future/one-align --device cuda:0
 ```
 
 - Video Quality Assessment (VQA)
 
 ```shell
-python q_align/evaluate/vqa_eval.py --model_path q-future/one-align --device cuda:0
+python q_align/evaluate/vqa_eval.py --model-path q-future/one-align --device cuda:0
 ```
 
 See our [model zoo](./model_zoo) for all available models that you can use.
