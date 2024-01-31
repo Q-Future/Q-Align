@@ -87,7 +87,7 @@ model.score([Image.open(requests.get("https://raw.githubusercontent.com/Q-Future
                                      stream=True).raw)], task_="quality", input_="image") # task_ : quality | aesthetics; # input_: image | video
 ```
 
-This model also supports to be instantialized via latest [IQA-Pytorch](https://github.com/chaofengc/IQA-PyTorch):
+This model also supports to be instantialized via latest [IQA-Pytorch](https://github.com/chaofengc/IQA-PyTorch) (quick install by `pip install git+https://github.com/chaofengc/IQA-PyTorch.git`):
 
 ```python
 import pyiqa
