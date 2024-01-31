@@ -59,7 +59,7 @@
 </div>
 </div> 
 
-## [Important Note!] v1.1 <-> transformers==4.36.1
+## [Important Note!] v1.1 <-> transformers==4.36.1+
 
 This LLaVA-style repository has been built on `transformers==4.31.0`, which is incompatible with many new models available on Hugging Face. This requires to build a separate environment for the MLLM/LMM repository, which is somewhat troublesome for this **visual scoring** model, as we expect the **Q-Align/OneAlign** to effectively boost other disciplines (image/video generation, *etc*). Both the repository and the **AutoModel** (as follows) are updated to the newest version. 
 
@@ -85,6 +85,17 @@ model = AutoModelForCausalLM.from_pretrained("q-future/one-align", trust_remote_
 from PIL import Image
 model.score([Image.open(requests.get("https://raw.githubusercontent.com/Q-Future/Q-Align/main/fig/singapore_flyer.jpg",
                                      stream=True).raw)], task_="quality", input_="image") # task_ : quality | aesthetics; # input_: image | video
+```
+
+This model also supports to be instantialized via latest [IQA-Pytorch](https://github.com/chaofengc/IQA-PyTorch):
+
+```python
+import pyiqa
+import torch
+
+qalign = pyiqa.create_metric('qalign').cuda()
+quality_score = qalign(input, task_='quality')
+aesthetic_score = qalign(input, task_='aesthetic')
 ```
 
 ## Installation
