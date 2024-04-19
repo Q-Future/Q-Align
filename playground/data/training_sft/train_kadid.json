@@ -113132,5 +113132,355 @@
                 "value": "The quality of the image is fair."
             }
         ]
+    },
+    {
+        "id": "I65_21_01.png->3.9",
+        "image": "kadid10k/I65_21_01.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Can you rate the quality of this picture?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ]
+    },
+    {
+        "id": "I65_21_02.png->2.83",
+        "image": "kadid10k/I65_21_02.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is average."
+            }
+        ]
+    },
+    {
+        "id": "I65_21_03.png->2.77",
+        "image": "kadid10k/I65_21_03.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you judge the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is moderate."
+            }
+        ]
+    },
+    {
+        "id": "I65_21_04.png->2.33",
+        "image": "kadid10k/I65_21_04.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is acceptable."
+            }
+        ]
+    },
+    {
+        "id": "I65_21_05.png->1.27",
+        "image": "kadid10k/I65_21_05.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "What is your quality rating for this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is low."
+            }
+        ]
+    },
+    {
+        "id": "I65_22_01.png->4.5",
+        "image": "kadid10k/I65_22_01.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is pristine."
+            }
+        ]
+    },
+    {
+        "id": "I65_22_02.png->3.53",
+        "image": "kadid10k/I65_22_02.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Can you rate the quality of this picture?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is satisfactory."
+            }
+        ]
+    },
+    {
+        "id": "I65_22_03.png->3.2",
+        "image": "kadid10k/I65_22_03.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Can you rate the quality of this picture?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ]
+    },
+    {
+        "id": "I65_22_04.png->2.83",
+        "image": "kadid10k/I65_22_04.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you judge the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is average."
+            }
+        ]
+    },
+    {
+        "id": "I65_22_05.png->2.17",
+        "image": "kadid10k/I65_22_05.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "What do you think about the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ]
+    },
+    {
+        "id": "I65_23_01.png->2.97",
+        "image": "kadid10k/I65_23_01.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "What do you think about the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is satisfactory."
+            }
+        ]
+    },
+    {
+        "id": "I65_23_02.png->3.47",
+        "image": "kadid10k/I65_23_02.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Can you rate the quality of this picture?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is pleasing."
+            }
+        ]
+    },
+    {
+        "id": "I65_23_03.png->3.03",
+        "image": "kadid10k/I65_23_03.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fine."
+            }
+        ]
+    },
+    {
+        "id": "I65_23_04.png->2.2",
+        "image": "kadid10k/I65_23_04.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ]
+    },
+    {
+        "id": "I65_23_05.png->1.9",
+        "image": "kadid10k/I65_23_05.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Could you evaluate the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is poor."
+            }
+        ]
+    },
+    {
+        "id": "I65_24_01.png->3.67",
+        "image": "kadid10k/I65_24_01.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you judge the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is pleasing."
+            }
+        ]
+    },
+    {
+        "id": "I65_24_02.png->2.97",
+        "image": "kadid10k/I65_24_02.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Can you rate the quality of this picture?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is pleasing."
+            }
+        ]
+    },
+    {
+        "id": "I65_24_03.png->2.07",
+        "image": "kadid10k/I65_24_03.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Can you rate the quality of this picture?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is fair."
+            }
+        ]
+    },
+    {
+        "id": "I65_24_04.png->2",
+        "image": "kadid10k/I65_24_04.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you rate the quality of this image?\n<|image|>How do you assess the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is mediocre."
+            }
+        ]
+    },
+    {
+        "id": "I65_24_05.png->1.37",
+        "image": "kadid10k/I65_24_05.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "What's your opinion on the quality of this picture?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is below average."
+            }
+        ]
+    },
+    {
+        "id": "I65_25_01.png->3.87",
+        "image": "kadid10k/I65_25_01.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "What is your quality rating for this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is good."
+            }
+        ]
+    },
+    {
+        "id": "I65_25_02.png->4.07",
+        "image": "kadid10k/I65_25_02.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you judge the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is pristine."
+            }
+        ]
+    },
+    {
+        "id": "I65_25_03.png->4.43",
+        "image": "kadid10k/I65_25_03.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "What is your quality rating for this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is very good."
+            }
+        ]
+    },
+    {
+        "id": "I65_25_04.png->4.47",
+        "image": "kadid10k/I65_25_04.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "What is your quality rating for this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is pristine."
+            }
+        ]
+    },
+    {
+        "id": "I65_25_05.png->3.57",
+        "image": "kadid10k/I65_25_05.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "How would you judge the quality of this image?\n<|image|>"
+            },
+            {
+                "from": "gpt",
+                "value": "The quality of the image is satisfactory."
+            }
+        ]
     }
 ]
