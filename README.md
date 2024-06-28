@@ -1,6 +1,7 @@
 <div align="center">
   <h1>Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels</h1> 
-    
+
+     See you in ICML 2024, Vienna (Wed 24 Jul 1:30 a.m. CET — 3:00 am CET)
 <div style="width: 50%; text-align: center; margin:auto;">
       <img style="width: 50%" src="fig/onescorer.png">
 </div> 
