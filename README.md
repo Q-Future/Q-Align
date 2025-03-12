@@ -60,6 +60,9 @@
 </div>
 </div> 
 
+## [New Update]
+We propose the first models (Q-SiT, Q-SiT-mini) that can deal with both image quality scoring and interpreting tasks. See more details [here](https://github.com/Q-Future/Q-SiT).
+
 ## [Important Note!] v1.1 <-> transformers==4.36.1+
 
 This LLaVA-style repository has been built on `transformers==4.31.0`, which is incompatible with many new models available on Hugging Face. This requires to build a separate environment for the MLLM/LMM repository, which is somewhat troublesome for this **visual scoring** model, as we expect the **Q-Align/OneAlign** to effectively boost other disciplines (image/video generation, *etc*). Both the repository and the **AutoModel** (as follows) are updated to the newest version. 
