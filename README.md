@@ -39,7 +39,9 @@
 <div>
    <a href="https://HuggingFace.co/q-future/one-align"><strong>OneAlign (HF Model)</strong></a> | <a href="https://github.com/Q-Future/Q-Align/tree/main/model_zoo"><strong>Model Zoo</strong></a> |  <a href="https://q-future.github.io/Q-Align/fig/Q_Align_v0_1_preview.pdf"><strong>Technical Report</strong></a> | <a href="https://q-align.github.io/"><strong>Homepage</strong></a> | <a href="https://huggingface.co/spaces/teowu/OneScorer"><strong>OneScorer (HF Space)</strong></a>
    </div>   
-    
+<div>
+  
+  The retrained version on Qwen3.5-VL can be found at [**Q-ReAlign**](https://github.com/Q-Future/Q-ReAlign)
     
     
 <h2>Results</h2> 
@@ -61,7 +63,9 @@
 </div> 
 
 ## [New Update]
-We propose the first models (Q-SiT, Q-SiT-mini) that can deal with both image quality scoring and interpreting tasks. See more details [here](https://github.com/Q-Future/Q-SiT).
+1. We propose the first models (Q-SiT, Q-SiT-mini) that can deal with both image quality scoring and interpreting tasks. See more details [here](https://github.com/Q-Future/Q-SiT).
+
+2. **We release the new version of Q-Align, [Q-ReAlign](https://github.com/Q-Future/Q-ReAlign), which is trained on modern VLMs and gains the same performance with 50% fewer parameters.**
 
 ## [Important Note!] v1.1 <-> transformers==4.36.1+
 
