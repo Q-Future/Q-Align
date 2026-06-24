@@ -41,7 +41,7 @@
    </div>   
 <div>
   
-  The retrained version on Qwen3.5-VL can be found at [**Q-ReAlign**](https://github.com/Q-Future/Q-ReAlign)
+  **The retrained version on Qwen3.5-VL can be found at [Q-ReAlign](https://github.com/Q-Future/Q-ReAlign)**
     
     
 <h2>Results</h2> 
